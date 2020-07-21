@@ -1,0 +1,99 @@
+.events {
+  background-color: #303a52;
+  color: #cccccc;
+}
+
+.events .poster {
+  height: 60vh;
+  background-image: url("https://images.unsplash.com/photo-1594838323182-f71a4409d467?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80");
+  /* background-color: aquamarine; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.events .details {
+  padding: 0vh 10vw;
+}
+
+.events .details .aboutVenue {
+  height: 40vh;
+  /* background-color: gray; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.events .details .aboutVenue .eachDetail {
+  /* background-color: green; */
+  min-height: 20vh;
+  width: 20vw;
+  margin: 5vw;
+  text-align: center;
+}
+
+.events .details .aboutVenue .eachDetail h4 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.events .details .aboutVenue .eachDetail h1 {
+  margin: 0;
+}
+
+.events .details .eventDetails {
+  display: flex;
+  justify-content: space-between;
+  margin: 15vh 0vw;
+}
+
+.events .details .eventDetails .aboutEvent {
+  width: 50%;
+  min-height: 40vh;
+  padding: 2vh 2vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.events .details .eventDetails .aboutEvent h4 {
+  font-size: 1.5rem;
+  margin: 10px 0px;
+}
+
+.events .details .eventDetails .aboutEvent p {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.events .details .eventDetails .chiefGuests {
+  width: 30%;
+  padding: 2vh 2vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: space-between; */
+  text-align: center;
+
+  /* background-color: violet; */
+}
+
+.events .details .eventDetails .chiefGuests .eachGuest {
+  margin: 20px 0px;
+}
+
+.events .details .eventDetails .chiefGuests h4 {
+  font-size: 1.5rem;
+  margin: 10px 0px;
+}
+
+.events .details .eventDetails .chiefGuests .eachGuest h2 {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.events .details .eventDetails .chiefGuests .eachGuest h4 {
+  font-size: 1rem;
+  margin: 0;
+}

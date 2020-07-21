@@ -1,0 +1,31 @@
+.join {
+  min-height: 30vh;
+  width: 55vw;
+  padding: 2vh 2vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.join h4 {
+  font-size: 1.5rem;
+}
+
+.join .field {
+  margin: 10px 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.join .field div {
+  display: flex;
+}
+
+.join .field label {
+  color: #ccc;
+}
+
+.join .field input {
+  height: 30px;
+  width: 30%;
+  margin: 5px 0px;
+}
