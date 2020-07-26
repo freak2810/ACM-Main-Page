@@ -1,11 +1,10 @@
 import React from 'react';
-import { eventData } from "./components/eventsPage/Events_DummyData"
-import Events from "./components/eventsPage/Events";
-import About from "./components/aboutPage/About";
+import { teamData } from "./components/teamPage/Team_DummyData"
+import Team from "./components/teamPage/Team";
 
 function App () {
   return (
-    <Events { ...eventData } />
+    <Team teamList={ teamData } />
   );
 }
 
