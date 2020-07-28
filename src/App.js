@@ -1,10 +1,17 @@
 import React from 'react';
-import { teamData } from "./components/teamPage/Team_DummyData"
-import Team from "./components/teamPage/Team";
+import { BrowserRouter as Router, Route } from "react-router-dom"
+import About from "./components/aboutPage/About";
+import Navbar from "./components/nav/Nav";
+
 
 function App () {
   return (
-    <Team teamList={ teamData } />
+    <Router>
+      <Navbar />
+      <Route path="/about">
+        <About />
+      </Route>
+    </Router>
   );
 }
 

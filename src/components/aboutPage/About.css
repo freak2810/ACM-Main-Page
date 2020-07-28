@@ -1,16 +1,14 @@
 .about {
   margin: 0;
   padding: 0;
-  width: 100vw;
+  max-width: 100vw !important;
   height: auto;
-}
-
-.about li {
-  list-style: none;
+  background: linear-gradient(to bottom right,#6b778d,#17223b);
 }
 
 .main {
   height: 60vh;
+  width: 100vw;
   background-image: url("./assets/aboutBG.jpg");
   background-size: 100% 120%;
   background-position: bottom;
@@ -20,28 +18,41 @@
   align-items: flex-end;
 }
 
+.about-cards {
+  margin: 0;
+  padding: 0 0;
+  display: flex;
+  flex-direction: column;
+}
+
 .main h1 {
   font-size: 5rem;
   margin: 10px 20px;
-  color: #ccc;
+  color: #fff;
+  padding: 0;
+
 }
 
 .about-card {
-  border: 5px solid white;
+  background: #fff;
+  border: 2px solid #17223b;
   border-radius: 10px;
-  box-shadow: 0 16px 32px -16px rgba(0, 0, 0, 0.4);
-  margin: 5vh 2vw;
+  box-shadow: 0 16px 32px -16px #17223b;
+  margin: 5vh 0;
+  padding: 5px;
   width: 60%;
   font-size: 0.5rem;
   display: flex;
-  height: 30vh;
+  justify-content: space-evenly;
+  min-height: 30vh;
 }
 
 .about-card img {
-  width: 30%;
-  height: 100%;
   padding: 1px;
   align-self: center;
+  margin: 0;
+  height: 100%;
+  max-height: 150px;
 }
 
 .about-card .description {
@@ -49,16 +60,19 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: 70%;
 }
 
 .about-card .description h1 {
   font-size: 1.8rem;
   text-align: center;
+  color: #17223b;
   text-transform: uppercase;
 }
 
 .about-card .description p {
   font-size: 1rem;
+  color: #6b778d;
 }
 
 @media screen and (max-width: 1024px) {
@@ -69,9 +83,9 @@
   }
 
   .about-card {
-    margin: 5vh 5vw;
-    width: 90vw;
-    align-self: center;
+    width: 80vw;
+    align-self: center !important;
+    right: 0 !important;
   }
 
   .about-card img {
@@ -80,4 +94,33 @@
 }
 
 @media screen and (max-width: 768px) {
+  .about-card {
+    width: 90vw;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .main h1 {
+    font-size: 3rem;
+    margin: 10px;
+  }
+
+  .about-card .description h1 {
+    font-size: 20px;
+  }
+
+  .about-card .description p {
+    font-size: 15px;
+  }
+
+  .about-card {
+    border: 5px solid white;
+    border-radius: 10px;
+    box-shadow: 0 16px 32px -16px rgba(0, 0, 0, 0.4);
+    margin: 5vh 0;
+    width: 90vw;
+    float: none !important;
+    font-size: 0.5rem;
+    height: auto;
+  }
 }

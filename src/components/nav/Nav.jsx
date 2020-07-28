@@ -1,16 +1,14 @@
 import React from "react";
-import "./styles/nav.css";
-
+import "./Nav.css";
+import {Link} from "react-router-dom";
 
 const Nav = () => {
     return (
-        <header>
-            <nav>
+        <header className="navbar">
+            <h1 className="logo">ACM MVSR</h1>
+            <nav className="navLinks">
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Products</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><Link to="/about">About</Link></li>
                 </ul>
             </nav>
         </header>
