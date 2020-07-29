@@ -1,0 +1,39 @@
+.content {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-area: 2/2/3/3;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: 2em;
+}
+
+.content p{
+    font-size:1.5em;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: 2em;
+}
+
+.content h1 {
+    text-align: center;
+    margin: auto 0em;
+}
+
+.content h3 {
+    margin: 1em 0;
+    text-align: center;
+}
+
+.content hr {
+    margin: auto 0;
+    text-align: center;
+    color: white;
+    border: 2px solid white;
+}

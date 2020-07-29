@@ -1,0 +1,43 @@
+.Main {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    grid-row: 1/3;
+    background: url("../images/bg.jpg");
+    background-size: cover;
+    border-right: solid 0.25vw white;
+    padding: 2em;
+    position: relative;
+}
+
+.Main h2 {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+}
+  
+.Main .hero-.Main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    width: 60%;
+    padding: 1% 1%;
+    border: solid 2px purple;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    text-align: center;
+    word-wrap: break-word;
+    background-color: rgba(245, 245, 245, 0.3);
+}
+  
+.Main .hero-.Main h1 {
+    margin-bottom: 0;
+}
+  
+.Main .hero-.Main h3 {
+    margin-top: 0;
+}

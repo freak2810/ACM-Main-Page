@@ -1,0 +1,34 @@
+.mousey {
+    width: 20px;
+    height: 35px;
+    border: 2px solid #fff;
+    border-radius: 25px;
+    opacity: 0.75;
+    box-sizing: content-box;
+    display: flex;
+    justify-content: center;
+    top : 93%;
+    left : 50%;
+    position : absolute;
+  }
+  .mousey .scroller {
+    width: 3px;
+    height: 10px;
+    border-radius: 25%;
+    background-color: #fff;
+    animation-name: scroll;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes scroll {
+    from {
+      opacity : 1;
+      transform: translateY(4px);
+    }
+    to {
+      opacity : 0.5;
+      transform: translateY(20px);
+    }
+    }

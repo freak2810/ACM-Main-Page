@@ -1,0 +1,12 @@
+.grid-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 75% 25%;
+      grid-template-columns: 75% 25%;
+  -ms-grid-rows: minmax(5%, 1fr) 12fr;
+      grid-template-rows: minmax(5%, 1fr) 12fr;
+  height: 100vh;
+  background: purple;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
