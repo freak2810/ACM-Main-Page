@@ -3,19 +3,20 @@
     height: 35px;
     border: 2px solid #fff;
     border-radius: 25px;
-    opacity: 0.75;
+    opacity: 1;
     box-sizing: content-box;
     display: flex;
     justify-content: center;
-    top : 93%;
-    left : 50%;
+    top : 90%;
+    /*left : 50%;*/
     position : absolute;
   }
+
   .mousey .scroller {
     width: 3px;
     height: 10px;
     border-radius: 25%;
-    background-color: #fff;
+    background-color: #ff6768;
     animation-name: scroll;
     animation-duration: 2s;
     animation-timing-function: ease-in-out;

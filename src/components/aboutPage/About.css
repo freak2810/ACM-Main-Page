@@ -9,7 +9,7 @@
 .main {
   height: 60vh;
   width: 100vw;
-  background-image: url("./assets/aboutBG.jpg");
+  background-image: url("../../assets/aboutBG.jpg");
   background-size: 100% 120%;
   background-position: bottom;
   background-attachment: fixed;

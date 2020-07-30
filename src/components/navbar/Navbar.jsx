@@ -1,13 +1,16 @@
 import React from "react";
-import "./Nav.css";
+import Logo from "../../assets/mvsr-acm.png";
+import "./Navbar.css";
 import {Link} from "react-router-dom";
 
-const Nav = () => {
+const Navbar = () => {
     return (
         <header className="navbar">
-            <h1 className="logo">ACM MVSR</h1>
+            <img src={Logo} alt="MVSR ACM Logo" className="logo"/>
+            <h1 className="heading">MVSR ACM Student Chapter</h1>
             <nav className="navLinks">
                 <ul>
+                    <li><Link to="/">Home</Link></li>
                     <li><Link to="/about">About</Link></li>
                 </ul>
             </nav>
@@ -15,4 +18,4 @@ const Nav = () => {
     );
 }
 
-export default Nav;
+export default Navbar;

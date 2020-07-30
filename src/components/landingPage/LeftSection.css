@@ -1,0 +1,91 @@
+.leftSection {
+    background: url("../../assets/landingBG.jpg");
+    height: 100vh;
+    width: 75%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    border-right: 5px solid #6b778d;
+}
+
+.leftSection .headings {
+    border: 5px solid #263859;
+    background: #17223b95;
+    width: auto;
+    padding: 20px;
+}
+
+.leftSection .headings h1 {
+    font-size: 2.5rem;
+    padding: 0;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.leftSection .headings h2 {
+    font-size: 1.8rem;
+    padding: 0;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.leftSection .headings h3 {
+    font-size: 1.5rem;
+    padding: 0;
+    margin: 20px 0;
+    text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .leftSection {
+        width: 70%;
+        border-right: 2px solid #6b778d;
+    }
+
+    .leftSection .headings {
+        width: 80%;
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .leftSection .headings h1 {
+        font-size: 2rem;
+        margin: 15px 0;
+    }
+
+    .leftSection .headings h2 {
+        font-size: 1.5rem;
+        margin: 15px 0;
+    }
+
+    .leftSection .headings h3 {
+        font-size: 1.2rem;
+        margin: 15px 0;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .leftSection{
+        width: 100%;
+    }
+
+    .leftSection .headings h1 {
+        font-size: 1.5rem;
+        margin: 10px 0;
+    }
+
+    .leftSection .headings h2 {
+        font-size: 1.2rem;
+        margin: 10px 0;
+    }
+
+    .leftSection .headings h3 {
+        font-size: 1rem;
+        margin: 10px 0;
+    }
+}
