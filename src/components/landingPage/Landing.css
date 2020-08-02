@@ -2,8 +2,9 @@
     display: flex;
     flex-direction: row-reverse;
     height: 100vh;
-    background: linear-gradient(0deg, #17223b 0%, #263859 100%);
-    color: white;
+    background-image: url("../../assets/galleryBG.svg");
+    background-attachment: fixed;
+    color: #fff;
 }
 
 @media screen and (max-width: 1024px) {

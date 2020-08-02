@@ -1,7 +1,7 @@
 import React from "react";
 import Logo from "../../assets/mvsr-acm.png";
 import "./Navbar.css";
-import {Link} from "react-router-dom";
+import {NavLink} from "react-router-dom";
 
 const Navbar = () => {
     return (
@@ -10,8 +10,24 @@ const Navbar = () => {
             <h1 className="heading">MVSR ACM Student Chapter</h1>
             <nav className="navLinks">
                 <ul>
-                    <li><Link to="/">Home</Link></li>
-                    <li><Link to="/about">About</Link></li>
+                    <li>
+                        <NavLink exact to="/"
+                                 activeStyle={{color: '#ff6768',transition: 'all 0.6s linear'}}>
+                            Home
+                        </NavLink>
+                    </li>
+                    <li>
+                        <NavLink to="/about"
+                                 activeStyle={{color: '#ff6768',transition: 'all 0.6s linear'}}>
+                            About
+                        </NavLink>
+                    </li>
+                    <li>
+                        <NavLink to="/gallery"
+                                 activeStyle={{color: '#ff6768',transition: 'all 0.6s linear'}}>
+                            Gallery
+                        </NavLink>
+                    </li>
                 </ul>
             </nav>
         </header>

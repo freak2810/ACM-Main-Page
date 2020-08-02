@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom"
 import About from "./components/aboutPage/About";
 import Navbar from "./components/navbar/Navbar";
 import Landing from "./components/landingPage/Landing";
+import Gallery from "./components/galleryPage/Gallery";
 
 
 function App () {
@@ -15,6 +16,9 @@ function App () {
       <Route path="/about">
         <About />
       </Route>
+        <Route path="/gallery">
+            <Gallery />
+        </Route>
     </Router>
   );
 }

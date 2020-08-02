@@ -1,0 +1,53 @@
+.gallery {
+    min-height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+.gallery .galleryHeading {
+    height: 60vh;
+    background-image: url("../../assets/aboutBG.jpg");
+    background-size: 100% 120%;
+    background-position: bottom;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+}
+
+.gallery .galleryHeading h1 {
+    font-size: 5rem;
+    margin: 10px 20px;
+    color: #fff;
+    padding: 0;
+}
+
+.galleryImages {
+    padding: 2em 20em;
+    background-image: url("../../assets/galleryBG.svg");
+    background-attachment: fixed;
+}
+
+@media screen and (max-width: 1024px) {
+    .galleryImages {
+        padding: 2em 5em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .galleryImages {
+        padding: 2em 3em;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .galleryImages {
+        padding: 1em 1em;
+    }
+
+    .gallery .galleryHeading h1 {
+        font-size: 3rem;
+        margin: 10px;
+    }
+}
