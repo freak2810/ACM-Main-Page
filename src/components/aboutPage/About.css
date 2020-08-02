@@ -61,6 +61,7 @@
   flex-direction: column;
   justify-content: center;
   width: 70%;
+  text-align: justify;
 }
 
 .about-card .description h1 {
@@ -115,14 +116,17 @@
     font-size: 15px;
   }
 
+  .about-card .description {
+    width: 80%;
+  }
+
   .about-card {
     border: 5px solid white;
-    border-radius: 10px;
-    box-shadow: 0 16px 32px -16px rgba(0, 0, 0, 0.4);
     margin: 5vh 0;
     width: 90vw;
-    float: none !important;
-    font-size: 0.5rem;
     height: auto;
+    flex-direction: column !important;
+    justify-content: center;
+    align-items: center;
   }
 }
