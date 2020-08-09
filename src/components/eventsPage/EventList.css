@@ -1,0 +1,129 @@
+.events {
+    background-color: #303a52;
+    color: #cccccc;
+}
+
+.eventList {
+    min-height: 100vh;
+    color: #ccc;
+    margin: 0;
+    padding: 0;
+    max-width: 100vw !important;
+    height: auto;
+    background-image: url("../../assets/galleryBG.svg");
+    background-attachment: fixed;
+}
+
+.eventList .heading {
+    text-align: center;
+    height: 60vh;
+    background-image: url("../../assets/aboutBG.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.eventList .heading h1 {
+    margin: 1vh 1vw;
+    padding: 0;
+    position: absolute;
+    bottom: 0;
+    font-size: 5rem;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.eventList .list {
+    padding: 5% 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.eventList .list .eachEvent .border {
+    border-left: 3px solid #ff6768;
+    width: 15px;
+    height: 50px;
+    transition: height 0.2s ease-in-out;
+}
+
+.eventList .list .eachEvent:hover .border {
+    border-left: 3px solid #ff6768;
+    height: 100px;
+}
+
+.eventList .list .eachEvent {
+    margin: 50px 0;
+    padding: 10px;
+    transition: all 0.2s linear;
+    display: flex;
+    align-items: center;
+    background: #17223b30;
+}
+
+.eventList .list .eachEvent:hover{
+    background: #17223b60;
+}
+
+.eventList .list .eachEvent a {
+    text-decoration: none;
+    color: #ccc;
+}
+
+
+.eventList .eachEvent h1 {
+    margin: 10px 0;
+    font-size: 2rem;
+    padding: 0;
+}
+
+.eventList .eachEvent h2 {
+    margin: 10px 0;
+    font-size: 1.5rem;
+    padding: 0;
+}
+
+.eventList .eachEvent h3 {
+    margin: 10px 0;
+    font-size: 1rem;
+    padding: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .eventList .list {
+        padding: 5% 20%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .eventList .list {
+        padding: 5% 10%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .eventList .heading h1 {
+        font-size: 3rem;
+    }
+
+    .eventList .list {
+        padding: 5% 5%;
+    }
+
+    .eventList .eachEvent h1 {
+        font-size: 1.5rem;
+    }
+
+    .eventList .eachEvent h2 {
+        font-size: 1rem;
+    }
+
+    .eventList .eachEvent h3 {
+        font-size: 0.8rem;
+    }
+
+
+
+}

@@ -28,6 +28,12 @@ const Navbar = () => {
                             Gallery
                         </NavLink>
                     </li>
+                    <li>
+                        <NavLink to="/events"
+                                 activeStyle={{color: '#ff6768',transition: 'all 0.6s linear'}}>
+                            Events
+                        </NavLink>
+                    </li>
                 </ul>
             </nav>
         </header>
