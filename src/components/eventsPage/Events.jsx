@@ -50,10 +50,10 @@ export default function Events({event}) {
                     </div>
                 </div>
                 <div className="contactDetails">
-                    <h2>Have a question ?</h2>
-                    <div className="coordinators">
-                    {RenderCoordinatorsList(event.coordinators)}
-                    </div>
+                    {/*<h2>Have a question ?</h2>*/}
+                    {/*<div className="coordinators">*/}
+                    {/*{RenderCoordinatorsList(event.coordinators)}*/}
+                    {/*</div>*/}
                 </div>
             </div>
 

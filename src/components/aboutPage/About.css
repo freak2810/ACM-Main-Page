@@ -76,6 +76,7 @@
   color: #6b778d;
   text-justify: auto;
   line-height: 1.5rem;
+  padding :0 10px;
 }
 
 @media screen and (max-width: 1024px) {

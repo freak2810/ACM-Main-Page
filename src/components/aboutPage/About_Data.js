@@ -6,19 +6,20 @@ export const ABOUT_DATA = [
     {
         imageURL: AboutPicture1,
         name: "Association for Computing Machinery",
-        info: `ACM is an international society dedicated to advancing computing as a science and profession. We are one of many worldwide chapters of ACM. Our mission is to create an environment that caters to an individual's interests with connections for growth and a warehouse of resources. Check out our website to find out more information about our group and our upcoming events.`,
+        info: `ACM MVSR is a subsidiary of Association for Computing Machinery (ACM) , a worldwide learning society for computing. The chapter was founded on August 2, 2019. We see a world where computing helps solve tomorrow’s problems – where we use our knowledge and skills to advance the profession and make a positive impact.`,
         float: 'left'
     },
     {
         imageURL: AboutPicture2,
         name: "MVSR ACM Student Chapter",
-        info: `ACM MVSR is a student club initiated by Computer Science & Engineering department with the purpose of engaging and creating a community for our students at MVSR. We work to bring opportunities for professional and personal development, host events and workshops within the department. We help our members move beyond subject matter and explore a world of nuances involving the integration of computing with industry and research to be a career-ready student.`,
+        info: `As the world’s largest computing society, ACM brings together computing professionals and researchers to address the challenges in computing field. ACM promotes the highest standards, and recognise the technical excellence. ACM offers volunteer opportunities for members and non‐members that create networking possibilities and enhance career development. `,
         float: 'right'
     },
     {
         imageURL: AboutPicture3,
         name: "MVSR ACM-W Student Chapter",
-        info: `ACM- W is a student organization at MVSR Engineering College. We strive to become a strong support system for women in computing-related fields so as to help bridge the gender gap and give women the resources, they need to succeed in computer science and engineering. Furthermore, we seek to promote and support the growing community of women by empowering our members through relevant workshops as well as career advice.`,
+        info: `MVSR ACM-W seeks to take forward the task of the ACM community, but with a particular focus on the empowerment of women in computing.
+This platform's vision is to educate women about careers in computing and to provide networking opportunities. ACM W provides a wide range of programs and services to ACM members and working in the larger community to advance the contributions of technical women.`,
         float: 'left'
     },
 

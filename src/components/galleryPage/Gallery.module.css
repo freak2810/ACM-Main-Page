@@ -31,6 +31,10 @@
 }
 
 @media screen and (max-width: 1024px) {
+    .gallery .galleryHeading{
+        height: 30vh;
+    }
+
     .galleryImages {
         padding: 2em 5em;
     }
@@ -52,3 +56,4 @@
         margin: 10px;
     }
 }
+

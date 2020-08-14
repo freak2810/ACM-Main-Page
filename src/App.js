@@ -1,12 +1,15 @@
 import React from 'react';
-import {BrowserRouter as Router, Route} from "react-router-dom"
+import {BrowserRouter as Router, Route, Switch} from "react-router-dom"
 import About from "./components/aboutPage/About";
 import Navbar from "./components/navbar/Navbar";
-import Landing from "./components/landingPage/Landing";
 import Gallery from "./components/galleryPage/Gallery";
 import EventList from "./components/eventsPage/EventList";
 import {eventData} from "./components/eventsPage/Events_DummyData";
 import Events from "./components/eventsPage/Events";
+import Home from "./components/homePage/Home";
+import Footer from "./components/footer/Footer";
+import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
+
 
 const EventWithId = ({match}) => {
 
@@ -20,20 +23,24 @@ const EventWithId = ({match}) => {
 function App() {
     return (
         <Router>
+            <ScrollToTop/>
             <Navbar/>
-            <Route path="/" exact>
-                <Landing/>
-            </Route>
-            <Route path="/about">
-                <About/>
-            </Route>
-            <Route path="/gallery">
-                <Gallery/>
-            </Route>
-            <Route exact path="/events">
-                <EventList eventData={eventData}/>
-            </Route>
-            <Route path="/events/:id" component={EventWithId}/>
+            <Switch>
+                <Route path="/" exact>
+                    <Home/>
+                </Route>
+                <Route path="/about">
+                    <About/>
+                </Route>
+                <Route path="/gallery">
+                    <Gallery/>
+                </Route>
+                <Route exact path="/events">
+                    <EventList eventData={eventData}/>
+                </Route>
+                <Route path="/events/:id" component={EventWithId}/>
+            </Switch>
+            <Footer/>
         </Router>
     );
 }
