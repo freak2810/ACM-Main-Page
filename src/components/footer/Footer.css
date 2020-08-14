@@ -1,8 +1,9 @@
 footer {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    padding: 20px;
+    padding: 20px 20px 0 20px;
     background-color: #263859;
     color: #ccc;
     border-top: 2px solid #ff6768;
@@ -75,12 +76,37 @@ footer button:focus {
     outline: none;
 }
 
-@media screen and (max-width: 1024px) {
-   footer{
-       flex-wrap: wrap;
-   }
+footer .credits {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-    footer button{
+footer .credits h5 {
+    margin: 5px 0;
+    width: fit-content;
+}
+
+footer .credits a {
+    color: #ccc;
+    text-decoration: none;
+    transition: all 0.2s linear;
+    padding: 0 10px;
+}
+
+footer .credits a:hover {
+    color: #211F1F;
+}
+
+@media screen and (max-width: 1024px) {
+    footer {
+        flex-wrap: wrap;
+    }
+
+    footer button {
         width: 100%;
         height: 50px;
         margin-top: 20px;
@@ -89,7 +115,7 @@ footer button:focus {
 
 @media screen and (max-width: 768px) {
 
-    footer img{
+    footer img {
         width: 100%;
         object-fit: contain;
     }

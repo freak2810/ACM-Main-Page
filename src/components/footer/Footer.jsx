@@ -2,6 +2,8 @@ import React from 'react';
 import Logo from "../../assets/acm-black.png";
 import "./Footer.css"
 import {NavLink} from "react-router-dom";
+import {faGithubAlt, faGithubSquare} from "@fortawesome/free-brands-svg-icons";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 
 export default function Footer() {
@@ -45,5 +47,12 @@ export default function Footer() {
             <p>Telanagana, India</p>
         </div>
        <button onClick={() => onScrollToTopClicked()}>Scroll To Top</button>
+        <div className="credits">
+            <h5>Built in the beautiful city of Hyderabad</h5>
+            <a href="https://github.com/AdityaManikanth2810/ACM-Main-Page" target="blank">
+                <h5>Like our work? Check out the code <FontAwesomeIcon icon={faGithubAlt} size="s"/></h5>
+            </a>
+            <h5>Copyright © 2020 MVSR ACM</h5>
+        </div>
     </footer>
 }
