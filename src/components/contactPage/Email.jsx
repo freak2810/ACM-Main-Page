@@ -47,6 +47,7 @@ export default function Email() {
                 console.log(error.text);
             });
 
+        resetForm();
     }
 
     return (

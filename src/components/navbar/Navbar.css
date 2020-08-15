@@ -1,32 +1,32 @@
-.navbar {
-    position: absolute;
+header.navbar {
+    position: fixed;
     top: 0;
     left: 0;
     width: 100vw;
-    box-sizing: border-box;
-    background: transparent;
-    margin: 0;
-    padding: 2% 10%;
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    height: 10vh;
-    z-index: 1;
+    align-items: center;
+    transition: all 0.6s linear;
+    height: 50px;
+    z-index: 1000000;
 }
 
-.navbar .selected{
-     color: aqua;
- }
-
 .navbar .logo {
-    height: 6vh;
+    position: relative;
+    height: 50px;
+    transition: all 0.6s linear;
+}
+
+.navbar .logo-container{
     margin: 0 5%;
 }
 
 .navbar .heading {
+    position: relative;
     color: #fff;
     font-size: 1rem;
     display: none;
+    transition: all 0.6s linear;
 }
 
 .navbar .navLinks {
@@ -38,25 +38,82 @@
     justify-content: space-around;
     align-items: center;
     list-style: none;
+    transition: all 0.6s linear;
 }
 
-.navbar .navLinks a {
+.navbar a {
     color: white;
     text-decoration: none;
 }
 
-.navbar .navLinks a:hover {
+.navbar a:hover {
     transition: all 0.6s linear 0.2s;
     color: #ff6768
 }
 
-@media screen and (max-width: 480px) {
+.navbar button {
+    display: none;
+    background-color: transparent;
+    border: none;
+    margin: 0 5%;
+}
 
-    .navbar .navLinks ul {
+
+.navbar .menu {
+    color: #ccc;
+}
+
+@media screen and (max-width: 1024px) {
+    .navbar .navLinks {
         display: none;
     }
 
-    .navbar .heading {
+    .navbar button {
         display: block;
+    }
+
+    .navbar .mobileMenu {
+        display: block;
+        height: auto;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 0;
+        transition: all 0.6s linear;
+    }
+
+    .navbar .mobileMenu ul {
+        width: 100%;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        text-align: center;
+    }
+
+    .navbar .mobileMenu ul li{
+        margin: 5px 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar .mobileMenu {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .navbar .mobileMenu {
+        width: 100%;
+    }
+
+    .navbar .mobileMenu ul {
+        width: 100%;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        text-align: left;
     }
 }

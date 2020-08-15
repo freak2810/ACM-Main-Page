@@ -2,7 +2,7 @@ import React from 'react';
 import Logo from "../../assets/acm-black.png";
 import "./Footer.css"
 import {NavLink} from "react-router-dom";
-import {faGithubAlt, faGithubSquare} from "@fortawesome/free-brands-svg-icons";
+import {faGithubAlt} from "@fortawesome/free-brands-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {HashLink} from "react-router-hash-link";
 
@@ -33,7 +33,7 @@ export default function Footer() {
                     <NavLink exact to="/events">Events</NavLink>
                 </li>
                 <li>
-                    <HashLink exact to="/#email">Contact Us</HashLink>
+                    <HashLink to="/#email">Contact Us</HashLink>
                 </li>
             </ul>
         </div>
@@ -55,7 +55,7 @@ export default function Footer() {
             <h5>Built in the beautiful city of Hyderabad</h5>
             <h5>Copyright © 2020 MVSR ACM</h5>
             <a href="https://github.com/AdityaManikanth2810/ACM-Main-Page" target="blank">
-                <h5>Like our work? Check out the code <FontAwesomeIcon icon={faGithubAlt} size="s"/></h5>
+                <h5>Like our work? Check out the code <FontAwesomeIcon icon={faGithubAlt} size="sm"/></h5>
             </a>
         </div>
     </footer>

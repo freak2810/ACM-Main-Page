@@ -27,7 +27,6 @@ footer .links ul {
     height: 100px;
     margin: 0;
     padding: 0;
-
 }
 
 footer .links ul li {
@@ -109,8 +108,10 @@ footer .credits a:hover {
     footer button {
         width: 100%;
         height: 50px;
-        margin-top: 20px;
+        margin-top: 50px;
+        border : 1px solid #ff6768;
     }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -123,5 +124,22 @@ footer .credits a:hover {
 }
 
 @media screen and (max-width: 480px) {
+    footer {
+        flex-direction: column;
+    }
+
+    footer h2 {
+        margin: 50px 0;
+
+    }
+
+    footer .links{
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer .links ul {
+        justify-content: center;
+    }
 
 }

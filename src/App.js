@@ -11,6 +11,7 @@ import Footer from "./components/footer/Footer";
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 
 
+
 const EventWithId = ({match}) => {
 
     return <Events
@@ -21,10 +22,11 @@ const EventWithId = ({match}) => {
 
 
 function App() {
+
     return (
         <Router>
             <ScrollToTop/>
-            <Navbar/>
+            <Navbar />
             <Switch>
                 <Route path="/" exact>
                     <Home/>
