@@ -1,184 +1,101 @@
-export const eventData =[
+export const eventData = [
     {
-        id:1,
-        poster:`https://images.unsplash.com/photo-1512428197675-daae5d4e1e43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1953&q=80`,
-        what: `Movie Night `,
-        where: `Online - Google Meet`,
+        id: `movie-night`,
+        poster: `https://images.unsplash.com/photo-1512428197675-daae5d4e1e43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1953&q=80`,
+        what: `Movie Night`,
+        where: `Online`,
         when: `01/08/2020`,
         upcoming: false,
-        aboutEvent: `ACM hosted an event that was beyond fun, free, and exciting. Taken from the archives of the dramatic movies, “The Imitation Game” about a great British mathematician who laid the ideas of quantum computers and artificial intelligence got aired on the virtual stage. One can watch the movie in their comfort zone and at the same time enjoy it!
-        While the movie was telecasted, one has to keep a keen eye as well, for the whole purpose of the movie night is to find the errors in the movie to make things more lively and informative. And thus did we, the ACM Student chapter members and non-members had a very successful Saturday movie night.`,
+        aboutEvent: `ACM MVSR hosted an event that was beyond fun, free, and exciting. Taken from the archives of the dramatic movies, “The Imitation Game” about a great British mathematician who laid the ideas of quantum computing and artificial intelligence got aired on the virtual stage. One could watch the movie in their comfort zone and at the same time enjoy it!
+        While the movie was telecast, one had to keep a keen eye as well, for the whole purpose of the movie night is to find the errors in the movie to make things more lively and informative. And thus did we, the members of the ACM Student Chapter and non-members had a very successful Saturday Movie Night.`,
 
-        chiefGuests: [{
-            id: 1,
-            name: `Dr.Boo Boo 1`,
-            details: `M.A, M.B and M.C`,
-        },
-            {
-                id: 2,
-                name: `Dr.Boo Boo Me`,
-                details: `M.A, M.B and M.C`,
-            },
-            {
-                id: 3,
-                name: `Dr.Boo Boo`,
-                details: `M.A, M.B and M.C`,
-            }
-        ],
+        // chiefGuests: [{
+        //     id: 1,
+        //     name: `Dr.Boo Boo 1`,
+        //     details: `M.A, M.B and M.C`,
+        // },
+        //     {
+        //         id: 2,
+        //         name: `Dr.Boo Boo Me`,
+        //         details: `M.A, M.B and M.C`,
+        //     },
+        //     {
+        //         id: 3,
+        //         name: `Dr.Boo Boo`,
+        //         details: `M.A, M.B and M.C`,
+        //     }
+        // ],
 
-        coordinators:[
-            {
-                name:`Shreyas Anna Zindabad`,
-                designation:`Event Coordinator`,
-                contact:`emailid@example.com`
-            },
-            {
-                name:`Shreyas Anna Zindabad`,
-                designation:`Event Coordinator`,
-                contact:`emailid@example.com`
-            },
-            {
-                name:`Shreyas Anna Zindabad`,
-                designation:`Event Coordinator`,
-                contact:`emailid@example.com`
-            }
-        ],
+        // coordinators:[
+        //     {
+        //         name:`Shreyas Anna Zindabad`,
+        //         designation:`Event Coordinator`,
+        //         contact:`emailid@example.com`
+        //     },
+        //     {
+        //         name:`Shreyas Anna Zindabad`,
+        //         designation:`Event Coordinator`,
+        //         contact:`emailid@example.com`
+        //     },
+        //     {
+        //         name:`Shreyas Anna Zindabad`,
+        //         designation:`Event Coordinator`,
+        //         contact:`emailid@example.com`
+        //     }
+        // ],
     },
     {
-      id:2,
+        id: `competitive-coding-webinar`,
         what: `Webinar on "Competitive Coding"`,
-        poster:`https://images.unsplash.com/photo-1512428197675-daae5d4e1e43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1953&q=80`,
-        where: `Online - ZOOM Meeting`,
+        poster: `https://images.unsplash.com/photo-1512428197675-daae5d4e1e43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1953&q=80`,
+        where: `Online`,
         when: `18/07/2020`,
         upcoming: false,
-        aboutEvent: `“Your past can never decide the future” was a line said by Webinar mentor that changed and convinced students on how one should see the world and shifted their understanding of how programming language and skills can be used based on our efforts. Almost every company has an online coding round as their assessment. So one must be adequate and master in at least one programming language and two programming languages just in case. This online free workshop event conducted by the ACM Student Chapter in association with PrepBytes on “How to prepare for competitive coding and placements in IT/ Software companies” helped many students in formulating strategies on contemporary with companies.`,
+        aboutEvent: `“Your past can never decide the future” was a line said by the Webinar mentor that changed and convinced students on how one should see the world and shift their understanding of how programming language and skills can be used based on our efforts. Almost every company has an online coding round as their assessment. So one must be adequate and master in at least one programming language and two programming languages just in case. This free online workshop conducted by the ACM Student Chapter in association with PrepBytes on “How to prepare for competitive coding and placements in IT/ Software companies” helped many students in formulating strategies on contemporary with companies.`,
 
-        chiefGuests: [{
-            id: 1,
-            name: `Ms.Mamta Kumari`,
-            details: `M.A, M.B and M.C`,
-        },
+        chiefGuests: [
             {
-                id: 2,
-                name: `Dr.Boo Boo Me`,
-                details: `M.A, M.B and M.C`,
+                id: 1,
+                name: `Ms. Mamta Kumari`,
+                details: `Co-Founder at PrepBytes`,
             },
-            {
-                id: 3,
-                name: `Dr.Boo Boo`,
-                details: `M.A, M.B and M.C`,
-            }
-        ],
-
-        coordinators:[
-            {
-                name:`Shreyas Anna Zindabad`,
-                designation:`Event Coordinator`,
-                contact:`emailid@example.com`
-            },
-            {
-                name:`Shreyas Anna Zindabad`,
-                designation:`Event Coordinator`,
-                contact:`emailid@example.com`
-            },
-            {
-                name:`Shreyas Anna Zindabad`,
-                designation:`Event Coordinator`,
-                contact:`emailid@example.com`
-            }
         ],
     },
     {
-        id:3,
-        poster:`https://images.unsplash.com/photo-1512428197675-daae5d4e1e43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1953&q=80`,
+        id: `cyber-security-webinar`,
+        poster: `https://images.unsplash.com/photo-1512428197675-daae5d4e1e43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1953&q=80`,
         what: `Webinar on "Cyber Security Essentials"`,
         where: `Online`,
         when: `06/04/2020`,
         upcoming: false,
-        aboutEvent: `Cyber Security has paved the way for many new employment positions like Cyber Security Engineer, Cryptographer, Security Architect, to name a few. This online webinar gave the students relevant sources to build knowledge of CyberSecurity. The speaker introduced types of cybersecurity issues faced by companies, why these issues come up, and also spoke about the different kinds of cyber attacks and how to deal with them. The speaker stated that the knowledge of Cyber Security Essentials is not just important to students seeking jobs in this domain, but it is also a basic necessary trait that has to be learned by any Computer Science or IT student as it encompasses everything that pertains to protecting one's sensitive data, and not just the company. The webinar concluded with the speaker giving a brief description of the role of different Cyber Security jobs in today's industry.`,
+        aboutEvent: `Cyber Security has paved the way for many new employment positions like Cyber Security Engineer, Cryptographer, Security Architect, just to name a few. This online webinar gave the students relevant sources to build knowledge of CyberSecurity. The speaker explained the types of cyber-security issues faced by the companies, why exactly these issues come up, and also spoke about the different kinds of cyber attacks and the ways to deal with them. The speaker stated that the knowledge of Cyber Security Essentials is not just important to students seeking jobs in this domain, but it is also a essential trait that has to be learned by any Computer Science or IT student as it encompasses everything that pertains to protecting one's sensitive data, and not just the company. The webinar concluded with the speaker giving a brief description of the role of different Cyber Security jobs in today's industry.`,
 
         chiefGuests: [{
             id: 1,
             name: `Dr.Boo Boo 1`,
             details: `M.A, M.B and M.C`,
-        },
-            {
-                id: 2,
-                name: `Dr.Boo Boo Me`,
-                details: `M.A, M.B and M.C`,
-            },
-            {
-                id: 3,
-                name: `Dr.Boo Boo`,
-                details: `M.A, M.B and M.C`,
-            }
-        ],
-
-        coordinators:[
-            {
-                name:`Shreyas Anna Zindabad`,
-                designation:`Event Coordinator`,
-                contact:`emailid@example.com`
-            },
-            {
-                name:`Shreyas Anna Zindabad`,
-                designation:`Event Coordinator`,
-                contact:`emailid@example.com`
-            },
-            {
-                name:`Shreyas Anna Zindabad`,
-                designation:`Event Coordinator`,
-                contact:`emailid@example.com`
-            }
+        }
         ],
     },
     {
-        id:4,
-        poster:`https://images.unsplash.com/photo-1512428197675-daae5d4e1e43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1953&q=80`,
+        id: `intro-to-pwa-webinar`,
+        poster: `https://images.unsplash.com/photo-1512428197675-daae5d4e1e43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1953&q=80`,
         what: `Webinar on "Introduction to Progressive Web Apps"`,
         where: `Online`,
         when: `31/03/2020`,
         upcoming: false,
-        aboutEvent: `Progressive Web Apps(PWAs), introduced by Google, are gaining massive popularity among global leaders of online technologies. It has been proven to be the best answer to the challenges of the mobile world. This online webinar gave its audience a brief introduction into the world of PWA technology. Progressive Web Apps are 1. Reliable(Load instantly). 2. Fast(Respond quickly to user interactions). and 3. Engaging(Feel like a natural app on the device, with immersive user experience). The speaker introduced tools like React, Angular, Ionic frameworks that are used to build PWAs to the audience. Reliable resources to learn these frameworks were shared. The speaker also stated that PWAs are an emerging technology and it would soon become not only a skill of great value but also a job-providing employment field in the modern Software Industry.`,
+        aboutEvent: `Progressive Web Apps (PWAs), introduced by Google, are gaining traction among the global leaders of online technologies. It has been proven to be the best answer to the challenges in the mobile world. This online webinar gave its audience a brief introduction to the world of PWA technology. Progressive Web Apps are        1. Reliable(Load instantly).       2. Fast(Respond quickly to user interactions).      and 3. Engaging(Feel like a natural app on the device, with immersive user experience). The speaker introduced tools like React, Angular, Ionic frameworks that are used to build PWAs to the audience. Reliable resources to learn these frameworks were shared. The speaker also stated that PWAs are an emerging technology and it would soon become not only a skill of great value but also a job-providing employment field in the modern Software Industry.`,
 
         chiefGuests: [{
             id: 1,
-            name: `Mr.Adithya Sai Salladi`,
-            details: `M.A, M.B and M.C`,
+            name: `Mr. Adithya Sai Salladi`,
+            details: `Associate Consultant at Microsoft, MS - IIT Hyd and B.Tech - JNTUH`,
         },
-            {
-                id: 2,
-                name: `Dr.Boo Boo Me`,
-                details: `M.A, M.B and M.C`,
-            },
-            {
-                id: 3,
-                name: `Dr.Boo Boo`,
-                details: `M.A, M.B and M.C`,
-            }
-        ],
-
-        coordinators:[
-            {
-                name:`Shreyas Anna Zindabad`,
-                designation:`Event Coordinator`,
-                contact:`emailid@example.com`
-            },
-            {
-                name:`Shreyas Anna Zindabad`,
-                designation:`Event Coordinator`,
-                contact:`emailid@example.com`
-            },
-            {
-                name:`Shreyas Anna Zindabad`,
-                designation:`Event Coordinator`,
-                contact:`emailid@example.com`
-            }
         ],
     },
     {
-        id:5,
-        poster:`https://images.unsplash.com/photo-1512428197675-daae5d4e1e43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1953&q=80`,
+        id: 5,
+        poster: `https://images.unsplash.com/photo-1512428197675-daae5d4e1e43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1953&q=80`,
         what: `Webinar on "Building native apps with Flutter: 101"`,
         where: `online`,
         when: `30/03/2020`,
@@ -202,27 +119,27 @@ export const eventData =[
             }
         ],
 
-        coordinators:[
+        coordinators: [
             {
-                name:`Shreyas Anna Zindabad`,
-                designation:`Event Coordinator`,
-                contact:`emailid@example.com`
+                name: `Shreyas Anna Zindabad`,
+                designation: `Event Coordinator`,
+                contact: `emailid@example.com`
             },
             {
-                name:`Shreyas Anna Zindabad`,
-                designation:`Event Coordinator`,
-                contact:`emailid@example.com`
+                name: `Shreyas Anna Zindabad`,
+                designation: `Event Coordinator`,
+                contact: `emailid@example.com`
             },
             {
-                name:`Shreyas Anna Zindabad`,
-                designation:`Event Coordinator`,
-                contact:`emailid@example.com`
+                name: `Shreyas Anna Zindabad`,
+                designation: `Event Coordinator`,
+                contact: `emailid@example.com`
             }
         ],
     },
     {
-        id:6,
-        poster:`https://images.unsplash.com/photo-1512428197675-daae5d4e1e43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1953&q=80`,
+        id: 6,
+        poster: `https://images.unsplash.com/photo-1512428197675-daae5d4e1e43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1953&q=80`,
         what: `Cyber Rakshaks Training program `,
         where: `Cse Seminar Hall`,
         when: `05/03/2020`,
@@ -246,27 +163,27 @@ export const eventData =[
             }
         ],
 
-        coordinators:[
+        coordinators: [
             {
-                name:`Shreyas Anna Zindabad`,
-                designation:`Event Coordinator`,
-                contact:`emailid@example.com`
+                name: `Shreyas Anna Zindabad`,
+                designation: `Event Coordinator`,
+                contact: `emailid@example.com`
             },
             {
-                name:`Shreyas Anna Zindabad`,
-                designation:`Event Coordinator`,
-                contact:`emailid@example.com`
+                name: `Shreyas Anna Zindabad`,
+                designation: `Event Coordinator`,
+                contact: `emailid@example.com`
             },
             {
-                name:`Shreyas Anna Zindabad`,
-                designation:`Event Coordinator`,
-                contact:`emailid@example.com`
+                name: `Shreyas Anna Zindabad`,
+                designation: `Event Coordinator`,
+                contact: `emailid@example.com`
             }
         ],
     },
     {
-        id:7,
-        poster:`https://images.unsplash.com/photo-1512428197675-daae5d4e1e43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1953&q=80`,
+        id: 7,
+        poster: `https://images.unsplash.com/photo-1512428197675-daae5d4e1e43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1953&q=80`,
         what: `Interviews for Cyber Rakshaks`,
         where: `Whatsapp video call`,
         when: `25/02/2020`,
@@ -302,27 +219,27 @@ export const eventData =[
             }
         ],
 
-        coordinators:[
+        coordinators: [
             {
-                name:`Shreyas Anna Zindabad`,
-                designation:`Event Coordinator`,
-                contact:`emailid@example.com`
+                name: `Shreyas Anna Zindabad`,
+                designation: `Event Coordinator`,
+                contact: `emailid@example.com`
             },
             {
-                name:`Shreyas Anna Zindabad`,
-                designation:`Event Coordinator`,
-                contact:`emailid@example.com`
+                name: `Shreyas Anna Zindabad`,
+                designation: `Event Coordinator`,
+                contact: `emailid@example.com`
             },
             {
-                name:`Shreyas Anna Zindabad`,
-                designation:`Event Coordinator`,
-                contact:`emailid@example.com`
+                name: `Shreyas Anna Zindabad`,
+                designation: `Event Coordinator`,
+                contact: `emailid@example.com`
             }
         ],
     },
     {
-        id:8,
-        poster:`https://images.unsplash.com/photo-1512428197675-daae5d4e1e43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1953&q=80`,
+        id: 8,
+        poster: `https://images.unsplash.com/photo-1512428197675-daae5d4e1e43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1953&q=80`,
         what: ` Lecture on DWC and "The need of Digital Safety"`,
         where: `Cse Seminar Hall`,
         when: `31/01/2020`,
@@ -349,27 +266,27 @@ export const eventData =[
             }
         ],
 
-        coordinators:[
+        coordinators: [
             {
-                name:`Shreyas Anna Zindabad`,
-                designation:`Event Coordinator`,
-                contact:`emailid@example.com`
+                name: `Shreyas Anna Zindabad`,
+                designation: `Event Coordinator`,
+                contact: `emailid@example.com`
             },
             {
-                name:`Shreyas Anna Zindabad`,
-                designation:`Event Coordinator`,
-                contact:`emailid@example.com`
+                name: `Shreyas Anna Zindabad`,
+                designation: `Event Coordinator`,
+                contact: `emailid@example.com`
             },
             {
-                name:`Shreyas Anna Zindabad`,
-                designation:`Event Coordinator`,
-                contact:`emailid@example.com`
+                name: `Shreyas Anna Zindabad`,
+                designation: `Event Coordinator`,
+                contact: `emailid@example.com`
             }
         ],
     },
     {
-        id:9,
-        poster:`https://images.unsplash.com/photo-1512428197675-daae5d4e1e43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1953&q=80`,
+        id: 9,
+        poster: `https://images.unsplash.com/photo-1512428197675-daae5d4e1e43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1953&q=80`,
         what: `Hands-on session on “GIT HUB" `,
         where: `CSE Lab-4`,
         when: `04/01/2020`,
@@ -395,27 +312,27 @@ export const eventData =[
             }
         ],
 
-        coordinators:[
+        coordinators: [
             {
-                name:`Shreyas Anna Zindabad`,
-                designation:`Event Coordinator`,
-                contact:`emailid@example.com`
+                name: `Shreyas Anna Zindabad`,
+                designation: `Event Coordinator`,
+                contact: `emailid@example.com`
             },
             {
-                name:`Shreyas Anna Zindabad`,
-                designation:`Event Coordinator`,
-                contact:`emailid@example.com`
+                name: `Shreyas Anna Zindabad`,
+                designation: `Event Coordinator`,
+                contact: `emailid@example.com`
             },
             {
-                name:`Shreyas Anna Zindabad`,
-                designation:`Event Coordinator`,
-                contact:`emailid@example.com`
+                name: `Shreyas Anna Zindabad`,
+                designation: `Event Coordinator`,
+                contact: `emailid@example.com`
             }
         ],
     },
     {
-        id:10,
-        poster:`https://images.unsplash.com/photo-1512428197675-daae5d4e1e43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1953&q=80`,
+        id: 10,
+        poster: `https://images.unsplash.com/photo-1512428197675-daae5d4e1e43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1953&q=80`,
         what: `Webinar on "Green Lock Security"`,
         where: `CSE LAB 4`,
         when: `05/10/2019`,
@@ -439,27 +356,27 @@ export const eventData =[
             }
         ],
 
-        coordinators:[
+        coordinators: [
             {
-                name:`Shreyas Anna Zindabad`,
-                designation:`Event Coordinator`,
-                contact:`emailid@example.com`
+                name: `Shreyas Anna Zindabad`,
+                designation: `Event Coordinator`,
+                contact: `emailid@example.com`
             },
             {
-                name:`Shreyas Anna Zindabad`,
-                designation:`Event Coordinator`,
-                contact:`emailid@example.com`
+                name: `Shreyas Anna Zindabad`,
+                designation: `Event Coordinator`,
+                contact: `emailid@example.com`
             },
             {
-                name:`Shreyas Anna Zindabad`,
-                designation:`Event Coordinator`,
-                contact:`emailid@example.com`
+                name: `Shreyas Anna Zindabad`,
+                designation: `Event Coordinator`,
+                contact: `emailid@example.com`
             }
         ],
     },
     {
-        id:11,
-        poster:`https://images.unsplash.com/photo-1512428197675-daae5d4e1e43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1953&q=80`,
+        id: 11,
+        poster: `https://images.unsplash.com/photo-1512428197675-daae5d4e1e43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1953&q=80`,
         what: `Webinar on "Computer Architecture"`,
         where: `Online`,
         when: `29/08/2019`,
@@ -483,27 +400,27 @@ export const eventData =[
             }
         ],
 
-        coordinators:[
+        coordinators: [
             {
-                name:`Shreyas Anna Zindabad`,
-                designation:`Event Coordinator`,
-                contact:`emailid@example.com`
+                name: `Shreyas Anna Zindabad`,
+                designation: `Event Coordinator`,
+                contact: `emailid@example.com`
             },
             {
-                name:`Shreyas Anna Zindabad`,
-                designation:`Event Coordinator`,
-                contact:`emailid@example.com`
+                name: `Shreyas Anna Zindabad`,
+                designation: `Event Coordinator`,
+                contact: `emailid@example.com`
             },
             {
-                name:`Shreyas Anna Zindabad`,
-                designation:`Event Coordinator`,
-                contact:`emailid@example.com`
+                name: `Shreyas Anna Zindabad`,
+                designation: `Event Coordinator`,
+                contact: `emailid@example.com`
             }
         ],
     },
     {
-        id:12,
-        poster:`https://images.unsplash.com/photo-1512428197675-daae5d4e1e43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1953&q=80`,
+        id: 12,
+        poster: `https://images.unsplash.com/photo-1512428197675-daae5d4e1e43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1953&q=80`,
         what: `Lecture on "Entrepreneurship and Management skills"`,
         where: `Cse Seminar Hall`,
         when: `22/08/2019`,
@@ -527,27 +444,27 @@ export const eventData =[
             }
         ],
 
-        coordinators:[
+        coordinators: [
             {
-                name:`Shreyas Anna Zindabad`,
-                designation:`Event Coordinator`,
-                contact:`emailid@example.com`
+                name: `Shreyas Anna Zindabad`,
+                designation: `Event Coordinator`,
+                contact: `emailid@example.com`
             },
             {
-                name:`Shreyas Anna Zindabad`,
-                designation:`Event Coordinator`,
-                contact:`emailid@example.com`
+                name: `Shreyas Anna Zindabad`,
+                designation: `Event Coordinator`,
+                contact: `emailid@example.com`
             },
             {
-                name:`Shreyas Anna Zindabad`,
-                designation:`Event Coordinator`,
-                contact:`emailid@example.com`
+                name: `Shreyas Anna Zindabad`,
+                designation: `Event Coordinator`,
+                contact: `emailid@example.com`
             }
         ],
     },
     {
-        id:13,
-        poster:`https://images.unsplash.com/photo-1512428197675-daae5d4e1e43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1953&q=80`,
+        id: 13,
+        poster: `https://images.unsplash.com/photo-1512428197675-daae5d4e1e43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1953&q=80`,
         what: `ACM Inaugral`,
         where: `Cse Seminar Hall`,
         when: `02/08/2019`,
@@ -568,24 +485,6 @@ export const eventData =[
                 id: 3,
                 name: `Dr.Boo Boo`,
                 details: `M.A, M.B and M.C`,
-            }
-        ],
-
-        coordinators:[
-            {
-                name:`Shreyas Anna Zindabad`,
-                designation:`Event Coordinator`,
-                contact:`emailid@example.com`
-            },
-            {
-                name:`Shreyas Anna Zindabad`,
-                designation:`Event Coordinator`,
-                contact:`emailid@example.com`
-            },
-            {
-                name:`Shreyas Anna Zindabad`,
-                designation:`Event Coordinator`,
-                contact:`emailid@example.com`
             }
         ],
     }

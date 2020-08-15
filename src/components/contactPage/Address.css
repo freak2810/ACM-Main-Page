@@ -40,6 +40,11 @@
 .address a{
     text-decoration: none;
     color: #263859;
+    transition: all 0.2s linear;
+}
+
+.address a:hover{
+    color: #ff6768;
 }
 
 .address .socialLinks .fb:hover {

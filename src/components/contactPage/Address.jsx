@@ -9,7 +9,7 @@ export default function Address() {
     return <div className="address">
         <h1>Hyderabad</h1>
         <h2>MVSR Engineering College, Nadergul.</h2>
-        <h4><FontAwesomeIcon icon={faEnvelope}/> contact@mvsr.acm.org</h4>
+        <a href="mailto:contact@mvsr.acm.org" target="blank"><h4><FontAwesomeIcon icon={faEnvelope}/> contact@mvsr.acm.org</h4></a>
         <h2>Connect with Us</h2>
         <div className="socialLinks">
             <a href="https://www.linkedin.com/groups/13885592" target="blank"><FontAwesomeIcon icon={faLinkedin} size="3x" className="socialIcons linkedIn"/></a>

@@ -11,7 +11,7 @@ export default function Events({event}) {
         ));
 
     const RenderCoordinatorsList = (coordinatorsList) => {
-       return coordinatorsList.map((coordinator,index) => (
+        return coordinatorsList.map((coordinator, index) => (
             <div key={index} className="eachCoordinator">
                 <h2>{coordinator.name}</h2>
                 <p>{coordinator.designation}</p>
@@ -23,7 +23,7 @@ export default function Events({event}) {
 
     return (
         <div className="events">
-            <div className="poster" style={{backgroundImage: `url(${event.poster})`}} />
+            <div className="poster" style={{backgroundImage: `url(${event.poster})`}}/>
             <div className="details">
                 <div className="aboutVenue">
                     <div className="eachDetail">
@@ -45,15 +45,23 @@ export default function Events({event}) {
                         <p>{event.aboutEvent}</p>
                     </div>
                     <div className="chiefGuests">
-                        <h4>{event.chiefGuests.length===1?`Chief Guest` : `Chief Guests`}</h4>
-                        {RenderChiefGuestList(event.chiefGuests)}
+                        <h4>{event.chiefGuests ? (event.chiefGuests.length === 1 ? `Chief Guest` : `Chief Guests`) : null}</h4>
+                        {event.chiefGuests ? RenderChiefGuestList(event.chiefGuests) : null}
                     </div>
                 </div>
                 <div className="contactDetails">
-                    {/*<h2>Have a question ?</h2>*/}
-                    {/*<div className="coordinators">*/}
-                    {/*{RenderCoordinatorsList(event.coordinators)}*/}
-                    {/*</div>*/}
+                    {
+                        event.coordinators ?
+                            <h2>Have a question ?</h2>
+                            : null
+                    }
+                    {
+                        event.coordinators ?
+                            <div className="coordinators">
+                                {RenderCoordinatorsList(event.coordinators)}
+                            </div>
+                            : null
+                    }
                 </div>
             </div>
 

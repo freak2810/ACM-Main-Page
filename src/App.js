@@ -15,7 +15,7 @@ const EventWithId = ({match}) => {
 
     return <Events
         event={eventData.filter(
-            event => event.id === parseInt(match.params.id, 10))[0]}
+            event => event.id === match.params.id)[0]}
     />
 }
 

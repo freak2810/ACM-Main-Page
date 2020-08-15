@@ -2,6 +2,7 @@ import React from "react";
 import Logo from "../../assets/mvsr-acm.png";
 import "./Navbar.css";
 import {NavLink} from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 
 const Navbar = () => {
     return (
@@ -33,6 +34,11 @@ const Navbar = () => {
                                  activeStyle={{color: '#ff6768',transition: 'all 0.6s linear'}}>
                             Events
                         </NavLink>
+                    </li>
+                    <li>
+                        <HashLink exact to="/#email">
+                            Contact Us
+                        </HashLink>
                     </li>
                 </ul>
             </nav>

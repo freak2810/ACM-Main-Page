@@ -50,7 +50,7 @@ export default function Email() {
     }
 
     return (
-        <div className="email">
+        <div className="email" id="email">
             <h1>Contact Us</h1>
             <img src={Image} className="illustration" alt=""/>
             <form onSubmit={e => onSubmit(e)} className="form">
