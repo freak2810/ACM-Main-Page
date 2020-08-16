@@ -14,20 +14,18 @@ import Team from "./components/teamPage/Team";
 
 
 const EventWithId = ({match}) => {
-
     return <Events
         event={eventData.filter(
             event => event.id === match.params.id)[0]}
     />
 }
 
-
 function App() {
 
     return (
         <Router>
             <ScrollToTop/>
-            {/*<Navbar />*/}
+            <Navbar />
             <Switch>
                 <Route path="/" exact>
                     <Home/>
@@ -46,7 +44,7 @@ function App() {
                 </Route>
                 <Route path="/events/:id" component={EventWithId}/>
             </Switch>
-            {/*<Footer/>*/}
+            <Footer/>
         </Router>
     );
 }
