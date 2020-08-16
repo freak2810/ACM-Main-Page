@@ -1,0 +1,60 @@
+.team {
+    color: #cccccc;
+}
+
+.team .member {
+    background-color: #26385930;
+    background-position: top;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+    margin: 10px;
+    position: relative;
+    text-align: center;
+}
+
+.team .member .links{
+    background-color: #26385950;
+    width: 70%;
+    height: 40%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    transform: translate(-50%,-50%);
+    transition: opacity 0.3s linear;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.team .member:hover .links{
+    opacity: 1;
+}
+
+.team .member .links a{
+    color: #6b778d;
+}
+
+.team .member .links a:hover{
+    color: #ff6768;
+}
+
+.team .member .details {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #00000030;
+}
+
+.team .member .details h1{
+font-size: 1.2rem;
+    margin: 5px 0;
+}
+
+.team .member .details h2{
+font-size: 1rem;
+    margin: 5px 0;
+}
