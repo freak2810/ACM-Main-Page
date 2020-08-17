@@ -25,7 +25,7 @@
 }
 
 .galleryImages {
-    padding: 2em 20em;
+    padding: 2em 15em;
     background-image: url("../../assets/galleryBG.svg");
     background-attachment: fixed;
 }

@@ -94,7 +94,7 @@ export const eventData = [
         ],
     },
     {
-        id: 5,
+        id: `building-app-with-flutter`,
         poster: `https://images.unsplash.com/photo-1512428197675-daae5d4e1e43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1953&q=80`,
         what: `Webinar on "Building native apps with Flutter: 101"`,
         where: `online`,
@@ -119,26 +119,26 @@ export const eventData = [
             }
         ],
 
-        coordinators: [
-            {
-                name: `Shreyas Anna Zindabad`,
-                designation: `Event Coordinator`,
-                contact: `emailid@example.com`
-            },
-            {
-                name: `Shreyas Anna Zindabad`,
-                designation: `Event Coordinator`,
-                contact: `emailid@example.com`
-            },
-            {
-                name: `Shreyas Anna Zindabad`,
-                designation: `Event Coordinator`,
-                contact: `emailid@example.com`
-            }
-        ],
+        //coordinators: [
+        //    {
+        //        name: `Shreyas Anna Zindabad`,
+        //        designation: `Event Coordinator`,
+        //        contact: `emailid@example.com`
+        //    },
+        //    {
+        //        name: `Shreyas Anna Zindabad`,
+        //        designation: `Event Coordinator`,
+        //        contact: `emailid@example.com`
+        //    },
+        //    {
+        //        name: `Shreyas Anna Zindabad`,
+        //        designation: `Event Coordinator`,
+        //        contact: `emailid@example.com`
+        //    }
+      // ],
     },
     {
-        id: 6,
+        id: `cyber-rakshak-training`,
         poster: `https://images.unsplash.com/photo-1512428197675-daae5d4e1e43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1953&q=80`,
         what: `Cyber Rakshaks Training program `,
         where: `Cse Seminar Hall`,
@@ -163,26 +163,27 @@ export const eventData = [
             }
         ],
 
-        coordinators: [
-            {
-                name: `Shreyas Anna Zindabad`,
-                designation: `Event Coordinator`,
-                contact: `emailid@example.com`
-            },
-            {
-                name: `Shreyas Anna Zindabad`,
-                designation: `Event Coordinator`,
-                contact: `emailid@example.com`
-            },
-            {
-                name: `Shreyas Anna Zindabad`,
-                designation: `Event Coordinator`,
-                contact: `emailid@example.com`
-            }
-        ],
+        //coordinators: [
+        //    {
+        //        name: `Shreyas Anna Zindabad`,
+        //        designation: `Event Coordinator`,
+        //        contact: `emailid@example.com`
+        //    },
+        //    {
+        //        name: `Shreyas Anna Zindabad`,
+        //        designation: `Event Coordinator`,
+        //        designation: `Event Coordinator`,
+        //        contact: `emailid@example.com`
+        //    },
+        //    {
+        //        name: `Shreyas Anna Zindabad`,
+        //        designation: `Event Coordinator`,
+        //        contact: `emailid@example.com`
+        //    }
+        //],
     },
     {
-        id: 7,
+        id: `interviews-cyber-rakshaks`,
         poster: `https://images.unsplash.com/photo-1512428197675-daae5d4e1e43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1953&q=80`,
         what: `Interviews for Cyber Rakshaks`,
         where: `Whatsapp video call`,
@@ -219,26 +220,26 @@ export const eventData = [
             }
         ],
 
-        coordinators: [
-            {
-                name: `Shreyas Anna Zindabad`,
-                designation: `Event Coordinator`,
-                contact: `emailid@example.com`
-            },
-            {
-                name: `Shreyas Anna Zindabad`,
-                designation: `Event Coordinator`,
-                contact: `emailid@example.com`
-            },
-            {
-                name: `Shreyas Anna Zindabad`,
-                designation: `Event Coordinator`,
-                contact: `emailid@example.com`
-            }
-        ],
+        //coordinators: [
+        //    {
+        //        name: `Shreyas Anna Zindabad`,
+        //        designation: `Event Coordinator`,
+        //        contact: `emailid@example.com`
+        //    },
+        //    {
+        //        name: `Shreyas Anna Zindabad`,
+        //        designation: `Event Coordinator`,
+        //        contact: `emailid@example.com`
+        //    },
+        //    {
+        //       name: `Shreyas Anna Zindabad`,
+        //       designation: `Event Coordinator`,
+        //        contact: `emailid@example.com`
+        //    }
+        //],
     },
     {
-        id: 8,
+        id: `intro-to-dwc`,
         poster: `https://images.unsplash.com/photo-1512428197675-daae5d4e1e43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1953&q=80`,
         what: ` Lecture on DWC and "The need of Digital Safety"`,
         where: `Cse Seminar Hall`,
@@ -266,26 +267,26 @@ export const eventData = [
             }
         ],
 
-        coordinators: [
-            {
-                name: `Shreyas Anna Zindabad`,
-                designation: `Event Coordinator`,
-                contact: `emailid@example.com`
-            },
-            {
-                name: `Shreyas Anna Zindabad`,
-                designation: `Event Coordinator`,
-                contact: `emailid@example.com`
-            },
-            {
-                name: `Shreyas Anna Zindabad`,
-                designation: `Event Coordinator`,
-                contact: `emailid@example.com`
-            }
-        ],
+        //coordinators: [
+        //    {
+        //        name: `Shreyas Anna Zindabad`,
+        //        designation: `Event Coordinator`,
+        //        contact: `emailid@example.com`
+        //    },
+        //    {
+        //        name: `Shreyas Anna Zindabad`,
+        //        designation: `Event Coordinator`,
+        //        contact: `emailid@example.com`
+        //    },
+        //    {
+        //        name: `Shreyas Anna Zindabad`,
+        //        designation: `Event Coordinator`,
+        //        contact: `emailid@example.com`
+        //    }
+        //],
     },
     {
-        id: 9,
+        id: `session-on-git-hub`,
         poster: `https://images.unsplash.com/photo-1512428197675-daae5d4e1e43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1953&q=80`,
         what: `Hands-on session on “GIT HUB" `,
         where: `CSE Lab-4`,
@@ -312,26 +313,26 @@ export const eventData = [
             }
         ],
 
-        coordinators: [
-            {
-                name: `Shreyas Anna Zindabad`,
-                designation: `Event Coordinator`,
-                contact: `emailid@example.com`
-            },
-            {
-                name: `Shreyas Anna Zindabad`,
-                designation: `Event Coordinator`,
-                contact: `emailid@example.com`
-            },
-            {
-                name: `Shreyas Anna Zindabad`,
-                designation: `Event Coordinator`,
-                contact: `emailid@example.com`
-            }
-        ],
+        //coordinators: [
+        //    {
+        //        name: `Shreyas Anna Zindabad`,
+        //        designation: `Event Coordinator`,
+        //        contact: `emailid@example.com`
+        //    },
+        //    {
+        //        name: `Shreyas Anna Zindabad`,
+        //        designation: `Event Coordinator`,
+        //        contact: `emailid@example.com`
+        //    },
+        //    {
+        //        name: `Shreyas Anna Zindabad`,
+        //       designation: `Event Coordinator`,
+        //        contact: `emailid@example.com`
+        //    }
+        //],
     },
     {
-        id: 10,
+        id: `green-lock-security`,
         poster: `https://images.unsplash.com/photo-1512428197675-daae5d4e1e43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1953&q=80`,
         what: `Webinar on "Green Lock Security"`,
         where: `CSE LAB 4`,
@@ -356,26 +357,26 @@ export const eventData = [
             }
         ],
 
-        coordinators: [
-            {
-                name: `Shreyas Anna Zindabad`,
-                designation: `Event Coordinator`,
-                contact: `emailid@example.com`
-            },
-            {
-                name: `Shreyas Anna Zindabad`,
-                designation: `Event Coordinator`,
-                contact: `emailid@example.com`
-            },
-            {
-                name: `Shreyas Anna Zindabad`,
-                designation: `Event Coordinator`,
-                contact: `emailid@example.com`
-            }
-        ],
+        //coordinators: [
+        //    {
+        //        name: `Shreyas Anna Zindabad`,
+        //        designation: `Event Coordinator`,
+        //        contact: `emailid@example.com`
+        //    },
+        //    {
+        //        name: `Shreyas Anna Zindabad`,
+        //        designation: `Event Coordinator`,
+        //        contact: `emailid@example.com`
+        //    },
+        //    {
+        //        name: `Shreyas Anna Zindabad`,
+        //        designation: `Event Coordinator`,
+        //        contact: `emailid@example.com`
+        //    }
+        //],
     },
     {
-        id: 11,
+        id: `computer-architecture`,
         poster: `https://images.unsplash.com/photo-1512428197675-daae5d4e1e43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1953&q=80`,
         what: `Webinar on "Computer Architecture"`,
         where: `Online`,
@@ -400,26 +401,26 @@ export const eventData = [
             }
         ],
 
-        coordinators: [
-            {
-                name: `Shreyas Anna Zindabad`,
-                designation: `Event Coordinator`,
-                contact: `emailid@example.com`
-            },
-            {
-                name: `Shreyas Anna Zindabad`,
-                designation: `Event Coordinator`,
-                contact: `emailid@example.com`
-            },
-            {
-                name: `Shreyas Anna Zindabad`,
-                designation: `Event Coordinator`,
-                contact: `emailid@example.com`
-            }
-        ],
+        //coordinators: [
+        //    {
+        //        name: `Shreyas Anna Zindabad`,
+        //        designation: `Event Coordinator`,
+        //        contact: `emailid@example.com`
+        //    },
+        //    {
+        //        name: `Shreyas Anna Zindabad`,
+        //        designation: `Event Coordinator`,
+        //        contact: `emailid@example.com`
+        //    },
+        //    {
+        //        name: `Shreyas Anna Zindabad`,
+        //        designation: `Event Coordinator`,
+        //        contact: `emailid@example.com`
+        //    }
+        //],
     },
     {
-        id: 12,
+        id: `jamboree`,
         poster: `https://images.unsplash.com/photo-1512428197675-daae5d4e1e43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1953&q=80`,
         what: `Lecture on "Entrepreneurship and Management skills"`,
         where: `Cse Seminar Hall`,
@@ -444,28 +445,28 @@ export const eventData = [
             }
         ],
 
-        coordinators: [
-            {
-                name: `Shreyas Anna Zindabad`,
-                designation: `Event Coordinator`,
-                contact: `emailid@example.com`
-            },
-            {
-                name: `Shreyas Anna Zindabad`,
-                designation: `Event Coordinator`,
-                contact: `emailid@example.com`
-            },
-            {
-                name: `Shreyas Anna Zindabad`,
-                designation: `Event Coordinator`,
-                contact: `emailid@example.com`
-            }
-        ],
+        //coordinators: [
+        //    {
+        //        name: `Shreyas Anna Zindabad`,
+        //        designation: `Event Coordinator`,
+        //        contact: `emailid@example.com`
+        //    },
+        //    {
+        //        name: `Shreyas Anna Zindabad`,
+        //        designation: `Event Coordinator`,
+        //        contact: `emailid@example.com`
+        //    },
+        //    {
+        //       name: `Shreyas Anna Zindabad`,
+        //       designation: `Event Coordinator`,
+        //        contact: `emailid@example.com`
+        //    }
+        //],
     },
     {
-        id: 13,
+        id: `mvsr-acm-inaugural`,
         poster: `https://images.unsplash.com/photo-1512428197675-daae5d4e1e43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1953&q=80`,
-        what: `ACM Inaugral`,
+        what: `ACM Inaugural`,
         where: `Cse Seminar Hall`,
         when: `02/08/2019`,
         upcoming: false,
