@@ -7,13 +7,13 @@ header.navbar {
     justify-content: space-between;
     align-items: center;
     transition: all 0.6s linear;
-    height: 50px;
+    height: 60px;
     z-index: 1000000;
 }
 
 .navbar .logo {
     position: relative;
-    height: 50px;
+    height: 45px;
     transition: all 0.6s linear;
 }
 
@@ -64,9 +64,15 @@ header.navbar {
 }
 
 @media screen and (max-width: 1024px) {
+    header.navbar{
+        background: #263859 !important;
+        border: none !important;
+    }
+
     .navbar .navLinks {
         display: none;
     }
+
 
     .navbar button {
         display: block;
@@ -81,6 +87,7 @@ header.navbar {
         left: 0;
         z-index: 0;
         transition: all 0.6s linear;
+        margin-top: 49px !important;
     }
 
     .navbar .mobileMenu ul {
@@ -90,6 +97,7 @@ header.navbar {
         flex-direction: column;
         list-style: none;
         text-align: center;
+        background: #263859 !important;
     }
 
     .navbar .mobileMenu ul li{
@@ -104,9 +112,15 @@ header.navbar {
 }
 
 @media screen and (max-width: 480px) {
+
     .navbar .mobileMenu {
         width: 100%;
     }
+
+    .navbar .heading {
+        display: inline-block;
+    }
+
 
     .navbar .mobileMenu ul {
         width: 100%;

@@ -5,11 +5,9 @@
 
 .events .poster {
     height: 60vh;
-    /* background-color: aquamarine; */
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 60%;
     background-attachment: fixed;
-    background-position: center;
 }
 
 .events .details {
@@ -148,7 +146,8 @@
 @media screen and (max-width: 480px) {
     .events .poster {
         height: 40vh;
-        background-position: bottom;
+        background-size: 100% 40%;
+        background-position: 0 50px;
     }
 
     .events .details {

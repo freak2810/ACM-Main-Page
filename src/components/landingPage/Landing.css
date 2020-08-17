@@ -1,7 +1,7 @@
 .grid-container {
     display: flex;
     flex-direction: row-reverse;
-    height: 100vh;
+    height: 100%;
     background-image: url("../../assets/galleryBG.svg");
     background-attachment: fixed;
     color: #fff;

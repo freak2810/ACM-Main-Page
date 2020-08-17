@@ -10,16 +10,10 @@ import {faBars} from "@fortawesome/free-solid-svg-icons";
 const Navbar = () => {
 
     const [color, setColor] = useState('transparent');
-    const [padding, setPadding] = useState('20px');
-
     const [showMenu, toggleMenu] = useState(false);
 
     const MobileMenu = () => {
-        return <div className="mobileMenu" style={{
-            backgroundColor: color,
-            marginTop: `calc((50px + ${padding}))`,
-            borderBottom: color === "transparent" ? "none" : "2px solid #ff6768",
-        }}>
+        return <div className="mobileMenu">
             <nav>
                 <RenderMenuItems/>
             </nav>
@@ -68,18 +62,14 @@ const Navbar = () => {
     useScrollPosition(({prevPos, currPos}) => {
         if (-currPos.y > 10 * (window.innerHeight / 100)) {
             setColor('#263859');
-            setPadding('5px')
         } else {
             setColor('transparent');
-            setPadding('20px');
         }
     })
 
     return (
         <header className="navbar" style={{
             backgroundColor: color,
-            paddingTop: padding,
-            paddingBottom: padding,
             borderBottom: color === "transparent" ? "none" : "2px solid #ff6768"
         }}>
             <NavLink exact to="/" className="logo-container"><img src={Logo} alt="MVSR ACM Logo"

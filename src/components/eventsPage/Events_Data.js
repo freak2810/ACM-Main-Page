@@ -1,4 +1,49 @@
+import InternationalDeepLearningWorkshop from "../../assets/Posters/international-deep-learning-workshop.jpg"
+
 export const eventData = [
+    {
+        id: `international-deep-learning-workshop`,
+        poster: InternationalDeepLearningWorkshop,
+        what: `International Workshop On Deep Learning`,
+        where: `Online`,
+        when: `22nd - 26th August 2020`,
+        upcoming: true,
+        aboutEvent: `The goal of this program is to address this need by aligning and focusing theoretical aspects and implementation of empirically-relevant theoretical foundations of deep learning. Specifically, the intention is to identify and make progress on challenges that, on one hand, are key to guiding the real-world use of deep learning and, on the other hand, can be approached using theoretical methodology.`,
+        chiefGuests: [
+            {
+                id: 1,
+                name: `M. Aruna`,
+            },
+            {
+                id: 2,
+                name: `K.Durga Naveen Kumar`,
+            },
+            {
+                id: 3,
+                name: `P.Rajshekhar`,
+            },
+            {
+                id: 4,
+                name: `T.Sravya`,
+            },
+            {
+                id: 5,
+                name: `Sarah Hooker`,
+            },
+            {
+                id: 6,
+                name: `Raghavan Subramaniyan`
+            },
+            {
+                id: 7,
+                name: `Tanisha Bhayani`
+            },
+            {
+                id:8,
+                name:`Dr. Jayadev Gyani`
+            }
+        ]
+    },
     {
         id: `movie-night`,
         poster: `https://images.unsplash.com/photo-1512428197675-daae5d4e1e43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1953&q=80`,
@@ -135,7 +180,7 @@ export const eventData = [
         //        designation: `Event Coordinator`,
         //        contact: `emailid@example.com`
         //    }
-      // ],
+        // ],
     },
     {
         id: `cyber-rakshak-training`,

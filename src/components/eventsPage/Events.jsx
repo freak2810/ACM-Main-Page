@@ -1,7 +1,19 @@
-import React from "react";
+import React, {useEffect, useState} from "react";
+import {useParams} from "react-router-dom"
 import "./Events.css";
+import {eventData} from "./Events_Data";
 
-export default function Events({event}) {
+export default function Events() {
+
+    const [event,setEvent] = useState({});
+    let { id } = useParams();
+
+    useEffect( () => {
+        const result = eventData.filter(event => event.id === id)[0]
+        setEvent(result);
+
+    });
+
     const RenderChiefGuestList = (chiefGuestList) =>
         chiefGuestList.map((chiefGuest) => (
             <div key={chiefGuest.id} className="eachGuest">
@@ -14,7 +26,6 @@ export default function Events({event}) {
         return coordinatorsList.map((coordinator, index) => (
             <div key={index} className="eachCoordinator">
                 <h2>{coordinator.name}</h2>
-                <p>{coordinator.designation}</p>
                 <p>{coordinator.contact}</p>
             </div>
 
@@ -45,7 +56,7 @@ export default function Events({event}) {
                         <p>{event.aboutEvent}</p>
                     </div>
                     <div className="chiefGuests">
-                        <h4>{event.chiefGuests ? (event.chiefGuests.length === 1 ? `Chief Guest` : `Chief Guests`) : null}</h4>
+                        <h4>{event.chiefGuests ? (event.chiefGuests.length === 1 ? `Chief Guest/Speaker` : `Chief Guests/ Speakers`) : null}</h4>
                         {event.chiefGuests ? RenderChiefGuestList(event.chiefGuests) : null}
                     </div>
                 </div>
