@@ -14,7 +14,7 @@ export default function Address() {
         <div className="socialLinks">
             <a href="https://www.linkedin.com/groups/13885592" target="blank"><FontAwesomeIcon icon={faLinkedin} size="3x" className="socialIcons linkedIn"/></a>
             <a href="https://www.facebook.com/MVSR-ACM-Student-Chapter-2372670922946786" target="blank"><FontAwesomeIcon icon={faFacebookSquare} size="3x" className="socialIcons fb"/></a>
-            <a href="https://www.instagram.com/p/CDT87AVpqf8/?igshid=1bq4dojcwjdjc" target="blank"><FontAwesomeIcon icon={faInstagramSquare} size="3x" className="socialIcons insta"/></a>
+            <a href="https://www.instagram.com/mvsr_acm/" target="blank"><FontAwesomeIcon icon={faInstagramSquare} size="3x" className="socialIcons insta"/></a>
         </div>
     </div>
 }
