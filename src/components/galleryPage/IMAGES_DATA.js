@@ -1,3 +1,4 @@
+
 import GalleryPicture1 from "../../assets/Gallery/gallery-DWC.jpg";
 import GalleryPicture2 from "../../assets/Gallery/gallery-pic2.jpg";
 import GalleryPicture3 from "../../assets/Gallery/gallery-pic3.jpg";
@@ -17,7 +18,7 @@ export const photos = [
         height: 1
     },
     {
-        src: GalleryPicture2,
+        src: GalleryPicture2, 
         width: 4,
         height: 3
     },
