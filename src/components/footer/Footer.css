@@ -7,6 +7,8 @@ footer {
     background-color: #263859;
     color: #ccc;
     border-top: 2px solid #ff6768;
+    z-index: 0;
+    min-height: 45vh;
 }
 
 footer img {
@@ -24,7 +26,7 @@ footer .links ul {
     width: 100%;
     display: flex;
     flex-direction: column;
-    height: 100px;
+    min-height: 100px;
     margin: 0;
     padding: 0;
 }
@@ -129,8 +131,7 @@ footer .credits a:hover {
     }
 
     footer h2 {
-        margin: 50px 0;
-
+        margin: 50px 0 10px 0;
     }
 
     footer .links{

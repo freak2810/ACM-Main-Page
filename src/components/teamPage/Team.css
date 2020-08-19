@@ -1,5 +1,35 @@
 .team {
     color: #cccccc;
+    background-image: url("../../assets/galleryBG.svg");
+    background-attachment: fixed;
+    margin: 0;
+}
+
+.team .heading {
+    height: 60vh;
+    background-image: url("../../assets/aboutBG.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    position: relative;
+}
+
+.team .heading h1 {
+    margin: 1vh 1vw;
+    padding: 0;
+    position: absolute;
+    bottom: 0;
+    font-size: 5rem;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.team .teamList {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin: 0 15%;
+    justify-content: space-around;
 }
 
 .team .member {
@@ -9,35 +39,73 @@
     background-repeat: no-repeat;
     height: 300px;
     width: 300px;
-    margin: 10px;
+    margin: 50px 20px;
     position: relative;
+    text-align: center;
+    border: 2px solid #263859;
+}
+
+.team .member hr{
     text-align: center;
 }
 
-.team .member .links{
-    background-color: #26385950;
+.team .member .topBorder{
+    border: 2px solid #ff6768;
+    position: absolute;
+    top: -5%;
+    width: 20%;
+    animation: animateBorder 2s infinite forwards;
+    animation-play-state: paused;
+    opacity: 0;
+}
+
+.team .member:hover .topBorder{
+    border: 2px solid #ff6768;
+    position: absolute;
+    top: -5%;
+    animation-play-state: running;
+    opacity: 1;
+    transition: opacity .3s linear;
+}
+
+@keyframes animateBorder {
+    0%{
+        width: 20%;
+    }
+
+    80%{
+      width: 50%;
+    }
+
+    100%{
+        width: 20%;
+    }
+}
+
+.team .member .links {
+    background-color: #26385999;
     width: 70%;
     height: 40%;
     position: absolute;
     top: 50%;
     left: 50%;
     opacity: 0;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     transition: opacity 0.3s linear;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
-.team .member:hover .links{
+.team .member:hover .links {
     opacity: 1;
 }
 
-.team .member .links a{
-    color: #6b778d;
+.team .member .links a {
+    color: #0d1536;
 }
 
-.team .member .links a:hover{
+.team .member .links a:hover {
     color: #ff6768;
 }
 
@@ -46,15 +114,40 @@
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: #00000030;
+    background-color: #17223b50;
 }
 
-.team .member .details h1{
-font-size: 1.2rem;
+.team .member:hover .details{
+    transition: all 0.3s linear;
+    background-color: #17223b;
+}
+
+.team .member .details h1 {
+    font-size: 1.2rem;
     margin: 5px 0;
 }
 
-.team .member .details h2{
-font-size: 1rem;
+.team .member .details h2 {
+    font-size: 1rem;
     margin: 5px 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+@media screen and (max-width: 1024px)
+{
+    .team .teamList {
+        margin: 0 10%;
+    }
+}
+
+@media screen and (max-width: 768px)
+{
+    .team .teamList {
+        margin: 0 5%;
+    }
+}
+
+@media screen and (max-width: 480px)
+{
+
 }

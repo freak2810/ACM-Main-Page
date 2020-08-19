@@ -1,7 +1,7 @@
 import React from 'react';
 import {teamData} from "./Team_Data";
 import "./Team.css";
-import {faGithubSquare, faInternetExplorer, faLinkedin} from "@fortawesome/free-brands-svg-icons";
+import {faGithubSquare, faInternetExplorer, faLinkedin, faTwitterSquare} from "@fortawesome/free-brands-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faEnvelope} from "@fortawesome/free-solid-svg-icons";
 
@@ -10,6 +10,7 @@ export default function Team() {
     const renderTeamList = (list) => list.map(
         (member, index) => {
             return <div key={index} className="member" style={{backgroundImage: `url(${member.photo})`}}>
+                <hr className="topBorder"/>
                 <div className="links">
                     {
                         member.links.linkedIn ?
@@ -39,6 +40,13 @@ export default function Team() {
                             </a>
                             : null
                     }
+                    {
+                        member.links.twitter ?
+                            <a href={member.links.twitter} target="blank">
+                                <FontAwesomeIcon icon={faTwitterSquare} size="2x" className="socialIcons linkedIn"/>
+                            </a>
+                            : null
+                    }
                 </div>
                 <div className="details">
                     <h1>{member.name}</h1>
@@ -49,6 +57,11 @@ export default function Team() {
     )
 
     return <div className="team">
-        {renderTeamList(teamData)}
+        <div className="heading">
+            <h1>Our Team</h1>
+        </div>
+        <div className="teamList">
+            {renderTeamList(teamData)}
+        </div>
     </div>
 }

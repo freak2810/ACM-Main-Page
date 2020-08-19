@@ -3,7 +3,7 @@ import InternationalDeepLearningWorkshop from "../../assets/Posters/internationa
 export const eventData = [
     {
         id: `international-deep-learning-workshop`,
-        poster: InternationalDeepLearningWorkshop,
+        poster: `https://firebasestorage.googleapis.com/v0/b/acm-boo-boo.appspot.com/o/eps%2Fppp.jpg?alt=media&token=e7956fd1-5720-4216-bcbf-17912c635e32`,
         what: `International Workshop On Deep Learning`,
         where: `Online`,
         when: `22nd - 26th August 2020`,

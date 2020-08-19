@@ -103,6 +103,8 @@
 .events .details .eachCoordinator p {
     margin: 5px 0;
     font-size: 1rem;
+    text-align: justify;
+    text-justify: distribute;
 }
 
 

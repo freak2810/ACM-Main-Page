@@ -47,6 +47,12 @@ const Navbar = () => {
                 </NavLink>
             </li>
             <li>
+                <NavLink to="/team"
+                         activeStyle={{color: '#ff6768', transition: 'all 0.6s linear'}}>
+                    Our Team
+                </NavLink>
+            </li>
+            <li>
                 <HashLink to="/#email">
                     Contact Us
                 </HashLink>

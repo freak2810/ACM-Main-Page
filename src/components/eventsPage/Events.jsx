@@ -1,18 +1,8 @@
-import React, {useEffect, useState} from "react";
-import {useParams} from "react-router-dom"
+import React from "react";
 import "./Events.css";
-import {eventData} from "./Events_Data";
+import Footer from "../footer/Footer";
 
-export default function Events() {
-
-    const [event,setEvent] = useState({});
-    let { id } = useParams();
-
-    useEffect( () => {
-        const result = eventData.filter(event => event.id === id)[0]
-        setEvent(result);
-
-    });
+export default function Events({event}) {
 
     const RenderChiefGuestList = (chiefGuestList) =>
         chiefGuestList.map((chiefGuest) => (
@@ -75,7 +65,7 @@ export default function Events() {
                     }
                 </div>
             </div>
-
+<Footer/>
         </div>
     );
 }

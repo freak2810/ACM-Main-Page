@@ -10,7 +10,7 @@ export default function Billboard() {
         </a>
         <div className="links">
             <a href="https://docs.google.com/forms/d/e/1FAIpQLSf-nC8f9q0uOD4cis_E9qvtD6VHG-FSoHYEjYM26CqdsUzIsQ/viewform" target="blank">Register</a>
-            <a>More Info</a>
+            <NavLink to={`/events/international-deep-learning-workshop`}>More Info</NavLink>
         </div>
     </div>
 }
