@@ -1,33 +1,27 @@
 import React, {Suspense} from 'react';
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom"
-import About from "./components/aboutPage/About";
 import Navbar from "./components/navbar/Navbar";
-// import Gallery from "./components/galleryPage/Gallery";
-// import EventList from "./components/eventsPage/EventList";
 import {eventData} from "./components/eventsPage/Events_Data";
-// import Home from "./components/homePage/Home";
 import Footer from "./components/footer/Footer";
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 import Error404 from "./components/Error404/Error404";
 import Loading from "./components/loading/Loading";
-// import Events from "./components/eventsPage/Events";
+import Events from "./components/eventsPage/Events";
 
-const Events = React.lazy(() => import(`./components/eventsPage/Events`));
 const Team = React.lazy(() => import(`./components/teamPage/Team`));
 const Gallery = React.lazy(() => import(`./components/galleryPage/Gallery`));
 const EventList = React.lazy(() => import(`./components/eventsPage/EventList`));
 const Home = React.lazy(() => import(`./components/homePage/Home`));
+const About = React.lazy(() => import(`./components/aboutPage/About`));
 
 
 const EventWithId = ({match}) => {
-
-    return <Suspense fallback={<Loading/>}>
-        <Events
-            event={eventData.filter(
-                event => event.id === match.params.id)[0]}
-        />
-    </Suspense>
+    return <Events
+        event={eventData.filter(
+            event => event.id === match.params.id)[0]}
+    />
 }
+
 
 function App() {
 
@@ -43,8 +37,10 @@ function App() {
                     </Suspense>
                 </Route>
                 <Route path="/about">
-                    <About/>
-                    <Footer/>
+                    <Suspense fallback={<Loading/>}>
+                        <About/>
+                        <Footer/>
+                    </Suspense>
                 </Route>
                 <Route path="/gallery">
                     <Suspense fallback={<Loading/>}>

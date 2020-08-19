@@ -93,6 +93,11 @@
 }
 
 @media screen and (max-width: 1024px) {
+    .eventList .heading {
+      height: 30vh;
+    }
+
+
     .eventList .list {
         padding: 5% 20%;
     }

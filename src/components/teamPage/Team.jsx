@@ -35,7 +35,7 @@ export default function Team() {
                     }
                     {
                         member.links.email ?
-                            <a href={member.links.email} target="blank">
+                            <a href={`mailto:${member.links.email}`} target="blank">
                                 <FontAwesomeIcon icon={faEnvelope} size="2x" className="socialIcons linkedIn"/>
                             </a>
                             : null

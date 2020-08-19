@@ -1,5 +1,5 @@
 .team {
-    color: #cccccc;
+    color: #ccc;
     background-image: url("../../assets/galleryBG.svg");
     background-attachment: fixed;
     margin: 0;
@@ -7,11 +7,12 @@
 
 .team .heading {
     height: 60vh;
-    background-image: url("../../assets/aboutBG.jpg");
+    background: url("../../assets/ourTeamBG.svg"), linear-gradient(to right, #263859, #ccc);
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: bottom;
+    background-size: contain;
+    background-position: right;
     position: relative;
+    border-bottom: 2px solid #ff6768;
 }
 
 .team .heading h1 {
@@ -20,7 +21,7 @@
     position: absolute;
     bottom: 0;
     font-size: 5rem;
-    color: #fff;
+    color: #ccc;
     text-transform: uppercase;
 }
 
@@ -33,7 +34,6 @@
 }
 
 .team .member {
-    background-color: #26385930;
     background-position: top;
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -45,11 +45,11 @@
     border: 2px solid #263859;
 }
 
-.team .member hr{
+.team .member hr {
     text-align: center;
 }
 
-.team .member .topBorder{
+.team .member .topBorder {
     border: 2px solid #ff6768;
     position: absolute;
     top: -5%;
@@ -59,7 +59,8 @@
     opacity: 0;
 }
 
-.team .member:hover .topBorder{
+
+.team .member:hover .topBorder {
     border: 2px solid #ff6768;
     position: absolute;
     top: -5%;
@@ -69,21 +70,21 @@
 }
 
 @keyframes animateBorder {
-    0%{
+    0% {
         width: 20%;
     }
 
-    80%{
-      width: 50%;
+    80% {
+        width: 50%;
     }
 
-    100%{
+    100% {
         width: 20%;
     }
 }
 
 .team .member .links {
-    background-color: #26385999;
+    background-color: #cccccc99;
     width: 70%;
     height: 40%;
     position: absolute;
@@ -114,17 +115,19 @@
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: #17223b50;
+    background-color: #17223b;
 }
 
-.team .member:hover .details{
+.team .member:hover .details {
     transition: all 0.3s linear;
-    background-color: #17223b;
+    color: #17223b;
+    background-color: #cccccc;
 }
 
 .team .member .details h1 {
     font-size: 1.2rem;
     margin: 5px 0;
+    text-transform: uppercase;
 }
 
 .team .member .details h2 {
@@ -133,21 +136,29 @@
     font-family: 'Raleway', sans-serif;
 }
 
-@media screen and (max-width: 1024px)
-{
+@media screen and (max-width: 1024px) {
+    .team .heading {
+        height: 30vh;
+    }
+
     .team .teamList {
         margin: 0 10%;
     }
 }
 
-@media screen and (max-width: 768px)
-{
+@media screen and (max-width: 768px) {
+
+
     .team .teamList {
         margin: 0 5%;
     }
 }
 
-@media screen and (max-width: 480px)
-{
+@media screen and (max-width: 480px) {
+
+
+    .team .heading h1 {
+        font-size: 3rem;
+    }
 
 }

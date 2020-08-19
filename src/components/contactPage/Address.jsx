@@ -3,11 +3,11 @@ import "./Address.css";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faEnvelope} from '@fortawesome/free-solid-svg-icons';
 import {faFacebookSquare, faInstagramSquare, faLinkedin} from "@fortawesome/free-brands-svg-icons";
-
+import BudhaChachu from "../../assets/hyderabad.svg";
 
 export default function Address() {
     return <div className="address">
-        <h1>Hyderabad</h1>
+        <h1>Hyderabad <img src={BudhaChachu} className="budha-chachu"/></h1>
         <h2>MVSR Engineering College, Nadergul.</h2>
         <a href="mailto:contact@mvsr.acm.org" target="blank"><h4><FontAwesomeIcon icon={faEnvelope}/> contact@mvsr.acm.org</h4></a>
         <h2>Connect with Us</h2>

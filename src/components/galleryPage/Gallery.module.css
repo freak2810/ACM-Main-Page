@@ -7,13 +7,14 @@
 
 .gallery .galleryHeading {
     height: 60vh;
-    background-image: url("../../assets/aboutBG.jpg");
-    background-size: 100% 120%;
-    background-position: bottom;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+    background-image: url("../../assets/imageGalleryBG.svg"),linear-gradient(to right,#263859,#ccc);
     display: flex;
     align-items: flex-end;
+    background-attachment: fixed;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-bottom: 2px solid #ff6768;
 }
 
 .gallery .galleryHeading h1 {
@@ -35,6 +36,12 @@
         height: 30vh;
     }
 
+    .gallery .galleryHeading {
+        background-position: top;
+        height: 30vh;
+        background-size: contain;
+    }
+
     .galleryImages {
         padding: 2em 5em;
     }
@@ -50,6 +57,8 @@
     .galleryImages {
         padding: 1em 1em;
     }
+
+
 
     .gallery .galleryHeading h1 {
         font-size: 3rem;

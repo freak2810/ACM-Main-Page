@@ -1,5 +1,3 @@
-import InternationalDeepLearningWorkshop from "../../assets/Posters/international-deep-learning-workshop.jpg"
-
 export const eventData = [
     {
         id: `international-deep-learning-workshop`,
