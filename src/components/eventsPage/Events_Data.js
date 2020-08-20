@@ -44,7 +44,7 @@ export const eventData = [
     },
     {
         id: `movie-night`,
-        poster: `https://images.unsplash.com/photo-1512428197675-daae5d4e1e43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1953&q=80`,
+        poster: `https://firebasestorage.googleapis.com/v0/b/acm-boo-boo.appspot.com/o/eps%2Fmtp1.png?alt=media&token=d2107801-11cc-41b1-b708-0f07361eaa5a`,
         what: `Movie Night`,
         where: `Online`,
         when: `01/08/2020`,
@@ -88,9 +88,9 @@ export const eventData = [
         // ],
     },
     {
-        id: `competitive-coding-webinar`,
+        id: `How-to-prepare-for-Competitive-Coding-&-Placements-in-IT/Software-companies?`,
         what: `Webinar on "Competitive Coding"`,
-        poster: `https://images.unsplash.com/photo-1512428197675-daae5d4e1e43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1953&q=80`,
+        poster: `https://firebasestorage.googleapis.com/v0/b/acm-boo-boo.appspot.com/o/eps%2Fwebinar-altered.png?alt=media&token=de111202-ccc4-45a4-a4e9-e10944978d3e`,
         where: `Online`,
         when: `18/07/2020`,
         upcoming: false,
@@ -105,8 +105,8 @@ export const eventData = [
         ],
     },
     {
-        id: `cyber-security-webinar`,
-        poster: `https://images.unsplash.com/photo-1512428197675-daae5d4e1e43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1953&q=80`,
+        id: `Cyber-Security-Essentials`,
+        poster: `https://firebasestorage.googleapis.com/v0/b/acm-boo-boo.appspot.com/o/eps%2Fwce.jpeg?alt=media&token=95ded0ef-1e7e-4769-aead-2bd38ffe4c6a`,
         what: `Webinar on "Cyber Security Essentials"`,
         where: `Online`,
         when: `06/04/2020`,
@@ -121,8 +121,8 @@ export const eventData = [
         ],
     },
     {
-        id: `intro-to-pwa-webinar`,
-        poster: `https://images.unsplash.com/photo-1512428197675-daae5d4e1e43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1953&q=80`,
+        id: `Introduction-to-Progressive-Web-Apps`,
+        poster: `https://firebasestorage.googleapis.com/v0/b/acm-boo-boo.appspot.com/o/eps%2Fwebinar_PWA.png?alt=media&token=3f5d0fd3-c858-4fab-b1ce-c71793bc859f`,
         what: `Webinar on "Introduction to Progressive Web Apps"`,
         where: `Online`,
         when: `31/03/2020`,
@@ -137,8 +137,8 @@ export const eventData = [
         ],
     },
     {
-        id: `building-app-with-flutter`,
-        poster: `https://images.unsplash.com/photo-1512428197675-daae5d4e1e43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1953&q=80`,
+        id: `Build-native-Web-Apps-using-Flutter:101`,
+        poster: `https://firebasestorage.googleapis.com/v0/b/acm-boo-boo.appspot.com/o/eps%2Fwebinar_flutter.png?alt=media&token=db612ae6-fda5-42e5-8ec0-cf8fd5adf9dd`,
         what: `Webinar on "Building native apps with Flutter: 101"`,
         where: `online`,
         when: `30/03/2020`,
@@ -182,7 +182,7 @@ export const eventData = [
     },
     {
         id: `cyber-rakshak-training`,
-        poster: `https://images.unsplash.com/photo-1512428197675-daae5d4e1e43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1953&q=80`,
+        poster: `https://www.endnowfoundation.org/img/cyber_rakshak_01.jpg`,
         what: `Cyber Rakshaks Training program `,
         where: `Cse Seminar Hall`,
         when: `05/03/2020`,
@@ -227,7 +227,7 @@ export const eventData = [
     },
     {
         id: `interviews-cyber-rakshaks`,
-        poster: `https://images.unsplash.com/photo-1512428197675-daae5d4e1e43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1953&q=80`,
+        poster: `https://www.endnowfoundation.org/img/cyber_rakshak_02.jpg`,
         what: `Interviews for Cyber Rakshaks`,
         where: `Whatsapp video call`,
         when: `25/02/2020`,
@@ -282,8 +282,8 @@ export const eventData = [
         //],
     },
     {
-        id: `intro-to-dwc`,
-        poster: `https://images.unsplash.com/photo-1512428197675-daae5d4e1e43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1953&q=80`,
+        id: `Digital-Wellbeing-Council-(MOU-meet)`,
+        poster: `https://firebasestorage.googleapis.com/v0/b/acm-boo-boo.appspot.com/o/eps%2Fdcm.png?alt=media&token=b3ee403b-9c4a-49f6-bd8d-a2fed123f1e5`,
         what: ` Lecture on DWC and "The need of Digital Safety"`,
         where: `Cse Seminar Hall`,
         when: `31/01/2020`,
@@ -329,8 +329,8 @@ export const eventData = [
         //],
     },
     {
-        id: `session-on-git-hub`,
-        poster: `https://images.unsplash.com/photo-1512428197675-daae5d4e1e43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1953&q=80`,
+        id: `One-day-faculty-training-with-Hands-on-session-on-"GIT-HUB:-Open-Source-Version-Control-Systems"`,
+        poster: `https://firebasestorage.googleapis.com/v0/b/acm-boo-boo.appspot.com/o/eps%2Fgh.png?alt=media&token=f89cd9cb-b0e4-4e5f-87b3-c42813c22982`,
         what: `Hands-on session on “GIT HUB" `,
         where: `CSE Lab-4`,
         when: `04/01/2020`,
@@ -375,8 +375,8 @@ export const eventData = [
         //],
     },
     {
-        id: `green-lock-security`,
-        poster: `https://images.unsplash.com/photo-1512428197675-daae5d4e1e43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1953&q=80`,
+        id: `Behind-the-Green-Lock:-Security-for-Today's-Internet`,
+        poster: `https://firebasestorage.googleapis.com/v0/b/acm-boo-boo.appspot.com/o/eps%2FACM%20India%20Industry%20Webinar.png?alt=media&token=17c1ec0c-2086-47dd-9693-b358eb299f43`,
         what: `Webinar on "Green Lock Security"`,
         where: `CSE LAB 4`,
         when: `05/10/2019`,
@@ -419,8 +419,8 @@ export const eventData = [
         //],
     },
     {
-        id: `computer-architecture`,
-        poster: `https://images.unsplash.com/photo-1512428197675-daae5d4e1e43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1953&q=80`,
+        id: `A-New-Age-for-Computer-Architecture-with-Dave-Patterson`,
+        poster: `https://firebasestorage.googleapis.com/v0/b/acm-boo-boo.appspot.com/o/eps%2Ftt1.png?alt=media&token=758c9b00-46d6-4585-9dc5-f2ad43b56815`,
         what: `Webinar on "Computer Architecture"`,
         where: `Online`,
         when: `29/08/2019`,
@@ -443,7 +443,7 @@ export const eventData = [
                 details: `M.A, M.B and M.C`,
             }
         ],
-
+        eventurls:[`https://learning.acm.org/techtalks/computerarchitecture`]
         //coordinators: [
         //    {
         //        name: `Shreyas Anna Zindabad`,
@@ -463,8 +463,8 @@ export const eventData = [
         //],
     },
     {
-        id: `jamboree`,
-        poster: `https://images.unsplash.com/photo-1512428197675-daae5d4e1e43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1953&q=80`,
+        id: `A-Lecture-on-"Entrepreneurship-and-Management-skills"`,
+        poster: `https://firebasestorage.googleapis.com/v0/b/acm-boo-boo.appspot.com/o/eps%2Fgl.png?alt=media&token=6213541e-bbf6-40c7-b4f0-4eedbcaec6c8,
         what: `Lecture on "Entrepreneurship and Management skills"`,
         where: `Cse Seminar Hall`,
         when: `22/08/2019`,
@@ -507,8 +507,8 @@ export const eventData = [
         //],
     },
     {
-        id: `mvsr-acm-inaugural`,
-        poster: `https://images.unsplash.com/photo-1512428197675-daae5d4e1e43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1953&q=80`,
+        id: `inaugural-ceremony-of-mvsr-acm-Student-chapter`,
+        poster: `https://firebasestorage.googleapis.com/v0/b/acm-boo-boo.appspot.com/o/eps%2Finp.png?alt=media&token=ac3d0edd-8292-4add-8a67-ac7f13192966`,
         what: `ACM Inaugural`,
         where: `Cse Seminar Hall`,
         when: `02/08/2019`,
