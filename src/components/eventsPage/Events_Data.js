@@ -105,8 +105,8 @@ export const eventData = [
         ],
     },
     {
-        id: `cyber-security-webinar`,//########posters need tobe updated############
-        poster: `https://images.unsplash.com/photo-1512428197675-daae5d4e1e43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1953&q=80`,
+        id: `Cyber-Security-Essentials`,
+        poster: `https://firebasestorage.googleapis.com/v0/b/acm-boo-boo.appspot.com/o/eps%2Fwce.jpeg?alt=media&token=95ded0ef-1e7e-4769-aead-2bd38ffe4c6a`,
         what: `Webinar on "Cyber Security Essentials"`,
         where: `Online`,
         when: `06/04/2020`,
@@ -121,8 +121,8 @@ export const eventData = [
         ],
     },
     {
-        id: `intro-to-pwa-webinar`,//########posters need tobe updated############
-        poster: `https://images.unsplash.com/photo-1512428197675-daae5d4e1e43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1953&q=80`,
+        id: `Introduction-to-Progressive-Web-Apps`,
+        poster: `https://firebasestorage.googleapis.com/v0/b/acm-boo-boo.appspot.com/o/eps%2Fwebinar_PWA.png?alt=media&token=3f5d0fd3-c858-4fab-b1ce-c71793bc859f`,
         what: `Webinar on "Introduction to Progressive Web Apps"`,
         where: `Online`,
         when: `31/03/2020`,
@@ -137,8 +137,8 @@ export const eventData = [
         ],
     },
     {
-        id: `building-app-with-flutter`,//########posters need tobe updated############
-        poster: `https://images.unsplash.com/photo-1512428197675-daae5d4e1e43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1953&q=80`,
+        id: `Build-native-Web-Apps-using-Flutter:101`,
+        poster: `https://firebasestorage.googleapis.com/v0/b/acm-boo-boo.appspot.com/o/eps%2Fwebinar_flutter.png?alt=media&token=db612ae6-fda5-42e5-8ec0-cf8fd5adf9dd`,
         what: `Webinar on "Building native apps with Flutter: 101"`,
         where: `online`,
         when: `30/03/2020`,
@@ -419,8 +419,8 @@ export const eventData = [
         //],
     },
     {
-        id: `computer-architecture`,//###########Dont have Idea About it#######################
-        poster: `https://images.unsplash.com/photo-1512428197675-daae5d4e1e43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1953&q=80`,
+        id: `A-New-Age-for-Computer-Architecture-with-Dave-Patterson`,
+        poster: `https://firebasestorage.googleapis.com/v0/b/acm-boo-boo.appspot.com/o/eps%2Ftt1.png?alt=media&token=758c9b00-46d6-4585-9dc5-f2ad43b56815`,
         what: `Webinar on "Computer Architecture"`,
         where: `Online`,
         when: `29/08/2019`,
@@ -443,7 +443,7 @@ export const eventData = [
                 details: `M.A, M.B and M.C`,
             }
         ],
-
+        eventurls:[`https://learning.acm.org/techtalks/computerarchitecture`]
         //coordinators: [
         //    {
         //        name: `Shreyas Anna Zindabad`,
