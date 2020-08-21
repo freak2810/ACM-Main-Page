@@ -229,7 +229,7 @@ export const eventData = [
         id: `interviews-cyber-rakshaks`,
         poster: `https://www.endnowfoundation.org/img/cyber_rakshak_02.jpg`,
         what: `Interviews for Cyber Rakshaks`,
-        where: `Whatsapp video call`,
+        where: `Online video conferencing`,
         when: `25/02/2020`,
         upcoming: false,
         aboutEvent: `Interviews for “Cyber Rakshaks” through video calling as part of Digital Wellbeing Council in association with END NOW Foundation
@@ -419,6 +419,50 @@ export const eventData = [
         //],
     },
     {
+        id: `Teachers-day-celebrations`,
+        poster: `https://firebasestorage.googleapis.com/v0/b/acm-boo-boo.appspot.com/o/eps%2Fgl.png?alt=media&token=6213541e-bbf6-40c7-b4f0-4eedbcaec6c8`,
+        what: `Teachers Day Celebrations`,
+        where: `Cse Seminar Hall`,
+        when: `05/09/2019`,
+        upcoming: false,
+        aboutEvent: `MVSR ACM is a student chapter under the world-famous Professional society of ACM; Association for Computing Machinery is an international learned society for computing.MVSR ACM Student Chapter conducted “Teachers Day Celebrations” on 5th September, 2019 at CSED Lab2. The students expressed their gratitude and appreciation for their teachers on this day.All the teaching and non-teaching Staff were given a gift in the form of a Greeting Card i.e., handmade greeting cards (prepared by B.E. Sem III students) made out of crushed papers and ribbons as a token of love and respect towards the teachers by MVSR ACM Student members. The event ended on a happy note with a cake cutting where all the staff and students were distributed with snacks and cakes.A teacher plays great role in the student’s lives. Teachers are the real shapers of future of the students which can never be ignored. Teachers make their own lesson plan to make education more effective and interesting as well as facilitate students learning. The students took great effort and ensured that teachers enjoy every minute.The efforts of students were appreciated by teachers thus making the event a grand success.`,
+
+        //chiefGuests: [{
+        //    id: 1,
+        //    name: `Mr.Pankaj Talvar`,
+        //    details: `M.A, M.B and M.C`,
+        //},
+        //    {
+        //        id: 2,
+        //        name: `Dr.Boo Boo Me`,
+        //        details: `M.A, M.B and M.C`,
+        //    },
+        //    {
+        //        id: 3,
+        //        name: `Dr.Boo Boo`,
+        //        details: `M.A, M.B and M.C`,
+        //    }
+        //],
+
+        //coordinators: [
+        //    {
+        //        name: `Shreyas Anna Zindabad`,
+        //        designation: `Event Coordinator`,
+        //        contact: `emailid@example.com`
+        //    },
+        //    {
+        //        name: `Shreyas Anna Zindabad`,
+        //        designation: `Event Coordinator`,
+        //        contact: `emailid@example.com`
+        //    },
+        //    {
+        //       name: `Shreyas Anna Zindabad`,
+        //       designation: `Event Coordinator`,
+        //        contact: `emailid@example.com`
+        //    }
+        //],
+    },
+    {
         id: `A-New-Age-for-Computer-Architecture-with-Dave-Patterson`,
         poster: `https://firebasestorage.googleapis.com/v0/b/acm-boo-boo.appspot.com/o/eps%2Ftt1.png?alt=media&token=758c9b00-46d6-4585-9dc5-f2ad43b56815`,
         what: `Webinar on "Computer Architecture"`,
@@ -464,7 +508,7 @@ export const eventData = [
     },
     {
         id: `A-Lecture-on-"Entrepreneurship-and-Management-skills"`,
-        poster: `https://firebasestorage.googleapis.com/v0/b/acm-boo-boo.appspot.com/o/eps%2Fgl.png?alt=media&token=6213541e-bbf6-40c7-b4f0-4eedbcaec6c8,
+        poster: `https://firebasestorage.googleapis.com/v0/b/acm-boo-boo.appspot.com/o/eps%2Fgl.png?alt=media&token=6213541e-bbf6-40c7-b4f0-4eedbcaec6c8`,
         what: `Lecture on "Entrepreneurship and Management skills"`,
         where: `Cse Seminar Hall`,
         when: `22/08/2019`,
@@ -513,7 +557,7 @@ export const eventData = [
         where: `Cse Seminar Hall`,
         when: `02/08/2019`,
         upcoming: false,
-        aboutEvent: `The webinar highlighted the current challenges in Computer Architecture and identified future opportunities, projecting another golden age for the field of computer architecture in the next decade to deliver gains in cost, energy, and security, as well as performance. The lecture has considered two different approaches to improve program performance by improving efficiency in the use of hardware technology: First, by improving the performance of modern high-level languages that are typically interpreted; and second, by building domain-specific architectures that greatly improve performance and efficiency compared to general-purpose CPUs. In conclusion, the speaker suggested that the next decade will see a Cambrian explosion of novel computer architectures, meaning exciting times for computer architects in academia and industry.`,
+        aboutEvent: `Every ceremony starts on a good note but the one that stands out is the one that has left a proper impact on the audience. This event was successful in doing so. The ACM inauguration had turned it’s lights on with an introduction speech by our students Preethi and Harshini. To make this inaugural ceremony a blessed one invoke goddess Saraswati by kindling the lamp of knowledge and wisdom. For seeking the choicest blessings, for the same, parallelly along withprayer song the honorable Chief Guest S. Ramachandram and, admirable Principal Dr. G. Kanaka Durga, Vice-Principle Prof. S.G.S. Murthy, professor, Head of the department J. Prasanna Kumar, Dr. Akhil Khare, P. Shalini Faculty Sponsor, Padma lighted the lamp. After the Lighting of lamp, the honorable Chief Guest S. Ramachandram launched the MVSR ACM Logo. This inauguration that took place on the 2nd of August was just the beginning.`,
 
         chiefGuests: [{
             id: 1,
