@@ -23,7 +23,7 @@ header.navbar {
 
 .navbar .heading {
     position: relative;
-    color: #fff;
+    color: #ccc;
     font-size: 1rem;
     display: none;
     transition: all 0.6s linear;
@@ -42,7 +42,7 @@ header.navbar {
 }
 
 .navbar a {
-    color: white;
+    color: #ccc;
     text-decoration: none;
 }
 

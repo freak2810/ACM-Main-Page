@@ -1,201 +1,200 @@
 .events {
-    background-color: #303a52;
-    color: #cccccc;
+  background-color: #303a52;
+  color: #cccccc;
 }
 
 .events .poster {
-    height: 60vh;
-    background-repeat: no-repeat;
-    background-size: 100% 60%;
-    background-attachment: fixed;
+  height: 60vh;
+  background-repeat: no-repeat;
+  background-size: 100% 60%;
+  background-attachment: fixed;
 }
 
 .events .details {
-    padding: 0 10vw;
+  padding: 0 10vw;
 }
 
 .events .details .aboutVenue {
-    height: 40vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .events .details .aboutVenue .eachDetail {
-    min-height: 20vh;
-    width: 20vw;
-    margin: 5vw;
-    text-align: center;
+  min-height: 20vh;
+  width: 20vw;
+  margin: 5vw;
+  text-align: center;
 }
 
 .events .details .aboutVenue .eachDetail h4 {
-    margin: 0;
-    font-size: 1rem;
+  margin: 0;
+  font-size: 1rem;
 }
 
 .events .details .aboutVenue .eachDetail h1 {
-    margin: 0;
+  margin: 0;
 }
 
 .events .details .eventDetails {
-    display: flex;
-    justify-content: space-between;
-    margin: 15vh 0;
+  display: flex;
+  justify-content: space-between;
+  margin: 15vh 0;
 }
 
 .events .details .eventDetails .aboutEvent {
-    width: 50%;
-    min-height: 40vh;
-    padding: 2vh 2vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+  width: 50%;
+  min-height: 40vh;
+  padding: 2vh 2vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 .events .details .eventDetails .aboutEvent h4 {
-    font-size: 1.5rem;
-    margin: 10px 0;
+  font-size: 1.5rem;
+  margin: 10px 0;
 }
 
 .events .details .eventDetails .aboutEvent p {
-    font-size: 1.2rem;
-    margin: 0;
-    text-justify: auto;
+  font-size: 1.2rem;
+  margin: 0;
+  /* text-justify: auto; */
+  text-align: justify;
 }
 
 .events .details .eventDetails .chiefGuests {
-    width: 30%;
-    padding: 2vh 2vw;
+  width: 30%;
+  padding: 2vh 2vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.events .details .eventDetails .chiefGuests .eachGuest {
+  margin: 20px 0;
+}
+
+.events .details .eventDetails .chiefGuests h4 {
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+.events .details .eventDetails .chiefGuests .eachGuest h2 {
+  font-size: 1.2rem;
+  margin: 2vh 0;
+}
+
+.events .details .eventDetails .chiefGuests .eachGuest h4 {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.events .details .contactDetails {
+  padding: 2vh 2vw;
+}
+
+.events .details .eachCoordinator h2 {
+  margin: 5px 0;
+  font-size: 1.5rem;
+}
+
+.events .details .eachCoordinator p {
+  margin: 5px 0;
+  font-size: 1rem;
+  text-align: justify;
+  text-justify: distribute;
+}
+
+.events .details .contactDetails .coordinators {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1024px) {
+  .events .details .eventDetails {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .events .details .eventDetails {
+    flex-direction: column;
+  }
+
+  .events .details .eventDetails .aboutEvent {
+    width: 90%;
+    min-height: unset;
+    padding: 10% 5%;
+    margin: 0;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .events .details .eventDetails .chiefGuests {
+    width: 90%;
+    padding: 10% 5%;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-}
-
-.events .details .eventDetails .chiefGuests .eachGuest {
-    margin: 20px 0;
-}
-
-.events .details .eventDetails .chiefGuests h4 {
-    font-size: 1.5rem;
-    margin: 10px 0;
-}
-
-.events .details .eventDetails .chiefGuests .eachGuest h2 {
-    font-size: 1.2rem;
-    margin: 2vh 0;
-}
-
-.events .details .eventDetails .chiefGuests .eachGuest h4 {
-    font-size: 1rem;
-    margin: 0;
-}
-
-.events .details .contactDetails {
-    padding: 2vh 2vw;
-}
-
-.events .details .eachCoordinator h2 {
-    margin: 5px 0;
-    font-size: 1.5rem;
-}
-
-.events .details .eachCoordinator p {
-    margin: 5px 0;
-    font-size: 1rem;
-    text-align: justify;
-    text-justify: distribute;
-}
-
-
-.events .details .contactDetails .coordinators {
-    display: flex;
-    justify-content: space-between;
-}
-
-@media screen and (max-width: 1024px) {
-    .events .details .eventDetails {
-        display: flex;
-        justify-content: space-between;
-        margin: 0;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .events .details .eventDetails {
-        flex-direction: column;
-    }
-
-    .events .details .eventDetails .aboutEvent {
-        width: 90%;
-        min-height: unset;
-        padding: 10% 5%;
-        margin: 0;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .events .details .eventDetails .chiefGuests {
-        width: 90%;
-        padding: 10% 5%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
+  }
 }
 
 @media screen and (max-width: 480px) {
-    .events .poster {
-        height: 40vh;
-        background-size: 100% 40%;
-        background-position: 0 50px;
-    }
+  .events .poster {
+    height: 40vh;
+    background-size: 100% 40%;
+    background-position: 0 50px;
+  }
 
-    .events .details {
-        padding: 0;
-    }
+  .events .details {
+    padding: 0;
+  }
 
-    .events .details .aboutVenue {
-        height: 60vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-    }
+  .events .details .aboutVenue {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
 
-    .events .details .aboutVenue .eachDetail {
-        min-height: 0;
-        width: 90vw;
-        margin: auto 0;
-        text-align: center;
-    }
+  .events .details .aboutVenue .eachDetail {
+    min-height: 0;
+    width: 90vw;
+    margin: auto 0;
+    text-align: center;
+  }
 
-    .events .details .aboutVenue .eachDetail h4 {
-        margin: 0;
-        font-size: 1rem;
-    }
+  .events .details .aboutVenue .eachDetail h4 {
+    margin: 0;
+    font-size: 1rem;
+  }
 
-    .events .details .aboutVenue .eachDetail h1 {
-        margin: 0;
-        font-size: 1.5rem;
-    }
+  .events .details .aboutVenue .eachDetail h1 {
+    margin: 0;
+    font-size: 1.5rem;
+  }
 
-    .events .details .contactDetails .coordinators {
-        flex-direction: column;
-        text-align: center;
-    }
+  .events .details .contactDetails .coordinators {
+    flex-direction: column;
+    text-align: center;
+  }
 
-    .events .details .contactDetails {
-       text-align: center;
-    }
+  .events .details .contactDetails {
+    text-align: center;
+  }
 
-    .events .details .eachCoordinator h2 {
-        font-size: 1rem;
-    }
+  .events .details .eachCoordinator h2 {
+    font-size: 1rem;
+  }
 
-    .events .details .eachCoordinator p {
-        margin: 5px 0;
-        font-size: 0.6rem;
-    }
-
+  .events .details .eachCoordinator p {
+    margin: 5px 0;
+    font-size: 0.6rem;
+  }
 }

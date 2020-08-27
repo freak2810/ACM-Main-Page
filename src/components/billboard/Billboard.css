@@ -1,89 +1,86 @@
 .billboard {
-    height: 100vh;
-    width: 75%;
-    background-image: url('../../assets/Billboard/posterBG.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 75% 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  height: 100vh;
+  width: 75%;
+  background-image: url("../../assets/Billboard/posterBG.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 75% 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .billboard .posterLink {
-    height: 80%;
-    max-height: 700px;
+  height: 80%;
+  max-height: 700px;
 }
 
 .billboard .poster {
-    height: 100%;
-    background-color: transparent;
+  height: 100%;
+  background-color: #00000000;
 }
 
 .billboard .links {
-margin: 10px 0;
+  margin: 10px 0;
 }
 
-.billboard .links a{
-    margin: 0 20px;
-    padding: 10px 30px;
-    background-color: #dc3579;
-    border-radius: 100px;
-    color: #0d1536;
-    text-decoration: none;
+.billboard .links a {
+  margin: 0 20px;
+  padding: 10px 30px;
+  background-color: #d3e6f5;
+  border-radius: 100px;
+  color: #2692f8;
+  text-decoration: none;
 }
 
 .billboard .links a:hover {
-    transition:all 0.6s linear;
-    color:#dc3579;
-    background-color: #0d1536;
-    border: 2px solid #dc3579;
+  transition: all 0.6s linear;
+  color: #d3e6f5;
+  background-color:#2692f8;
+  border: 2px solid #d3e6f5;
 }
 
-
 @media screen and (max-width: 1024px) {
-    .billboard {
-        width: 70%;
-        border-right: 2px solid #6b778d;
-    }
+  .billboard {
+    width: 70%;
+    border-right: 2px solid #6b778d;
+  }
 
-    .billboard .posterLink {
-        width: 80%;
-        max-height: 700px;
-    }
+  .billboard .posterLink {
+    width: 80%;
+    max-height: 700px;
+  }
 
-    .billboard .poster {
-        width: 100%;
-    }
-
+  .billboard .poster {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .billboard .poster {
-        width: 100%;
-    }
+  .billboard .poster {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 480px) {
-    .billboard {
-        width: 100%;
-        background-size: 100% 100%;
-    }
+  .billboard {
+    width: 100%;
+    background-size: 100% 100%;
+  }
 
-    .billboard .posterLink {
-      height: auto;
-    }
+  .billboard .posterLink {
+    height: auto;
+  }
 
-    .billboard .poster {
-        margin: 50px 2%;
-        width: 96%;
-        height: auto;
-    }
+  .billboard .poster {
+    margin: 50px 2%;
+    width: 96%;
+    height: auto;
+  }
 
-    .billboard .links a{
-        margin: 0 10px;
-        padding: 5px 15px;
-    }
-
+  .billboard .links a {
+    margin: 0 10px;
+    padding: 5px 15px;
+  }
 }
