@@ -27,10 +27,13 @@ export default function Footer() {
                     <NavLink exact to="/about">About</NavLink>
                 </li>
                 <li>
+                    <NavLink exact to="/events">Events</NavLink>
+                </li>
+                <li>
                     <NavLink exact to="/gallery">Gallery</NavLink>
                 </li>
                 <li>
-                    <NavLink exact to="/events">Events</NavLink>
+                    <HashLink to="/team">Our Team</HashLink>
                 </li>
                 <li>
                     <HashLink to="/#email">Contact Us</HashLink>

@@ -37,8 +37,8 @@ export const eventData = [
                 name: `Tanisha Bhayani`
             },
             {
-                id:8,
-                name:`Dr. Jayadev Gyani`
+                id: 8,
+                name: `Dr. Jayadev Gyani`
             }
         ]
     },
@@ -88,7 +88,7 @@ export const eventData = [
         // ],
     },
     {
-        id: `How-to-prepare-for-Competitive-Coding-&-Placements-in-IT/Software-companies?`,
+        id: `webinar-competitive-coding`,
         what: `Webinar on "Competitive Coding"`,
         poster: `https://firebasestorage.googleapis.com/v0/b/acm-boo-boo.appspot.com/o/eps%2Fwebinar-altered.png?alt=media&token=de111202-ccc4-45a4-a4e9-e10944978d3e`,
         where: `Online`,
@@ -105,7 +105,7 @@ export const eventData = [
         ],
     },
     {
-        id: `Cyber-Security-Essentials`,
+        id: `cyber-security-essentials`,
         poster: `https://firebasestorage.googleapis.com/v0/b/acm-boo-boo.appspot.com/o/eps%2Fwce.jpeg?alt=media&token=95ded0ef-1e7e-4769-aead-2bd38ffe4c6a`,
         what: `Webinar on "Cyber Security Essentials"`,
         where: `Online`,
@@ -113,15 +113,9 @@ export const eventData = [
         upcoming: false,
         aboutEvent: `Cyber Security has paved the way for many new employment positions like Cyber Security Engineer, Cryptographer, Security Architect, just to name a few. This online webinar gave the students relevant sources to build knowledge of CyberSecurity. The speaker explained the types of cyber-security issues faced by the companies, why exactly these issues come up, and also spoke about the different kinds of cyber attacks and the ways to deal with them. The speaker stated that the knowledge of Cyber Security Essentials is not just important to students seeking jobs in this domain, but it is also a essential trait that has to be learned by any Computer Science or IT student as it encompasses everything that pertains to protecting one's sensitive data, and not just the company. The webinar concluded with the speaker giving a brief description of the role of different Cyber Security jobs in today's industry.`,
 
-        chiefGuests: [{
-            id: 1,
-            name: `Dr.Boo Boo 1`,
-            details: `M.A, M.B and M.C`,
-        }
-        ],
     },
     {
-        id: `Introduction-to-Progressive-Web-Apps`,
+        id: `intro-to-pwa`,
         poster: `https://firebasestorage.googleapis.com/v0/b/acm-boo-boo.appspot.com/o/eps%2Fwebinar_PWA.png?alt=media&token=3f5d0fd3-c858-4fab-b1ce-c71793bc859f`,
         what: `Webinar on "Introduction to Progressive Web Apps"`,
         where: `Online`,
@@ -137,7 +131,7 @@ export const eventData = [
         ],
     },
     {
-        id: `Build-native-Web-Apps-using-Flutter:101`,
+        id: `webinar-flutter`,
         poster: `https://firebasestorage.googleapis.com/v0/b/acm-boo-boo.appspot.com/o/eps%2Fwebinar_flutter.png?alt=media&token=db612ae6-fda5-42e5-8ec0-cf8fd5adf9dd`,
         what: `Webinar on "Building native apps with Flutter: 101"`,
         where: `online`,
@@ -148,37 +142,12 @@ export const eventData = [
         chiefGuests: [{
             id: 1,
             name: `Mr.Hema Sai Charan`,
-            details: `M.A, M.B and M.C`,
         },
             {
                 id: 2,
                 name: `Mr.Sai Teja`,
-                details: `M.A, M.B and M.C`,
-            },
-            {
-                id: 3,
-                name: `Dr.Boo Boo`,
-                details: `M.A, M.B and M.C`,
             }
         ],
-
-        //coordinators: [
-        //    {
-        //        name: `Shreyas Anna Zindabad`,
-        //        designation: `Event Coordinator`,
-        //        contact: `emailid@example.com`
-        //    },
-        //    {
-        //        name: `Shreyas Anna Zindabad`,
-        //        designation: `Event Coordinator`,
-        //        contact: `emailid@example.com`
-        //    },
-        //    {
-        //        name: `Shreyas Anna Zindabad`,
-        //        designation: `Event Coordinator`,
-        //        contact: `emailid@example.com`
-        //    }
-        // ],
     },
     {
         id: `cyber-rakshak-training`,
@@ -187,43 +156,21 @@ export const eventData = [
         where: `Cse Seminar Hall`,
         when: `05/03/2020`,
         upcoming: false,
-        aboutEvent: `The Digital Wellbeing Council of MVSR Engineering College was initiated by MVSR ACM Student Chapter, Department of CSE on January 31st, 2020 under the guidance of Head of CSE Department/Training and Placement Officer/Chief Advisor MVSR ACM Prof. J.Prasanna Kumar, in the presence of Dr Akhil Khare, Professor/Mentor MVSR ACM of CSE Department, founder and CEO of End Now Foundation, Mr Anil Rachamalla. End Now Foundation is India’s first non-profit organization, Advocating for better internet ethics and digital wellness to evoke responsible online behavioural patterns amongst "Women / Children / Teens / Adolescents".The event was followed by a session on “The need for digital safety “along with few other interactive activities like debate and picture interpretation on the lines of digital safety. The Digital Wellbeing Council (DWC) at MVSR Engineering College will consist of a faculty counsellor Mrs.P. Shalini, Asst.Prof. CSED followed by 10 Cyber Rakshaks from each department. This council will guide teens/youth on safe online monitoring and controlling capabilities. It will work on the fundamentals of Anti-Ragging Council and, apart from talks, will take up activities in a more informal way. For more details visit https://www.endnowfoundation.org.`,
+        aboutEvent: `The Digital well-being Council of MVSR Engineering College was initiated by MVSR ACM Student Chapter, Department of CSE on January 31st, 2020 under the guidance of Head of CSE Department/Training and Placement Officer/Chief Advisor MVSR ACM Prof. J.Prasanna Kumar, in the presence of Dr Akhil Khare, Professor/Mentor MVSR ACM of CSE Department, founder and CEO of End Now Foundation, Mr Anil Rachamalla. End Now Foundation is India’s first non-profit organization, Advocating for better internet ethics and digital wellness to evoke responsible online behavioural patterns amongst "Women / Children / Teens / Adolescents".The event was followed by a session on “The need for digital safety “along with few other interactive activities like debate and picture interpretation on the lines of digital safety. The Digital Wellbeing Council (DWC) at MVSR Engineering College will consist of a faculty counsellor Mrs.P. Shalini, Asst.Prof. CSED followed by 10 Cyber Rakshaks from each department. This council will guide teens/youth on safe online monitoring and controlling capabilities. It will work on the fundamentals of Anti-Ragging Council and, apart from talks, will take up activities in a more informal way. For more details visit https://www.endnowfoundation.org.`,
 
         chiefGuests: [{
             id: 1,
             name: `Mr.Anil Rachamalla`,
-            details: `M.A, M.B and M.C`,
         },
             {
                 id: 2,
                 name: `Mr.Bhanu Yachareni`,
-                details: `M.A, M.B and M.C`,
             },
             {
                 id: 3,
                 name: `Dr.Boo Boo`,
-                details: `M.A, M.B and M.C`,
             }
         ],
-
-        //coordinators: [
-        //    {
-        //        name: `Shreyas Anna Zindabad`,
-        //        designation: `Event Coordinator`,
-        //        contact: `emailid@example.com`
-        //    },
-        //    {
-        //        name: `Shreyas Anna Zindabad`,
-        //        designation: `Event Coordinator`,
-        //        designation: `Event Coordinator`,
-        //        contact: `emailid@example.com`
-        //    },
-        //    {
-        //        name: `Shreyas Anna Zindabad`,
-        //        designation: `Event Coordinator`,
-        //        contact: `emailid@example.com`
-        //    }
-        //],
     },
     {
         id: `interviews-cyber-rakshaks`,
@@ -249,37 +196,16 @@ export const eventData = [
         chiefGuests: [{
             id: 1,
             name: `Mr.Bhanu Yachareni`,
-            details: `M.A, M.B and M.C`,
         },
             {
                 id: 2,
                 name: `Dr.Boo Boo Me`,
-                details: `M.A, M.B and M.C`,
             },
             {
                 id: 3,
                 name: `Dr.Boo Boo`,
-                details: `M.A, M.B and M.C`,
             }
         ],
-
-        //coordinators: [
-        //    {
-        //        name: `Shreyas Anna Zindabad`,
-        //        designation: `Event Coordinator`,
-        //        contact: `emailid@example.com`
-        //    },
-        //    {
-        //        name: `Shreyas Anna Zindabad`,
-        //        designation: `Event Coordinator`,
-        //        contact: `emailid@example.com`
-        //    },
-        //    {
-        //       name: `Shreyas Anna Zindabad`,
-        //       designation: `Event Coordinator`,
-        //        contact: `emailid@example.com`
-        //    }
-        //],
     },
     {
         id: `Digital-Wellbeing-Council-(MOU-meet)`,
@@ -296,37 +222,9 @@ export const eventData = [
         chiefGuests: [{
             id: 1,
             name: `Mr.Anil Rachamalla`,
-            details: `M.A, M.B and M.C`,
         },
-            {
-                id: 2,
-                name: `Dr.Boo Boo Me`,
-                details: `M.A, M.B and M.C`,
-            },
-            {
-                id: 3,
-                name: `Dr.Boo Boo`,
-                details: `M.A, M.B and M.C`,
-            }
         ],
 
-        //coordinators: [
-        //    {
-        //        name: `Shreyas Anna Zindabad`,
-        //        designation: `Event Coordinator`,
-        //        contact: `emailid@example.com`
-        //    },
-        //    {
-        //        name: `Shreyas Anna Zindabad`,
-        //        designation: `Event Coordinator`,
-        //        contact: `emailid@example.com`
-        //    },
-        //    {
-        //        name: `Shreyas Anna Zindabad`,
-        //        designation: `Event Coordinator`,
-        //        contact: `emailid@example.com`
-        //    }
-        //],
     },
     {
         id: `One-day-faculty-training-with-Hands-on-session-on-"GIT-HUB:-Open-Source-Version-Control-Systems"`,
@@ -339,40 +237,6 @@ export const eventData = [
         version control systems " in collaboration with spoken tutorials organised by ACM student chapter which dealth with GIT being open source dustributed version control system designed to handle  everything from small to very large projects with speed and efficiency , a lightning fast performance.  it outclasses SCM tools like subversion , CVS with fearures like cheap local branching and 
         multiple workflows .`,
 
-        chiefGuests: [{
-            id: 1,
-            name: `Dr.Boo Boo 1`,
-            details: `M.A, M.B and M.C`,
-        },
-            {
-                id: 2,
-                name: `Dr.Boo Boo Me`,
-                details: `M.A, M.B and M.C`,
-            },
-            {
-                id: 3,
-                name: `Dr.Boo Boo`,
-                details: `M.A, M.B and M.C`,
-            }
-        ],
-
-        //coordinators: [
-        //    {
-        //        name: `Shreyas Anna Zindabad`,
-        //        designation: `Event Coordinator`,
-        //        contact: `emailid@example.com`
-        //    },
-        //    {
-        //        name: `Shreyas Anna Zindabad`,
-        //        designation: `Event Coordinator`,
-        //        contact: `emailid@example.com`
-        //    },
-        //    {
-        //        name: `Shreyas Anna Zindabad`,
-        //       designation: `Event Coordinator`,
-        //        contact: `emailid@example.com`
-        //    }
-        //],
     },
     {
         id: `Behind-the-Green-Lock:-Security-for-Today's-Internet`,
@@ -386,81 +250,8 @@ export const eventData = [
         chiefGuests: [{
             id: 1,
             name: `Mr.Karthik Sivakumar`,
-            details: `M.A, M.B and M.C`,
         },
-            {
-                id: 2,
-                name: `Dr.Boo Boo Me`,
-                details: `M.A, M.B and M.C`,
-            },
-            {
-                id: 3,
-                name: `Dr.Boo Boo`,
-                details: `M.A, M.B and M.C`,
-            }
         ],
-
-        //coordinators: [
-        //    {
-        //        name: `Shreyas Anna Zindabad`,
-        //        designation: `Event Coordinator`,
-        //        contact: `emailid@example.com`
-        //    },
-        //    {
-        //        name: `Shreyas Anna Zindabad`,
-        //        designation: `Event Coordinator`,
-        //        contact: `emailid@example.com`
-        //    },
-        //    {
-        //        name: `Shreyas Anna Zindabad`,
-        //        designation: `Event Coordinator`,
-        //        contact: `emailid@example.com`
-        //    }
-        //],
-    },
-    {
-        id: `Teachers-day-celebrations`,
-        poster: `https://firebasestorage.googleapis.com/v0/b/acm-boo-boo.appspot.com/o/eps%2Fgl.png?alt=media&token=6213541e-bbf6-40c7-b4f0-4eedbcaec6c8`,
-        what: `Teachers Day Celebrations`,
-        where: `Cse Seminar Hall`,
-        when: `05/09/2019`,
-        upcoming: false,
-        aboutEvent: `MVSR ACM is a student chapter under the world-famous Professional society of ACM; Association for Computing Machinery is an international learned society for computing.MVSR ACM Student Chapter conducted “Teachers Day Celebrations” on 5th September, 2019 at CSED Lab2. The students expressed their gratitude and appreciation for their teachers on this day.All the teaching and non-teaching Staff were given a gift in the form of a Greeting Card i.e., handmade greeting cards (prepared by B.E. Sem III students) made out of crushed papers and ribbons as a token of love and respect towards the teachers by MVSR ACM Student members. The event ended on a happy note with a cake cutting where all the staff and students were distributed with snacks and cakes.A teacher plays great role in the student’s lives. Teachers are the real shapers of future of the students which can never be ignored. Teachers make their own lesson plan to make education more effective and interesting as well as facilitate students learning. The students took great effort and ensured that teachers enjoy every minute.The efforts of students were appreciated by teachers thus making the event a grand success.`,
-
-        //chiefGuests: [{
-        //    id: 1,
-        //    name: `Mr.Pankaj Talvar`,
-        //    details: `M.A, M.B and M.C`,
-        //},
-        //    {
-        //        id: 2,
-        //        name: `Dr.Boo Boo Me`,
-        //        details: `M.A, M.B and M.C`,
-        //    },
-        //    {
-        //        id: 3,
-        //        name: `Dr.Boo Boo`,
-        //        details: `M.A, M.B and M.C`,
-        //    }
-        //],
-
-        //coordinators: [
-        //    {
-        //        name: `Shreyas Anna Zindabad`,
-        //        designation: `Event Coordinator`,
-        //        contact: `emailid@example.com`
-        //    },
-        //    {
-        //        name: `Shreyas Anna Zindabad`,
-        //        designation: `Event Coordinator`,
-        //        contact: `emailid@example.com`
-        //    },
-        //    {
-        //       name: `Shreyas Anna Zindabad`,
-        //       designation: `Event Coordinator`,
-        //        contact: `emailid@example.com`
-        //    }
-        //],
     },
     {
         id: `A-New-Age-for-Computer-Architecture-with-Dave-Patterson`,
@@ -487,7 +278,7 @@ export const eventData = [
                 details: `M.A, M.B and M.C`,
             }
         ],
-        eventurls:[`https://learning.acm.org/techtalks/computerarchitecture`]
+        eventurls: [`https://learning.acm.org/techtalks/computerarchitecture`]
         //coordinators: [
         //    {
         //        name: `Shreyas Anna Zindabad`,

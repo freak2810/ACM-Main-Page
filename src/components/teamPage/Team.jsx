@@ -1,9 +1,9 @@
 import React from 'react';
-import {teamData} from "./Team_Data";
+import {teachersData, teamData} from "./Team_Data";
 import "./Team.css";
-import {faGithubSquare, faInternetExplorer, faLinkedin, faTwitterSquare} from "@fortawesome/free-brands-svg-icons";
+import {faGithubSquare, faLinkedin, faTwitterSquare} from "@fortawesome/free-brands-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faEnvelope} from "@fortawesome/free-solid-svg-icons";
+import {faEnvelope, faGlobeAsia} from "@fortawesome/free-solid-svg-icons";
 
 export default function Team() {
 
@@ -29,7 +29,7 @@ export default function Team() {
                     {
                         member.links.website ?
                             <a href={member.links.website} target="blank">
-                                <FontAwesomeIcon icon={faInternetExplorer} size="2x" className="socialIcons linkedIn"/>
+                                <FontAwesomeIcon icon={faGlobeAsia} size="2x" className="socialIcons linkedIn"/>
                             </a>
                             : null
                     }
@@ -59,6 +59,9 @@ export default function Team() {
     return <div className="team">
         <div className="heading">
             <h1>Our Team</h1>
+        </div>
+        <div className="teamList">
+            {renderTeamList(teachersData)}
         </div>
         <div className="teamList">
             {renderTeamList(teamData)}
