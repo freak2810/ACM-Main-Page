@@ -1,5 +1,24 @@
 export const eventData = [
     {
+        id: `Google-devlopers-study-jam-and-contest`,
+        poster: `https://firebasestorage.googleapis.com/v0/b/acm-boo-boo.appspot.com/o/eps%2Fgdsj.webp?alt=media&token=833137ba-d3d0-486e-bcc0-2d6e0a29c08e`,
+        what: `Google Devloper study Jam`,
+        where: `Online`,
+        when: `31st August - 6th September, 2020`,
+        upcoming: true,
+        aboutEvent: `MVSR ACM presents Google Developers Study Jam
+        Cloud services and their integrated working systems' understanding is very important for a Software Engineer. It is a sought after skill in any job-seeking individual and having it will definitely help one stand out from the crowd.
+        Google Developer platform is one such resource that lets individuals use integrated cloud tools and build, deploy and scale applications and websites with ease on the same infrastructure as Google.        
+        \n\n\n MVSR ACM Student Chapter brings to you a one-week Study Jam on Google Developer Tools to gain practical exposure on this cloud platform.        
+        \n\n\nParticipants get to know about resources like QWIKLABS and CODELABS and use them to participate in the contest that will begin on Day 2(01-09-2020) of the Study Jam.        
+        \n\n\nIn the contest, participants will be required to complete simple tasks whose insights will be given on Day 1 (31-08-2020), and gain Badges in Qwicklabs and google.dev platforms.
+        \n\n\nThese Badges help recruiters identify your skills as they have been validated by Google itself and hence carry a great value.
+        \n\n\nAt the end of the contest i.e., on Day 7(06-09-2020 06:00 IST), the top-5 performers (the top 5 participants with maximum number of badges earned) get an excellence certificate from google and the winner gets a domain name issued from .tech domains.        
+        \n\n\nDay 6 of the Study Jam has for the participants a unique interactive session with the speaker where the participants get to ask the speaker questions about careers in google, and how to contribute to open source platforms and join Clubs like GDG(Google Developers Group) and DSC(Developer Student Clubs).        
+        This is a one of a kind Study Jam and will also include talks by industry professionals on google projects like AMP template that can give the participants exclusive resources to upskill themselves. `,
+
+    },
+    {
         id: `international-deep-learning-workshop`,
         poster: `https://firebasestorage.googleapis.com/v0/b/acm-boo-boo.appspot.com/o/eps%2Fppp.jpg?alt=media&token=e7956fd1-5720-4216-bcbf-17912c635e32`,
         what: `International Workshop On Deep Learning`,

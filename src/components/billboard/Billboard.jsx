@@ -14,7 +14,7 @@ export default function Billboard() {
         <img
           src={Poster}
           className="poster"
-          alt="International Workshop on Deep Learning"
+          alt="MVSR ACM Google Developers Study Jam"
         />
       </a>
       <div className="links">
