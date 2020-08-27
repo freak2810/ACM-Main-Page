@@ -6,13 +6,13 @@ export const ABOUT_DATA = [
     {
         imageURL: AboutPicture1,
         name: "Association for Computing Machinery",
-        info: `ACM MVSR is a subsidiary of Association for Computing Machinery (ACM) , a worldwide learning society for computing. The chapter was founded on August 2, 2019. We see a world where computing helps solve tomorrow’s problems – where we use our knowledge and skills to advance the profession and make a positive impact.`,
+        info: `As the world’s largest computing society, ACM brings together computing professionals and researchers to address the challenges in computing field. ACM promotes the highest standards, and recognise the technical excellence. ACM offers volunteer opportunities for members and non‐members that create networking possibilities and enhance career development. `,
         float: 'left'
     },
     {
         imageURL: AboutPicture2,
         name: "MVSR ACM Student Chapter",
-        info: `As the world’s largest computing society, ACM brings together computing professionals and researchers to address the challenges in computing field. ACM promotes the highest standards, and recognise the technical excellence. ACM offers volunteer opportunities for members and non‐members that create networking possibilities and enhance career development. `,
+        info: `ACM MVSR is a subsidiary of Association for Computing Machinery (ACM) , a worldwide learning society for computing. The chapter was founded on August 2, 2019. We see a world where computing helps solve tomorrow’s problems – where we use our knowledge and skills to advance the profession and make a positive impact.`,
         float: 'right'
     },
     {
