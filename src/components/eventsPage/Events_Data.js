@@ -1,6 +1,6 @@
 export const eventData = [
     {
-        id: `Google-devlopers-study-jam-and-contest`,
+        id: `Google-developers-study-jam-and-contest`,
         poster: `https://firebasestorage.googleapis.com/v0/b/acm-boo-boo.appspot.com/o/eps%2Fgdsj.webp?alt=media&token=833137ba-d3d0-486e-bcc0-2d6e0a29c08e`,
         what: `Google Devloper study Jam`,
         where: `Online`,
