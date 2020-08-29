@@ -14,7 +14,6 @@ import Treasurer from "assets/Team/treasurer.jpg";
 import TechHead from "assets/Team/techHead.jpg";
 import EditorialHead from "assets/Team/editorialHead.jpg";
 
-
 import TeacherShalini from "assets/Team/teacherShalini.jpg";
 import TeacherSabitha from "assets/Team/teacherSabitha.jpg";
 

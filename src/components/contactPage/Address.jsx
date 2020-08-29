@@ -1,9 +1,9 @@
 import React from 'react';
-import "./Address.css";
+import "components/contactPage/Address.css";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faEnvelope} from '@fortawesome/free-solid-svg-icons';
 import {faFacebookSquare, faInstagramSquare, faLinkedin} from "@fortawesome/free-brands-svg-icons";
-import BudhaChachu from "../../assets/hyderabad.svg";
+import BudhaChachu from "assets/hyderabad.svg";
 
 export default function Address() {
     return <div className="address">

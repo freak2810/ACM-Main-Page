@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
-import Image from "../../assets/contact-us.png";
-import "./Email.css";
+import Image from "assets/contact-us.png";
+import "components/contactPage/Email.css";
 import * as emailjs from 'emailjs-com';
 
 export default function Email() {

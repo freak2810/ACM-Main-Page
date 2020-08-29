@@ -1,6 +1,6 @@
 import React from 'react';
-import Logo from "../../assets/acm-black.png";
-import "./Footer.css"
+import Logo from "assets/acm-black.png";
+import "components/footer/Footer.css"
 import {NavLink} from "react-router-dom";
 import {faGithubAlt} from "@fortawesome/free-brands-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";

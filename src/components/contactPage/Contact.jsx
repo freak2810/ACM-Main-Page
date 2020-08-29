@@ -1,7 +1,7 @@
 import React from 'react';
-import "./Contact.css";
-import Email from "./Email";
-import Address from "./Address";
+import "components/contactPage/Contact.css";
+import Email from "components/contactPage/Email";
+import Address from "components/contactPage/Address";
 
 export default function Contact() {
     return <div className="contactUs">
