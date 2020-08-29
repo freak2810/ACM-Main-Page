@@ -1,22 +1,22 @@
-import Chair from "../../assets/Team/chair.jpg";
-import ViceChair from "../../assets/Team/viceChair.jpg";
-import EventsHead from "../../assets/Team/eventsHead.jpg";
-import NewsLetterHead from "../../assets/Team/newsletterHead.jpg";
-import JointSec from "../../assets/Team/jointSec.jpg";
-import Secretary from "../../assets/Team/secretary.jpg";
-import DesignHead from "../../assets/Team/designHead.jpg";
-import PublicityHead from "../../assets/Team/pubicityHead.jpg";
-import WebMaster from "../../assets/Team/webMaster.jpg";
-import MembershipChair from "../../assets/Team/membershipChair.jpg";
-import WebsiteHead from "../../assets/Team/websiteHead.jpg";
-import PRHead from "../../assets/Team/prHead.jpg";
-import Treasurer from "../../assets/Team/treasurer.jpg";
-import TechHead from "../../assets/Team/techHead.jpg";
-import EditorialHead from "../../assets/Team/editorialHead.jpg";
+import Chair from "assets/Team/chair.jpg";
+import ViceChair from "assets/Team/viceChair.jpg";
+import EventsHead from "assets/Team/eventsHead.jpg";
+import NewsLetterHead from "assets/Team/newsletterHead.jpg";
+import JointSec from "assets/Team/jointSec.jpg";
+import Secretary from "assets/Team/secretary.jpg";
+import DesignHead from "assets/Team/designHead.jpg";
+import PublicityHead from "assets/Team/pubicityHead.jpg";
+import WebMaster from "assets/Team/webMaster.jpg";
+import MembershipChair from "assets/Team/membershipChair.jpg";
+import WebsiteHead from "assets/Team/websiteHead.jpg";
+import PRHead from "assets/Team/prHead.jpg";
+import Treasurer from "assets/Team/treasurer.jpg";
+import TechHead from "assets/Team/techHead.jpg";
+import EditorialHead from "assets/Team/editorialHead.jpg";
 
 
-import TeacherShalini from "../../assets/Team/teacherShalini.jpg";
-import TeacherSabitha from "../../assets/Team/teacherSabitha.jpg";
+import TeacherShalini from "assets/Team/teacherShalini.jpg";
+import TeacherSabitha from "assets/Team/teacherSabitha.jpg";
 
 export const teachersData = [
 

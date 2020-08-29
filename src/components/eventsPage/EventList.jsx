@@ -1,5 +1,5 @@
 import React from 'react';
-import "./EventList.css";
+import "components/eventsPage/EventList.css";
 import {Link} from "react-router-dom";
 
 export default function EventList(props) {

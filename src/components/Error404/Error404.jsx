@@ -1,5 +1,5 @@
 import React from "react";
-import "./Error404.css";
+import "components/Error404/Error404.css";
 import {NavLink} from "react-router-dom";
 
 

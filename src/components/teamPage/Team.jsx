@@ -1,6 +1,6 @@
 import React from 'react';
-import {teachersData, teamData} from "./Team_Data";
-import "./Team.css";
+import {teachersData, teamData} from "components/teamPage/Team_Data";
+import "components/teamPage/Team.css";
 import {faGithubSquare, faLinkedin, faTwitterSquare} from "@fortawesome/free-brands-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faEnvelope, faGlobeAsia} from "@fortawesome/free-solid-svg-icons";

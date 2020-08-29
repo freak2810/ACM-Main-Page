@@ -1,6 +1,6 @@
 import React from "react";
 import "./Events.css";
-import Footer from "../footer/Footer";
+import Footer from "components/footer/Footer";
 
 export default function Events({event}) {
 
