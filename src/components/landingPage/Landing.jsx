@@ -1,7 +1,6 @@
 import React from "react";
 import "./Landing.css";
-import LeftSection from "components/landingPage/LeftSection"
-import RightSection from "components/landingPage/RightSection"
+import RightSection from "components/landingPage/RightSection";
 import Billboard from "components/billboard/Billboard";
 
 

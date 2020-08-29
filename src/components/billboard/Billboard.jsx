@@ -21,7 +21,7 @@ export default function Billboard() {
         <a href="https://acmmvsr.typeform.com/to/VIfH3nW1" target="blank">
           Register
         </a>
-        <NavLink to={`/events/Google-developers-study-jam-and-contest`}>
+        <NavLink to={`/events/google-developers-study-jam-and-contest`}>
           More Info
         </NavLink>
       </div>

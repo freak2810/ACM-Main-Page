@@ -1,28 +1,23 @@
-import React, {Suspense} from 'react';
+import React from 'react';
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom"
 import Navbar from "components/navbar/Navbar";
 import Footer from "components/footer/Footer";
 import ScrollToTop from "components/scrollToTop/ScrollToTop";
-import Loading from "components/loading/Loading";
 import Error404 from "components/Error404/Error404";
 import Events from "components/eventsPage/Events";
+import EventList from "components/eventsPage/EventList";
 
 import {eventData} from "components/eventsPage/Events_Data";
-
-const Home = React.lazy(() => import(`components/homePage/Home`));
-const Team = React.lazy(() => import(`components/teamPage/Team`));
-const Gallery = React.lazy(() => import(`components/galleryPage/Gallery`));
-const EventList = React.lazy(() => import(`components/eventsPage/EventList`));
-const About = React.lazy(() => import(`components/aboutPage/About`));
+import Home from "./components/homePage/Home";
+import About from "./components/aboutPage/About";
+import ImageGallery from "components/galleryPage/Gallery";
+import Team from "./components/teamPage/Team";
 
 
-const EventWithId = ({match}) => {
-    return <Events
-        event={eventData.filter(
-            event => event.id === match.params.id)[0]}
-    />
-}
-
+// const Home = React.lazy(() => import(`components/homePage/Home`));
+// const Team = React.lazy(() => import(`components/teamPage/Team`));
+// const Gallery = React.lazy(() => import(`components/galleryPage/Gallery`));
+// const About = React.lazy(() => import(`components/aboutPage/About`));
 
 function App() {
 
@@ -32,36 +27,28 @@ function App() {
             <Navbar/>
             <Switch>
                 <Route path="/" exact>
-                    <Suspense fallback={<Loading/>}>
-                        <Home/>
-                        <Footer/>
-                    </Suspense>
+                    <Home/>
+                    <Footer/>
                 </Route>
                 <Route path="/about">
-                    <Suspense fallback={<Loading/>}>
-                        <About/>
-                        <Footer/>
-                    </Suspense>
+                    <About/>
+                    <Footer/>
                 </Route>
                 <Route path="/gallery">
-                    <Suspense fallback={<Loading/>}>
-                        <Gallery/>
-                        <Footer/>
-                    </Suspense>
+                    <ImageGallery/>
+                    <Footer/>
                 </Route>
                 <Route exact path="/events">
-                    <Suspense fallback={<Loading/>}>
-                        <EventList eventData={eventData}/>
-                        <Footer/>
-                    </Suspense>
+                    <EventList eventData={eventData}/>
+                    <Footer/>
                 </Route>
                 <Route exact path="/team">
-                    <Suspense fallback={<Loading/>}>
-                        <Team/>
-                        <Footer/>
-                    </Suspense>
+                    <Team/>
+                    <Footer/>
                 </Route>
-                <Route path="/events/:id" component={EventWithId}>
+                <Route path="/events/:id">
+                    <Events/>
+                    <Footer/>
                 </Route>
                 <Route>
                     <Error404/>
