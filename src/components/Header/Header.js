@@ -1,11 +1,14 @@
 import React from "react";
 import {Helmet} from "react-helmet";
 
+
 export default function Header(props) {
 
     return <Helmet>
+        <meta charSet="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <title>
-            {props.name ? `ACM MVSR : ${props.name}` : `ACM MVSR Official Student Chapter`}
+            {props.name ? `ACM MVSR : ${props.name}` : `ACM MVSR`}
         </title>
         <link
             rel={`stylesheet`}
