@@ -6,9 +6,9 @@ import ScrollToTop from "components/scrollToTop/ScrollToTop";
 import Error404 from "components/Error404/Error404";
 import Events from "components/eventsPage/Events";
 import EventList from "components/eventsPage/EventList";
+import Loading from "components/loading/Loading";
 
 import {eventData} from "components/eventsPage/Events_Data";
-import Loading from "./components/loading/Loading";
 
 const Home = React.lazy(() => import(`components/homePage/Home`));
 const Team = React.lazy(() => import(`components/teamPage/Team`));

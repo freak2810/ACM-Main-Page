@@ -1,6 +1,7 @@
 import React from 'react';
 import "components/eventsPage/EventList.css";
 import {Link} from "react-router-dom";
+import Header from "../Header/Header";
 
 export default function EventList(props) {
 
@@ -18,6 +19,7 @@ export default function EventList(props) {
 
 
     return <div className="eventList">
+        <Header name="Events"/>
         <div className="heading">
             <h1>Events</h1>
         </div>

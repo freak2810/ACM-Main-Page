@@ -113,14 +113,14 @@ lockdown.`
 projects. They also got insights and suggestions from the judges on how they can improve the working of their software/app/website and were also provided with online resources to get the required knowledge in order to carry forward their project efficiently. With this event, INNOVISION 2020 had come to an end but team MVSR ACM is now all prepped up
 with a little more experience to take over INNOVISION 2021.`
     },
-    {
-        id: `innovision-2020-tech-quiz`,
-        poster: `https://firebasestorage.googleapis.com/v0/b/acm-boo-boo.appspot.com/o/eps%2Fitq.jpeg?alt=media&token=6aba224c-6fab-4337-ab65-7ba0237ef3cd`,
-        what: `Online Tech Quiz - Innovision 2020`,
-        where: `Online`,
-        when: `01/04/2020`,
-        aboutEvent: ``
-    },
+    // {
+    //     id: `innovision-2020-tech-quiz`,
+    //     poster: `https://firebasestorage.googleapis.com/v0/b/acm-boo-boo.appspot.com/o/eps%2Fitq.jpeg?alt=media&token=6aba224c-6fab-4337-ab65-7ba0237ef3cd`,
+    //     what: `Online Tech Quiz - Innovision 2020`,
+    //     where: `Online`,
+    //     when: `01/04/2020`,
+    //     aboutEvent: ``
+    // },
     {
         id: `cyber-security-essentials`,
         poster: `https://firebasestorage.googleapis.com/v0/b/acm-boo-boo.appspot.com/o/eps%2Fwce.jpeg?alt=media&token=95ded0ef-1e7e-4769-aead-2bd38ffe4c6a`,

@@ -1,15 +1,15 @@
 import React from "react";
 import "./Landing.css";
 import RightSection from "components/landingPage/RightSection";
-import Billboard from "components/billboard/Billboard";
+import LeftSection from "components/landingPage/LeftSection";
 
 
 const Landing = () => {
     return(
             <div className="grid-container">
                 <RightSection />
-                {/*<LeftSection />*/}
-                <Billboard/>
+                <LeftSection />
+                {/*<Billboard/>*/}
             </div>
     );
 }

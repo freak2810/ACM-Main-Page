@@ -3,6 +3,7 @@ import {useParams} from "react-router-dom";
 import "./Events.css";
 import {eventData} from "components/eventsPage/Events_Data";
 import Loading from "../loading/Loading";
+import Header from "../Header/Header";
 
 export default function Events() {
 
@@ -38,6 +39,7 @@ export default function Events() {
     }
 
     return !loading ? <div className="events">
+        <Header name={`${event.what}`}/>
         <div className="poster" style={{backgroundImage: `url(${event.poster})`}}/>
         <div className="details">
             <div className="aboutVenue">

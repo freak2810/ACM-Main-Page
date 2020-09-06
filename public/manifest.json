@@ -1,6 +1,11 @@
 {
-  "short_name": "React App",
-  "name": "ACM MVSR Student Chapter",
+  "short_name": "ACM MVSR",
+  "name": "ACM MVSR Student Chapter - Official Website",
+  "categories": [
+    "education",
+    "books"
+  ],
+  "description": "ACM MVSR is a subsidiary of Association for Computing Machinery (ACM), a worldwide learning society for computing. The chapter was founded on August 2, 2019.",
   "icons": [
     {
       "src": "logo.svg",
@@ -8,8 +13,8 @@
       "type": "image/x-icon"
     }
   ],
-  "start_url": ".",
+  "start_url": "https://mvsr.acm.org/",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#ccc",
+  "background_color": "transparent"
 }

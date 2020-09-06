@@ -1,10 +1,12 @@
 import React from "react";
 import "components/Error404/Error404.css";
 import {NavLink} from "react-router-dom";
+import Header from "../Header/Header";
 
 
 export default function Error404() {
     return <div className="error">
+        <Header name="Error 404"/>
         <section className="error-container">
             <span>4</span>
             <span><span className="screen-reader-text">0</span></span>

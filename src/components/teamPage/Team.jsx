@@ -4,6 +4,7 @@ import "components/teamPage/Team.css";
 import {faGithubSquare, faLinkedin, faTwitterSquare} from "@fortawesome/free-brands-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faEnvelope, faGlobeAsia} from "@fortawesome/free-solid-svg-icons";
+import Header from "../Header/Header";
 
 export default function Team() {
 
@@ -57,6 +58,7 @@ export default function Team() {
     )
 
     return <div className="team">
+        <Header name="Team"/>
         <div className="heading">
             <h1>Our Team</h1>
         </div>
