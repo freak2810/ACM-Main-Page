@@ -19,7 +19,7 @@ export default function EventList(props) {
 
 
     return <div className="eventList">
-        <Header name="Events"/>
+        <Header name="Events" description="ACM MVSR - Student Chapter has been conducting multiple events including both technical and non-technical which helped many students learn, improve and grow without missing the fun and creativity. ACM - MVSR also encourages students to such events and share their knowledge with the fellow peers"/>
         <div className="heading">
             <h1>Events</h1>
         </div>

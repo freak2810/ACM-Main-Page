@@ -58,7 +58,7 @@ export default function Team() {
     )
 
     return <div className="team">
-        <Header name="Team"/>
+        <Header name="Team" description="ACM MVSR - Student Chapter has a team of remarkable people who believe in their team and strive to improve themselves and the chapter"/>
         <div className="heading">
             <h1>Our Team</h1>
         </div>

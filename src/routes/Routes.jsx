@@ -1,5 +1,5 @@
 import React, {Suspense} from 'react';
-import {Route, Switch} from "react-router-dom";
+import {Route,Redirect, Switch} from "react-router-dom";
 import {eventData} from "components/eventsPage/Events_Data";
 import Loading from "components/loading/Loading";
 import Footer from "components/footer/Footer";
@@ -58,6 +58,9 @@ export default function Routes() {
                 <Team/>
                 <Footer/>
             </Suspense>
+        </Route>
+        <Route path="/wp">
+           <Redirect to="/"/>
         </Route>
         <Route>
             <Suspense fallback={<Loading/>}>

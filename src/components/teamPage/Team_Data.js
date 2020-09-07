@@ -197,12 +197,12 @@ export const teamData = [
         }
     }, {
         id: 15,
-    photo:EditorialHead,
-        name:`Karthik`,
-        designation:`Editorial Head`,
-        links:{
-            email: `june19th2001@gmail.com`,
-
+        photo: EditorialHead,
+        name: `Advaith Yamjala`,
+        designation: `Editorial Head`,
+        links: {
+            email: `yadvaith@gmail.com`,
+            linkedIn: `https://www.linkedin.com/in/advaith-yamjala-83631b1ab`
         }
     }
 ]

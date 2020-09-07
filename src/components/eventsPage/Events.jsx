@@ -39,7 +39,7 @@ export default function Events() {
     }
 
     return !loading ? <div className="events">
-        <Header name={`${event.what}`}/>
+        <Header name={`${event.what}`} description={`This Page contains all the details about ${event.what} comprising the information like when and where it happened, The Chief Guests and The Summary of the Event `}/>
         <div className="poster" style={{backgroundImage: `url(${event.poster})`}}/>
         <div className="details">
             <div className="aboutVenue">

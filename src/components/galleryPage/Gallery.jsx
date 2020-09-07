@@ -22,7 +22,7 @@ export default function ImageGallery() {
 
 
     return <div className={styles.gallery}>
-        <Header name="Gallery"/>
+        <Header name="Gallery" description="ACM MVSR - Student Chapter has snapshot all the events happened in the past as they serve as a memory and a constant remainder of our efforts and the need to share and improve knowledge"/>
         <div className={styles.galleryHeading} >
             <h1>Gallery</h1>
         </div>

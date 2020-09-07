@@ -2,13 +2,11 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    align-items: center;
     padding: 20px 20px 0 20px;
     background-color: #263859;
     color: #ccc;
     border-top: 2px solid #ff6768;
     z-index: 0;
-    min-height: 45vh;
 }
 
 footer img {
@@ -50,10 +48,6 @@ footer .links ul li:before {
     content: "\00BB \0020";
     color: #ff6768;
     margin-right: 5px;
-}
-
-footer .contact h2 {
-    margin: 10px 0;
 }
 
 footer button {
@@ -128,10 +122,12 @@ footer .credits a:hover {
 @media screen and (max-width: 480px) {
     footer {
         flex-direction: column;
+        align-items: center;
     }
 
     footer h2 {
-        margin: 50px 0 10px 0;
+        margin: 30px 0 10px 0;
+        text-align: center;
     }
 
     footer .links{

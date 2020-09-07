@@ -6,7 +6,7 @@ import Header from "components/header/Header";
 export default function Home()
 {
     return <div>
-        <Header/>
+        <Header description="ACM MVSR is a subsidiary of Association for Computing Machinery (ACM), a worldwide learning society for computing. The chapter was founded on August 2, 2019."/>
         <Landing/>
         <Contact/>
     </div>
