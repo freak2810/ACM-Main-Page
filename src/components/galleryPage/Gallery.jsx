@@ -3,7 +3,7 @@ import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
 import {photos} from "components/galleryPage/IMAGES_DATA";
 import styles from  "components/galleryPage/Gallery.module.css"
-import Header from "../Header/Header";
+import Header from "components/header/Header";
 
 export default function ImageGallery() {
     const [currentImage, setCurrentImage] = useState(0);

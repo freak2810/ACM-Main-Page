@@ -1,7 +1,7 @@
 import React from "react";
-import "components/Error404/Error404.css";
+import "components/error404/Error404.css";
 import {NavLink} from "react-router-dom";
-import Header from "../Header/Header";
+import Header from "components/header/Header";
 
 
 export default function Error404() {
@@ -16,6 +16,5 @@ export default function Error404() {
         <div className="link-container">
             <NavLink to="/" className="more-link">ACM MVSR Home</NavLink>
         </div>
-
     </div>
 }

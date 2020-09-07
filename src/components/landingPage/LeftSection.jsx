@@ -1,6 +1,6 @@
 import React from "react";
-import "./LeftSection.css";
-import MousePointer from "./MousePointer"
+import "components/landingPage/LeftSection.css";
+import MousePointer from "components/landingPage/MousePointer"
 
 
 const LeftSection = () => {

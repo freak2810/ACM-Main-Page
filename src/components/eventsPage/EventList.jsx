@@ -1,7 +1,7 @@
 import React from 'react';
 import "components/eventsPage/EventList.css";
 import {Link} from "react-router-dom";
-import Header from "../Header/Header";
+import Header from "components/header/Header";
 
 export default function EventList(props) {
 

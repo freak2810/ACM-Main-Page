@@ -1,8 +1,8 @@
 import React from "react";
-import "./About.css";
-import { ABOUT_DATA } from "./About_Data";
-import AboutCard from "./AboutCard";
-import Header from "../Header/Header";
+import "components/aboutPage/About.css";
+import { ABOUT_DATA } from "components/aboutPage/About_Data";
+import AboutCard from "components/aboutPage/AboutCard";
+import Header from "components/header/Header";
 
 const About = () => {
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-import "./Landing.css";
+import "components/landingPage/Landing.css";
 import RightSection from "components/landingPage/RightSection";
 import LeftSection from "components/landingPage/LeftSection";
 

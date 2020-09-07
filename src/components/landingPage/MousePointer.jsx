@@ -1,5 +1,5 @@
 import React from "react";
-import "./MousePointer.css";
+import "components/landingPage/MousePointer.css";
 
 
 const MousePointer = () => {

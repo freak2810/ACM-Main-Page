@@ -4,7 +4,7 @@ import "components/teamPage/Team.css";
 import {faGithubSquare, faLinkedin, faTwitterSquare} from "@fortawesome/free-brands-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faEnvelope, faGlobeAsia} from "@fortawesome/free-solid-svg-icons";
-import Header from "../Header/Header";
+import Header from "components/header/Header";
 
 export default function Team() {
 

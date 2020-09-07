@@ -1,6 +1,6 @@
 import React from "react";
-import Logo from "../../assets/mvsr-acm.png";
-import "./RightSection.css";
+import Logo from "assets/mvsr-acm.png";
+import "components/landingPage/RightSection.css";
 
 
 const RightSection = () => {
