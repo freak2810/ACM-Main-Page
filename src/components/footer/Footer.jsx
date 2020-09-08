@@ -21,30 +21,25 @@ export default function Footer() {
             <h2>Useful Links</h2>
             <ul>
                 <li>
-                    <NavLink exact to="/">Home</NavLink>
+                    <a href="https://services.acm.org/public/qj/proflevel/proflevel_control.cfm?level=3&country=India&form_type=Student&promo=LEVEL&pay=DD" rel="ACM Membership Form" target="blank">ACM Membership</a>
                 </li>
                 <li>
-                    <NavLink exact to="/about">About</NavLink>
+                    <a href="https://dl.acm.org/" rel="ACM Digital Library" target="blank">ACM Digital Library</a>
                 </li>
                 <li>
-                    <NavLink exact to="/events">Events</NavLink>
+                    <a href="https://www.oreilly.com/" rel="O'Reilly" target="blank">O'Reilly</a>
                 </li>
                 <li>
-                    <NavLink exact to="/gallery">Gallery</NavLink>
-                </li>
-                <li>
-                    <HashLink to="/team">Our Team</HashLink>
-                </li>
-                <li>
-                    <HashLink to="/#email">Contact Us</HashLink>
+                    <a href="https://acm.skillport.com/" rel="SkillSoft Link" target="blank">Skill Soft</a>
                 </li>
             </ul>
         </div>
         <div className="links">
             <h2>External Links</h2>
             <ul>
-                <li><a href="https://www.acm.org/" target="blank">ACM Official Page</a></li>
-                <li><a href="https://www.mvsrec.edu.in/" target="blank">MVSR Official Page</a></li>
+                <li><a href="https://www.mvsrec.edu.in/" target="blank" rel="MVSR Engineering College Official Site">MVSR Official Page</a></li>
+                <li><a href="https://www.acm.org/" target="blank" rel="ACM International Official SIte">ACM International</a></li>
+                <li><a href="https://india.acm.org/" target="blank" rel="ACM India Official Site">ACM India</a></li>
             </ul>
         </div>
         <div className="contact">
