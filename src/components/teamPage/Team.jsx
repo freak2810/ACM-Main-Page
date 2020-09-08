@@ -15,35 +15,35 @@ export default function Team() {
                 <div className="links">
                     {
                         member.links.linkedIn ?
-                            <a href={member.links.linkedIn} target="blank">
+                            <a href={member.links.linkedIn} target="blank" rel="LinkedIn Link">
                                 <FontAwesomeIcon icon={faLinkedin} size="2x" className="socialIcons linkedIn"/>
                             </a>
                             : null
                     }
                     {
                         member.links.github ?
-                            <a href={member.links.github} target="blank">
+                            <a href={member.links.github} target="blank" rel="GitHub Link">
                                 <FontAwesomeIcon icon={faGithubSquare} size="2x" className="socialIcons linkedIn"/>
                             </a>
                             : null
                     }
                     {
                         member.links.website ?
-                            <a href={member.links.website} target="blank">
+                            <a href={member.links.website} target="blank" rel="Website / Portfolio">
                                 <FontAwesomeIcon icon={faGlobeAsia} size="2x" className="socialIcons linkedIn"/>
                             </a>
                             : null
                     }
                     {
                         member.links.email ?
-                            <a href={`mailto:${member.links.email}`} target="blank">
+                            <a href={`mailto:${member.links.email}`} target="blank" rel="Email ID">
                                 <FontAwesomeIcon icon={faEnvelope} size="2x" className="socialIcons linkedIn"/>
                             </a>
                             : null
                     }
                     {
                         member.links.twitter ?
-                            <a href={member.links.twitter} target="blank">
+                            <a href={member.links.twitter} target="blank" rel="Twitter Link">
                                 <FontAwesomeIcon icon={faTwitterSquare} size="2x" className="socialIcons linkedIn"/>
                             </a>
                             : null

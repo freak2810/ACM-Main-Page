@@ -9,12 +9,22 @@ export default function Address() {
     return <div className="address">
         <h1>Hyderabad <img src={BudhaChachu} alt="Buddha Statue, Hyderabad" className="budha-chachu"/></h1>
         <h2>MVSR Engineering College, Nadergul.</h2>
-        <a href="mailto:contact@mvsr.acm.org" target="blank"><h4><FontAwesomeIcon icon={faEnvelope}/> contact@mvsr.acm.org</h4></a>
+        <a href="mailto:contact@mvsr.acm.org" target="blank" rel="Contact Email ID">
+            <h4><FontAwesomeIcon icon={faEnvelope}/> contact@mvsr.acm.org</h4>
+        </a>
         <h2>Connect with Us</h2>
         <div className="socialLinks">
-            <a href="https://www.linkedin.com/groups/13885592" target="blank"><FontAwesomeIcon icon={faLinkedin} size="3x" className="socialIcons linkedIn"/></a>
-            <a href="https://www.facebook.com/MVSR-ACM-Student-Chapter-2372670922946786" target="blank"><FontAwesomeIcon icon={faFacebookSquare} size="3x" className="socialIcons fb"/></a>
-            <a href="https://www.instagram.com/mvsr_acm/" target="blank"><FontAwesomeIcon icon={faInstagramSquare} size="3x" className="socialIcons insta"/></a>
+            <a href="https://www.linkedin.com/groups/13885592" rel="Follow us on LinkedIn"
+               target="blank">
+                <FontAwesomeIcon icon={faLinkedin} size="3x" className="socialIcons linkedIn"/>
+            </a>
+            <a href="https://www.facebook.com/MVSR-ACM-Student-Chapter-2372670922946786" rel="Follow Us on facebook"
+               target="blank">
+                <FontAwesomeIcon icon={faFacebookSquare} size="3x" className="socialIcons fb"/>
+            </a>
+            <a href="https://www.instagram.com/mvsr_acm/" rel="Follow Us on Instagram" target="blank">
+                <FontAwesomeIcon icon={faInstagramSquare} size="3x" className="socialIcons insta"/>
+            </a>
         </div>
     </div>
 }
