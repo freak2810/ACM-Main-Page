@@ -14,8 +14,35 @@ import Treasurer from "assets/Team/treasurer.jpg";
 import TechHead from "assets/Team/techHead.jpg";
 import EditorialHead from "assets/Team/editorialHead.jpg";
 
+import TeacherKumar from "assets/Team/teacherKumar.jpg";
+import TeacherKhare from "assets/Team/teacherKhare.jpg"
+
 import TeacherShalini from "assets/Team/teacherShalini.jpg";
 import TeacherSabitha from "assets/Team/teacherSabitha.jpg";
+
+export const facultyAdvisorsData = [
+
+    {
+        id: 1,
+        photo: TeacherKumar,
+        name: `Prof. J. Prasanna Kumar`,
+        collegeDesignation:`Head CSED`,
+        designation: `Chief Advisor ACM MVSR`,
+        links: {
+            email: `prasannakumar@mvsrec.edu.in`,
+        }
+    },
+    {
+        id: 2,
+        photo: TeacherKhare,
+        name: `Dr. Akhil Khare`,
+        collegeDesignation:`Prof. CSED`,
+        designation: `Mentor ACM MVSR`,
+        links: {
+            email: `khare_cse@mvsrec.edu.in`,
+        }
+    },
+]
 
 export const teachersData = [
 
@@ -23,6 +50,7 @@ export const teachersData = [
         id: 1,
         photo: TeacherShalini,
         name: `P Shalini`,
+        collegeDesignation:`Asst. Prof. CSED`,
         designation: `Faculty Coordinator`,
         links: {
             email: `shalinip_cse@mvsrec.edu.in`,
@@ -33,6 +61,7 @@ export const teachersData = [
         id: 2,
         photo: TeacherSabitha,
         name: `N Sabitha`,
+        collegeDesignation:`Asst. Prof. CSED`,
         designation: `Faculty Coordinator`,
         links: {
             email: `sabitha_cse@mvsrec.edu.in`,
@@ -195,14 +224,15 @@ export const teamData = [
             linkedIn: `https://www.linkedin.com/in/sujitha-reddy-4a061a1a0`,
             twitter: `https://twitter.com/sujithareddy21?s=08`
         }
-    }, {
-        id: 15,
-        photo: EditorialHead,
-        name: `Advaith Yamjala`,
-        designation: `Editorial Head`,
-        links: {
-            email: `yadvaith@gmail.com`,
-            linkedIn: `https://www.linkedin.com/in/advaith-yamjala-83631b1ab`
-        }
-    }
+    },
+    // {
+    //     id: 15,
+    //     photo: EditorialHead,
+    //     name: `Advaith Yamjala`,
+    //     designation: `Editorial Head`,
+    //     links: {
+    //         email: `yadvaith@gmail.com`,
+    //         linkedIn: `https://www.linkedin.com/in/advaith-yamjala-83631b1ab`
+    //     }
+    // }
 ]

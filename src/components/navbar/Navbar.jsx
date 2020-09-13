@@ -9,7 +9,6 @@ import {faBars} from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
 
-    const [color, setColor] = useState('transparent');
     const [showMenu, toggleMenu] = useState(false);
 
     const MobileMenu = () => {
@@ -65,21 +64,19 @@ const Navbar = () => {
         console.log(showMenu);
     }
 
-    useScrollPosition(({prevPos, currPos}) => {
-        if (-currPos.y > 10 * (window.innerHeight / 100)) {
-            setColor('#263859');
-        } else {
-            setColor('transparent');
-        }
-    })
+    // useScrollPosition(({prevPos, currPos}) => {
+    //     if (-currPos.y > 10 * (window.innerHeight / 100)) {
+    //         setColor('#263859');
+    //     } else {
+    //         setColor('transparent');
+    //     }
+    // })
 
     return (
-        <header className="navbar" style={{
-            backgroundColor: color,
-            borderBottom: color === "transparent" ? "none" : "2px solid #ff6768"
-        }}>
-            <NavLink exact to="/" className="logo-container"><img src={Logo} alt="MVSR ACM Logo"
-                                                                  className="logo"/></NavLink>
+        <header className="navbar">
+            <NavLink exact to="/" className="logo-container">
+                <img src={Logo} alt="MVSR ACM Logo" className="logo"/>
+            </NavLink>
             <h1 className="heading">MVSR ACM Student Chapter</h1>
             <nav className="navLinks">
                 <RenderMenuItems/>

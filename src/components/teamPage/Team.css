@@ -51,6 +51,7 @@
 
 .team .member .topBorder {
     border: 2px solid #ff6768;
+    background-color: #ff6768;
     position: absolute;
     top: -5%;
     width: 20%;
@@ -61,9 +62,6 @@
 
 
 .team .member:hover .topBorder {
-    border: 2px solid #ff6768;
-    position: absolute;
-    top: -5%;
     animation-play-state: running;
     opacity: 1;
     transition: opacity .3s linear;

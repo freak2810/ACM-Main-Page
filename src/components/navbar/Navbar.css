@@ -2,13 +2,17 @@ header.navbar {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100vw;
+    width: 100%;
     display: flex;
+    box-sizing: border-box;
     justify-content: space-between;
     align-items: center;
     transition: all 0.6s linear;
     height: 60px;
     z-index: 1000000;
+    padding: 0 20px;
+    background-color: #263859;
+    border-bottom: 2px solid #6b778d;
 }
 
 .navbar .logo {
@@ -18,7 +22,7 @@ header.navbar {
 }
 
 .navbar .logo-container{
-    margin: 0 5%;
+
 }
 
 .navbar .heading {
@@ -30,7 +34,7 @@ header.navbar {
 }
 
 .navbar .navLinks {
-    width: 35%;
+
 }
 
 .navbar .navLinks ul {
@@ -38,6 +42,10 @@ header.navbar {
     align-items: center;
     list-style: none;
     transition: all 0.6s linear;
+}
+
+.navbar .navLinks ul li{
+    /*background-color: #263859;*/
 }
 
 .navbar a {

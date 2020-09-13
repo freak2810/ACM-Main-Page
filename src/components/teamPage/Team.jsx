@@ -1,5 +1,5 @@
 import React from 'react';
-import {teachersData, teamData} from "components/teamPage/Team_Data";
+import {facultyAdvisorsData, teachersData, teamData} from "components/teamPage/Team_Data";
 import "components/teamPage/Team.css";
 import {faGithubSquare, faLinkedin, faTwitterSquare} from "@fortawesome/free-brands-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
@@ -51,6 +51,7 @@ export default function Team() {
                 </div>
                 <div className="details">
                     <h1>{member.name}</h1>
+                    {member.collegeDesignation ? <h2>{member.collegeDesignation}</h2> : null}
                     <h2>{member.designation}</h2>
                 </div>
             </div>
@@ -63,9 +64,12 @@ export default function Team() {
             <h1>Our Team</h1>
         </div>
         <div className="teamList">
-            {renderTeamList(teachersData)}
+            {renderTeamList(facultyAdvisorsData)}
         </div>
         <div className="teamList">
+            {renderTeamList(teachersData)}
+        </div>
+        <div className="teamList teachers">
             {renderTeamList(teamData)}
         </div>
     </div>
