@@ -4,7 +4,7 @@ footer {
     justify-content: space-evenly;
     padding: 20px 20px 0 20px;
     background-color: #263859;
-    color: #ccc;
+    color: #fff;
     border-top: 2px solid #ff6768;
     z-index: 0;
 }
@@ -36,7 +36,7 @@ footer .links ul li {
 
 footer .links ul li a {
     text-decoration: none;
-    color: #ccc;
+    color: #fff;
     transition: color 0.2s linear;
 }
 
@@ -57,7 +57,7 @@ footer button {
     text-transform: uppercase;
     transition: all 0.4s linear;
     background-color: transparent;
-    color: #ccc;
+    color: #fff;
     font-size: 1.1rem;
 }
 
@@ -86,7 +86,7 @@ footer .credits h5 {
 }
 
 footer .credits a {
-    color: #ccc;
+    color: #fff;
     text-decoration: none;
     transition: all 0.2s linear;
     padding: 0 10px;
