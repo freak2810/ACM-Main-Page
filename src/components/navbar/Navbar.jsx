@@ -22,37 +22,37 @@ const Navbar = () => {
     const RenderMenuItems = () =>
         <ul>
             <li>
-                <NavLink exact to="/"
+                <NavLink exact to="/" title="Home"
                          activeStyle={{color: '#ff6768', transition: 'all 0.6s linear'}}>
                     Home
                 </NavLink>
             </li>
             <li>
-                <NavLink to="/about"
+                <NavLink to="/about" title="About"
                          activeStyle={{color: '#ff6768', transition: 'all 0.6s linear'}}>
                     About
                 </NavLink>
             </li>
             <li>
-                <NavLink to="/events"
+                <NavLink to="/events" title="Events"
                          activeStyle={{color: '#ff6768', transition: 'all 0.6s linear'}}>
                     Events
                 </NavLink>
             </li>
             <li>
-                <NavLink to="/gallery"
+                <NavLink to="/gallery" title="Gallery"
                          activeStyle={{color: '#ff6768', transition: 'all 0.6s linear'}}>
                     Gallery
                 </NavLink>
             </li>
             <li>
-                <NavLink to="/team"
+                <NavLink to="/team" title="Our Team"
                          activeStyle={{color: '#ff6768', transition: 'all 0.6s linear'}}>
                     Our Team
                 </NavLink>
             </li>
             <li>
-                <HashLink to="/#email">
+                <HashLink to="/#email" title="Contact Us">
                     Contact Us
                 </HashLink>
             </li>
@@ -61,7 +61,6 @@ const Navbar = () => {
 
     const onMenuButtonCLicked = () => {
         toggleMenu(!showMenu);
-        console.log(showMenu);
     }
 
     // useScrollPosition(({prevPos, currPos}) => {
@@ -74,14 +73,15 @@ const Navbar = () => {
 
     return (
         <header className="navbar">
-            <NavLink exact to="/" className="logo-container">
+            <NavLink exact to="/" title="Home" className="logo-container">
                 <img src={Logo} alt="MVSR ACM Logo" className="logo"/>
             </NavLink>
             <h1 className="heading">MVSR ACM Student Chapter</h1>
             <nav className="navLinks">
                 <RenderMenuItems/>
             </nav>
-            <button onClick={() => onMenuButtonCLicked()}><FontAwesomeIcon className="menu" size="1x" icon={faBars}/>
+            <button onClick={() => onMenuButtonCLicked()}>
+                <FontAwesomeIcon className="menu" size="1x" icon={faBars}/>
             </button>
             {showMenu ? MobileMenu() : null}
         </header>

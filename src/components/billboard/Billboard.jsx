@@ -18,7 +18,7 @@ export default function Billboard() {
         />
       </a>
       <div className="links">
-        <a href="https://acmmvsr.typeform.com/to/VIfH3nW1" rel="ACM-MVSR Google Developers Study Jam Registration Link" target="blank">
+        <a href="https://acmmvsr.typeform.com/to/VIfH3nW1" title="ACM-MVSR Google Developers Study Jam Registration Link" target="blank">
           Register
         </a>
         <NavLink to={`/events/google-dev-study-jam`}>

@@ -21,25 +21,25 @@ export default function Footer() {
             <h2>Useful Links</h2>
             <ul>
                 <li>
-                    <a href="https://services.acm.org/public/qj/proflevel/proflevel_control.cfm?level=3&country=India&form_type=Student&promo=LEVEL&pay=DD" rel="ACM Membership Form" target="blank">ACM Membership</a>
+                    <a href="https://services.acm.org/public/qj/proflevel/proflevel_control.cfm?level=3&country=India&form_type=Student&promo=LEVEL&pay=DD" title="ACM Membership Form" target="blank">ACM Membership</a>
                 </li>
                 <li>
-                    <a href="https://dl.acm.org/" rel="ACM Digital Library" target="blank">ACM Digital Library</a>
+                    <a href="https://dl.acm.org/" title="ACM Digital Library" target="blank">ACM Digital Library</a>
                 </li>
                 <li>
-                    <a href="https://www.oreilly.com/" rel="O'Reilly" target="blank">O'Reilly</a>
+                    <a href="https://www.oreilly.com/" title="O'Reilly" target="blank">O'Reilly</a>
                 </li>
                 <li>
-                    <a href="https://acm.skillport.com/" rel="SkillSoft Link" target="blank">Skill Soft</a>
+                    <a href="https://acm.skillport.com/" title="SkillSoft Link" target="blank">Skill Soft</a>
                 </li>
             </ul>
         </div>
         <div className="links">
             <h2>External Links</h2>
             <ul>
-                <li><a href="https://www.mvsrec.edu.in/" target="blank" rel="MVSR Engineering College Official Site">MVSR Official Page</a></li>
-                <li><a href="https://www.acm.org/" target="blank" rel="ACM International Official SIte">ACM International</a></li>
-                <li><a href="https://india.acm.org/" target="blank" rel="ACM India Official Site">ACM India</a></li>
+                <li><a href="https://www.mvsrec.edu.in/" target="blank" title="MVSR Engineering College Official Site">MVSR Official Page</a></li>
+                <li><a href="https://www.acm.org/" target="blank" title="ACM International Official SIte">ACM International</a></li>
+                <li><a href="https://india.acm.org/" target="blank" title="ACM India Official Site">ACM India</a></li>
             </ul>
         </div>
         <div className="contact">
@@ -52,7 +52,7 @@ export default function Footer() {
         <div className="credits">
             <h5>Built in the beautiful city of Hyderabad</h5>
             <h5>Copyright © 2020 MVSR ACM</h5>
-            <a href="https://github.com/AdityaManikanth2810/ACM-Main-Page" target="blank">
+            <a href="https://github.com/AdityaManikanth2810/ACM-Main-Page" title="ACM React Project Code" target="blank">
                 <h5>Like our work? Check out the code <FontAwesomeIcon icon={faGithubAlt} size="sm"/></h5>
             </a>
         </div>

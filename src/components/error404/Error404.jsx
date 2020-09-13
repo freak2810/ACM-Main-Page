@@ -14,7 +14,7 @@ export default function Error404() {
         </section>
         <p className="zoom-area">Seems like you are lost... Lets get you back home</p>
         <div className="link-container">
-            <NavLink to="/" className="more-link">ACM MVSR Home</NavLink>
+            <NavLink to="/" title="Home" className="more-link">ACM MVSR Home</NavLink>
         </div>
     </div>
 }
