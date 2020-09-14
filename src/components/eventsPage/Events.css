@@ -87,13 +87,17 @@
   margin: 2vh 0;
 }
 
-.events .details .eventDetails .chiefGuests .eachGuest h4 {
+.events .details .eventDetails .chiefGuests .eachGuest p {
   font-size: 1rem;
   margin: 0;
 }
 
 .events .details .contactDetails {
   padding: 2vh 2vw;
+}
+.events .details .eachCoordinator{
+  width: 30vw;
+  margin-right: 40px;
 }
 
 .events .details .eachCoordinator h2 {
@@ -110,7 +114,6 @@
 
 .events .details .contactDetails .coordinators {
   display: flex;
-  justify-content: space-between;
 }
 
 @media screen and (max-width: 1024px) {

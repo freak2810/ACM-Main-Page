@@ -15,7 +15,6 @@ export default function Events() {
         const postData = eventData.find(post => {
             return id === post.id.toString();
         })
-
         setEvent(postData);
         setLoading(false)
     }, [id])
@@ -24,7 +23,7 @@ export default function Events() {
         chiefGuestList.map((chiefGuest) => (
             <div key={chiefGuest.id} className="eachGuest">
                 <h2>{chiefGuest.name}</h2>
-                <h4>{chiefGuest.details}</h4>
+                <p>{chiefGuest.details}</p>
             </div>
         ));
 
@@ -68,12 +67,12 @@ export default function Events() {
             </div>
             <div className="contactDetails">
                 {
-                    event.coordinators ?
+                    event.coordinators && event.upcoming ?
                         <h2>Have a question ?</h2>
                         : null
                 }
                 {
-                    event.coordinators ?
+                    event.coordinators && event.upcoming ?
                         <div className="coordinators">
                             {RenderCoordinatorsList(event.coordinators)}
                         </div>

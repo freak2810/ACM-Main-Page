@@ -3,7 +3,6 @@ import {NavLink} from "react-router-dom";
 import {HashLink} from 'react-router-hash-link';
 import Logo from "assets/mvsr-acm.png";
 import "components/navbar/Navbar.css";
-import {useScrollPosition} from '@n8tb1t/use-scroll-position';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faBars} from "@fortawesome/free-solid-svg-icons";
 

@@ -1,6 +1,8 @@
 .billboard {
   height: 100vh;
   width: 75%;
+  box-sizing: border-box;
+  padding-top: 7vh;
   background-image: url("../../assets/Billboard/posterBG.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -12,8 +14,8 @@
 }
 
 .billboard .posterLink {
-  height: 80%;
-  max-height: 700px;
+  height: 100%;
+  max-height: 70vh;
 }
 
 .billboard .poster {
@@ -22,29 +24,30 @@
 }
 
 .billboard .links {
-  margin: 10px 0;
+  margin: 20px 0;
 }
 
 .billboard .links a {
   margin: 0 20px;
   padding: 10px 30px;
-  background-color: #d3e6f5;
+  background-color: #7884a5;
   border-radius: 100px;
-  color: #2692f8;
+  color: #f3e8f3;
   text-decoration: none;
+  border: 2px solid transparent;
 }
 
 .billboard .links a:hover {
   transition: all 0.6s linear;
-  color: #d3e6f5;
-  background-color:#2692f8;
-  border: 2px solid #d3e6f5;
+  color: #7884a5;
+  background-color:#f3e8f390;
+  border: 2px solid #7884a5;
 }
 
 @media screen and (max-width: 1024px) {
   .billboard {
     width: 70%;
-    border-right: 2px solid #7494fc;
+    border-right: 2px solid #f0858e;
   }
 
   .billboard .posterLink {

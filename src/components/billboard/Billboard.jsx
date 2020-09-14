@@ -7,21 +7,22 @@ export default function Billboard() {
   return (
     <div className="billboard">
       <a
-        href="https://acmmvsr.typeform.com/to/VIfH3nW1"
+        href="https://forms.gle/hMcshmosZwMRit956"
         target="blank"
         className="posterLink"
+        title="Reinvent the development cycle by adopting Google Cloud"
       >
         <img
           src={Poster}
           className="poster"
-          alt="ACM-MVSR Google Developers Study Jam"
+          alt="Reinvent the development cycle by adopting Google Cloud"
         />
       </a>
       <div className="links">
-        <a href="https://acmmvsr.typeform.com/to/VIfH3nW1" title="ACM-MVSR Google Developers Study Jam Registration Link" target="blank">
+        <a href="https://forms.gle/hMcshmosZwMRit956" title="ACM-MVSR Reinventing the Development Cycle by Adopting Google CLoud Registration Link" target="blank">
           Register
         </a>
-        <NavLink to={`/events/google-dev-study-jam`}>
+        <NavLink title="Reinvent the development cycle by adopting Google Cloud" to={`/events/reinvent-dev-cycle-google-cloud`}>
           More Info
         </NavLink>
       </div>
