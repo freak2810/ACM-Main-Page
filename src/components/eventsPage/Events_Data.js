@@ -29,6 +29,24 @@ export const eventData = [
         }]
     },
     {
+        id:`gb-meet-2020`,
+        poster:`https://firebasestorage.googleapis.com/v0/b/acm-boo-boo.appspot.com/o/eps%2Fgbm.webp?alt=media&token=cdf6db15-51da-44db-bfe1-2c4a0da7724d`,
+        what:`General Body Meeting -2020`,
+        where:`Online`,
+        upcoming: false,
+        when:`6th September - 2020`,
+        aboutEvent: `The Meeting started with Keynote speech by Faculty sponsors and former ExCOM members, and then we had Speech by incoming ExCOM members and leads addressing the gathering, Further plan of action and inviting and discussing ideas for unique events`
+    },
+    {
+        id:`poster-presentation-competition`,
+        poster:`https://firebasestorage.googleapis.com/v0/b/acm-boo-boo.appspot.com/o/eps%2Feng_day.png?alt=media&token=ed996606-4f53-4b5a-a5b4-2d9724775029`,
+        what:`Poster Presentation Competition - Engineer's Day`,
+        where: `Online`,
+        when:`15th September - 2020, 5pm Onwards`,
+        upcoming: true,
+        aboutEvent: ` MVSR ACM Student Chapter brings you an Online Poster Presentation Competition to enhance your abilities to deliver visual presentations alongside sharpening your communication skills on this Engineer's day, present your skills to the community through some amazing posters`
+    },
+    {
         id: `google-dev-study-jam`,
         poster: `https://firebasestorage.googleapis.com/v0/b/acm-boo-boo.appspot.com/o/eps%2Fgdsj.webp?alt=media&token=833137ba-d3d0-486e-bcc0-2d6e0a29c08e`,
         what: `Google Developer Study Jam`,
@@ -123,13 +141,7 @@ export const eventData = [
         where: `Online`,
         when: `07/04/2020`,
         upcoming: false,
-        aboutEvent: `As Web Designing is a prominent skill in this current industry of Software Development, this event
-proved to be a great platform to students for showcasing their knowledge and creativity in the
-same. The winners were given cash prizes and certificates of appreciation. All participants received
-e-participation certificates. With the first event under INNOVISION 2020 coming to an end, it clearly has been observed that in
-spite of making it an online event, the members of ACM have done an incredible job, making it a
-celebration, to be able pull off the event with no obstacles even in these trying times of Covid-19
-lockdown.`
+        aboutEvent: `As Web Designing is a prominent skill in this current industry of Software Development, this event proved to be a great platform to students for showcasing their knowledge and creativity in the same. The winners were given cash prizes and certificates of appreciation. All participants received e-participation certificates. With the first event under INNOVISION 2020 coming to an end, it clearly has been observed that in spite of making it an online event, the members of ACM have done an incredible job, making it a celebration, to be able pull off the event with no obstacles even in these trying times of Covid-19 lockdown.`
     },
     {
         id: `innovision-2020-idea-presentation`,
@@ -199,7 +211,7 @@ with a little more experience to take over INNOVISION 2021.`
         id: `cyber-rakshak-training`,
         poster: `https://www.endnowfoundation.org/img/cyber_rakshak_01.jpg`,
         what: `Cyber Rakshaks Training Program `,
-        where: `Cse Seminar Hall`,
+        where: `CSE Seminar Hall`,
         when: `05/03/2020`,
         upcoming: false,
         aboutEvent: `The Digital well-being Council of MVSR Engineering College was initiated by MVSR ACM Student Chapter, Department of CSE on January 31st, 2020 under the guidance of Head of CSE Department/Training and Placement Officer/Chief Advisor MVSR ACM Prof. J.Prasanna Kumar, in the presence of Dr Akhil Khare, Professor/Mentor MVSR ACM of CSE Department, founder and CEO of End Now Foundation, Mr Anil Rachamalla. End Now Foundation is India’s first non-profit organization, Advocating for better internet ethics and digital wellness to evoke responsible online behavioural patterns amongst "Women / Children / Teens / Adolescents".The event was followed by a session on “The need for digital safety “along with few other interactive activities like debate and picture interpretation on the lines of digital safety. The Digital Wellbeing Council (DWC) at MVSR Engineering College will consist of a faculty counsellor Mrs.P. Shalini, Asst.Prof. CSED followed by 10 Cyber Rakshaks from each department. This council will guide teens/youth on safe online monitoring and controlling capabilities. It will work on the fundamentals of Anti-Ragging Council and, apart from talks, will take up activities in a more informal way. For more details visit https://www.endnowfoundation.org.`,
@@ -248,7 +260,7 @@ with a little more experience to take over INNOVISION 2021.`
         id: `dwc-mou`,
         poster: `https://firebasestorage.googleapis.com/v0/b/acm-boo-boo.appspot.com/o/eps%2Fdcm.png?alt=media&token=b3ee403b-9c4a-49f6-bd8d-a2fed123f1e5`,
         what: `Digital Well-being Council (MOU Meet) and a session on "Need for Digital Safety"`,
-        where: `Cse Seminar Hall`,
+        where: `CSE Seminar Hall`,
         when: `31/01/2020`,
         upcoming: false,
         aboutEvent: `Digital well-being council will guide teens/youth on safe online monitoring and controlling capabilities. It will work on the fundamentals of Anti-Ragging Council and, apart from talks, will take up activities in a more informal way. 
@@ -288,8 +300,8 @@ with a little more experience to take over INNOVISION 2021.`
     {
         id: `webinar-greenlock-security`,
         poster: `https://firebasestorage.googleapis.com/v0/b/acm-boo-boo.appspot.com/o/eps%2FACM%20India%20Industry%20Webinar.png?alt=media&token=17c1ec0c-2086-47dd-9693-b358eb299f43`,
-        what: `ACM India Industry Webinar on "Behind the Green Lock: Security for Today;s Internet"`,
-        where: `Cse Lab`,
+        what: `ACM India Industry Webinar on "Behind the Green Lock: Security for today's Internet"`,
+        where: `CSE Lab`,
         when: `05/10/2019`,
         upcoming: false,
         aboutEvent: `Over the last few years, we have all been made aware of the Green Lock in web browsers and how to use it to identify a "secure website". In this talk, the speaker gave insights about what happens under the hood when a web browser identifies a website with a "Green Lock". The talk specifically answered questions like "Can we share our personal information—our phone number, credit card, bank account information—with a website that has this Green Lock?", "Who verifies the website and issues the Green Lock?", "Can we trust this issuer?". The webinar helped the audience gain exclusive knowledge about CyberSecurity and they also got tips on how to safely browse the internet and measures to be taken to ensure secure payment gateways.`,
@@ -343,7 +355,7 @@ with a little more experience to take over INNOVISION 2021.`
         id: `entrepreneurship-management-lecture"`,
         poster: `https://firebasestorage.googleapis.com/v0/b/acm-boo-boo.appspot.com/o/eps%2Fgl.png?alt=media&token=6213541e-bbf6-40c7-b4f0-4eedbcaec6c8`,
         what: `Guest Lecture on "Entrepreneurship and Management skills"`,
-        where: `Cse Seminar Hall`,
+        where: `CSE Seminar Hall`,
         when: `22/08/2019`,
         upcoming: false,
         aboutEvent: `As in today's world, it is not just enough to gain technical skills relevant to one's specific industry, but also to be independent and have the skills to head a startup, MVSR ACM brought a guest lecture on Entrepreneurship and Management skills which was conducted on 22.08.2019. The lecture focused on giving students a briefing on the skills needed by entrepreneurs like financial management, human resource management, start-up, social and interpersonal, leadership, personality, marketing, technical and business management skills. The webinar concluded with the speaker encouraging all students to develop these skills to be independent as well as relevant in the future of the software industry.`,
@@ -363,7 +375,7 @@ with a little more experience to take over INNOVISION 2021.`
         id: `inaugural-mvsr-acm`,
         poster: `https://firebasestorage.googleapis.com/v0/b/acm-boo-boo.appspot.com/o/eps%2Finp.png?alt=media&token=ac3d0edd-8292-4add-8a67-ac7f13192966`,
         what: `MVSR ACM Inaugural`,
-        where: `Cse Seminar Hall`,
+        where: `CSE Seminar Hall`,
         when: `02/08/2019`,
         upcoming: false,
         aboutEvent: `Every ceremony starts on a good note but the one that stands out is the one that has left a proper impact on the audience. This event was successful in doing so. The ACM inauguration had turned it’s lights on with an introduction speech by our students Preethi and Harshini. To make this inaugural ceremony a blessed one invoke goddess Saraswati by kindling the lamp of knowledge and wisdom. For seeking the choicest blessings, for the same, parallelly along withprayer song the honorable Chief Guest S. Ramachandram and, admirable Principal Dr. G. Kanaka Durga, Vice-Principle Prof. S.G.S. Murthy, professor, Head of the department J. Prasanna Kumar, Dr. Akhil Khare, P. Shalini Faculty Sponsor, Padma lighted the lamp. After the Lighting of lamp, the honorable Chief Guest S. Ramachandram launched the MVSR ACM Logo. This inauguration that took place on the 2nd of August was just the beginning.`,

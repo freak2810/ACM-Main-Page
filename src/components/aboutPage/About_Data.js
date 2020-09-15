@@ -1,6 +1,6 @@
-import AboutPicture1 from "../../assets/logo.svg";
-import AboutPicture2 from "../../assets/mvsr-acm.png";
-import AboutPicture3 from "../../assets/acm-w.jpg";
+import AboutPicture1 from "assets/logo.svg";
+import AboutPicture2 from "assets/mvsr-acm.png";
+import AboutPicture3 from "assets/acm-w.jpg";
 
 export const ABOUT_DATA = [
     {

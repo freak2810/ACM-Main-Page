@@ -9,6 +9,7 @@ import {faBars} from "@fortawesome/free-solid-svg-icons";
 const Navbar = () => {
 
     const [showMenu, toggleMenu] = useState(false);
+    // const [color,setColor] = useState('transparent');
 
     const MobileMenu = () => {
         return <div className="mobileMenu">
