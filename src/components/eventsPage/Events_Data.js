@@ -63,6 +63,22 @@ export const eventData = [
         \n\n\nAt the end of the contest i.e., on Day 7(06-09-2020 06:00 IST), the top-5 performers (the top 5 participants with maximum number of badges earned) get an excellence certificate from google and the winner gets a domain name issued from .tech domains.        
         \n\n\nDay 6 of the Study Jam has for the participants a unique interactive session with the speaker where the participants get to ask the speaker questions about careers in google, and how to contribute to open source platforms and join Clubs like GDG(Google Developers Group) and DSC(Developer Student Clubs).        
         This is a one of a kind Study Jam and will also include talks by industry professionals on google projects like AMP template that can give the participants exclusive resources to upskill themselves. `,
+        coordinators: [{
+
+            id: 1,
+            name: `N.S.S.Koushik`,
+            contact: `+91 94419 50643`
+
+        }, {
+            id: 2,
+            name:`V Rakesh Reddy`,
+            contact: `+91 88977 62288`
+        }, {
+            id: 3,
+            name: `Rithika Akula`,
+            contact: `+91 77022 71676`
+        }]
+    },
 
     },
     {
