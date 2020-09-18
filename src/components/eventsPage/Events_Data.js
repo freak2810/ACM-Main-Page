@@ -20,7 +20,7 @@ export const eventData = [
 
         }, {
             id: 2,
-            name:`Lalitha Snigdha`,
+            name: `Lalitha Snigdha`,
             contact: `+91 98668 53612`
         }, {
             id: 3,
@@ -29,22 +29,22 @@ export const eventData = [
         }]
     },
     {
-        id:`gb-meet-2020`,
-        poster:`https://firebasestorage.googleapis.com/v0/b/acm-boo-boo.appspot.com/o/eps%2Fgbm.webp?alt=media&token=cdf6db15-51da-44db-bfe1-2c4a0da7724d`,
-        what:`General Body Meeting -2020`,
-        where:`Online`,
-        upcoming: false,
-        when:`6th September - 2020`,
-        aboutEvent: `The Meeting started with Keynote speech by Faculty sponsors and former ExCOM members, and then we had Speech by incoming ExCOM members and leads addressing the gathering, Further plan of action and inviting and discussing ideas for unique events`
-    },
-    {
-        id:`poster-presentation-competition`,
-        poster:`https://firebasestorage.googleapis.com/v0/b/acm-boo-boo.appspot.com/o/eps%2Feng_day.png?alt=media&token=ed996606-4f53-4b5a-a5b4-2d9724775029`,
-        what:`Poster Presentation Competition - Engineer's Day`,
+        id: `poster-presentation-competition`,
+        poster: `https://firebasestorage.googleapis.com/v0/b/acm-boo-boo.appspot.com/o/eps%2Feng_day.png?alt=media&token=ed996606-4f53-4b5a-a5b4-2d9724775029`,
+        what: `Poster Presentation Competition - Engineer's Day`,
         where: `Online`,
-        when:`15th September - 2020, 5pm Onwards`,
+        when: `15th September - 2020, 5pm Onwards`,
         upcoming: true,
         aboutEvent: ` MVSR ACM Student Chapter brings you an Online Poster Presentation Competition to enhance your abilities to deliver visual presentations alongside sharpening your communication skills on this Engineer's day, present your skills to the community through some amazing posters`
+    },
+    {
+        id: `gb-meet-2020`,
+        poster: `https://firebasestorage.googleapis.com/v0/b/acm-boo-boo.appspot.com/o/eps%2Fgbm.webp?alt=media&token=cdf6db15-51da-44db-bfe1-2c4a0da7724d`,
+        what: `General Body Meeting -2020`,
+        where: `Online`,
+        upcoming: false,
+        when: `6th September - 2020`,
+        aboutEvent: `The Meeting started with Keynote speech by Faculty sponsors and former ExCOM members, and then we had Speech by incoming ExCOM members and leads addressing the gathering, Further plan of action and inviting and discussing ideas for unique events`
     },
     {
         id: `google-dev-study-jam`,
@@ -78,8 +78,6 @@ export const eventData = [
             name: `Rithika Akula`,
             contact: `+91 77022 71676`
         }]
-    },
-
     },
     {
         id: `international-deep-learning-workshop`,
@@ -170,14 +168,14 @@ export const eventData = [
 projects. They also got insights and suggestions from the judges on how they can improve the working of their software/app/website and were also provided with online resources to get the required knowledge in order to carry forward their project efficiently. With this event, INNOVISION 2020 had come to an end but team MVSR ACM is now all prepped up
 with a little more experience to take over INNOVISION 2021.`
     },
-    // {
-    //     id: `innovision-2020-tech-quiz`,
-    //     poster: `https://firebasestorage.googleapis.com/v0/b/acm-boo-boo.appspot.com/o/eps%2Fitq.jpeg?alt=media&token=6aba224c-6fab-4337-ab65-7ba0237ef3cd`,
-    //     what: `Online Tech Quiz - Innovision 2020`,
-    //     where: `Online`,
-    //     when: `01/04/2020`,
-    //     aboutEvent: ``
-    // },
+    {
+        id: `innovision-2020-tech-quiz`,
+        poster: `https://firebasestorage.googleapis.com/v0/b/acm-boo-boo.appspot.com/o/eps%2Fitq.jpeg?alt=media&token=6aba224c-6fab-4337-ab65-7ba0237ef3cd`,
+        what: `Online Tech Quiz - Innovision 2020`,
+        where: `Online`,
+        when: `31/03/2020`,
+        aboutEvent: `During this quarantine, the student chapter aimed to get the best out of students who have been lazing out this whole time. Taking one step at a time, we wanted to start brushing up with some basic concepts but not by letting the competition go down. So, the team had decided to conduct an “Online Tech-Quiz” on the 31st of March, 2020. The questions were prepared by the volunteers well in advance keeping in mind the difficulty level as well as building up the competition, cause there can only be one winner.`
+    },
     {
         id: `cyber-security-essentials`,
         poster: `https://firebasestorage.googleapis.com/v0/b/acm-boo-boo.appspot.com/o/eps%2Fwce.jpeg?alt=media&token=95ded0ef-1e7e-4769-aead-2bd38ffe4c6a`,
