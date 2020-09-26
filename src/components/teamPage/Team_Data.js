@@ -225,14 +225,15 @@ export const teamData = [
             twitter: `https://twitter.com/sujithareddy21?s=08`
         }
     },
-    // {
-    //     id: 15,
-    //     photo: EditorialHead,
-    //     name: `Advaith Yamjala`,
-    //     designation: `Editorial Head`,
-    //     links: {
-    //         email: `yadvaith@gmail.com`,
-    //         linkedIn: `https://www.linkedin.com/in/advaith-yamjala-83631b1ab`
-    //     }
-    // }
+    {
+        id: 15,
+        photo: EditorialHead,
+        name: `Hyderaboeni Anusha`,
+        designation: `Editorial Head`,
+        links: {
+            email: `anushahyderaboeni01@gmail.com`,
+            linkedIn: `www.linkedin.com/in/hyderaboeni-anusha-3b07411a6`,
+            github:`https://github.com/HyderaboeniAnusha`
+        }
+    }
 ]
