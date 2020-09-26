@@ -35,7 +35,7 @@ export default function Footer() {
         <div className="links">
             <h2>External Links</h2>
             <ul>
-                <li><a href="https://www.mvsrec.edu.in/" target="blank" title="MVSR Engineering College Official Site">MVSR Official Page</a></li>
+                <li><a href="https://www.mvsrec.edu.in/" target="blank" title="MVSR Engineering College Official Site">MVSR Engineering College</a></li>
                 <li><a href="https://www.acm.org/" target="blank" title="ACM International Official SIte">ACM International</a></li>
                 <li><a href="https://india.acm.org/" target="blank" title="ACM India Official Site">ACM India</a></li>
             </ul>

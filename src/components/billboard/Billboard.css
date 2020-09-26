@@ -39,9 +39,9 @@
 
 .billboard .links a:hover {
   transition: all 0.6s linear;
-  color: #fff;
+  color: #072540;
   background-color:#93c2db;
-  border: 2px solid #fff;
+  border: 2px solid transparent;
 }
 
 @media screen and (max-width: 1024px) {

@@ -7,15 +7,15 @@ export default function Billboard() {
   return (
     <div className="billboard">
       <a
-        href="https://forms.gle/hMcshmosZwMRit956"
+        href="https://organize.mlh.io/participants/events/4573-mvsr-acm-hacktober-fest"
         target="blank"
         className="posterLink"
-        title="Reinvent the development cycle by adopting Google Cloud"
+        title="MVSR ACM Hacktober Fest Registration Link"
       >
         <img
           src={Poster}
           className="poster"
-          alt="Reinvent the development cycle by adopting Google Cloud"
+          alt="MVSR ACM Hacktober Fest"
         />
       </a>
       <div className="links">
