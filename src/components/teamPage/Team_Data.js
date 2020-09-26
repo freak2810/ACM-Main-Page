@@ -27,7 +27,7 @@ export const facultyAdvisorsData = [
         photo: TeacherKumar,
         name: `Prof. J. Prasanna Kumar`,
         collegeDesignation:`Head CSED`,
-        designation: `Chief Advisor ACM MVSR`,
+        designation: `Chief Advisor, ACM MVSR`,
         links: {
             email: `prasannakumar@mvsrec.edu.in`,
         }
@@ -37,7 +37,7 @@ export const facultyAdvisorsData = [
         photo: TeacherKhare,
         name: `Dr. Akhil Khare`,
         collegeDesignation:`Prof. CSED`,
-        designation: `Mentor ACM MVSR`,
+        designation: `Mentor, ACM MVSR`,
         links: {
             email: `khare_cse@mvsrec.edu.in`,
         }
@@ -51,7 +51,7 @@ export const teachersData = [
         photo: TeacherShalini,
         name: `P Shalini`,
         collegeDesignation:`Asst. Prof. CSED`,
-        designation: `Faculty Coordinator`,
+        designation: `Faculty Advisor, MVSR ACM `,
         links: {
             email: `shalinip_cse@mvsrec.edu.in`,
             linkedIn: `https://www.linkedin.com/in/shalinipasupulate/`
@@ -62,7 +62,7 @@ export const teachersData = [
         photo: TeacherSabitha,
         name: `N Sabitha`,
         collegeDesignation:`Asst. Prof. CSED`,
-        designation: `Faculty Coordinator`,
+        designation: `Faculty Advisor, MVSR ACM-W`,
         links: {
             email: `sabitha_cse@mvsrec.edu.in`,
             linkedIn: `https://www.linkedin.com/in/sabithanagamalla`,
@@ -228,7 +228,7 @@ export const teamData = [
     {
         id: 15,
         photo: EditorialHead,
-        name: `Hyderaboeni Anusha`,
+        name: `Anusha Hyderaboeni`,
         designation: `Editorial Head`,
         links: {
             email: `anushahyderaboeni01@gmail.com`,

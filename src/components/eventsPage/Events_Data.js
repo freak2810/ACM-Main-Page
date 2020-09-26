@@ -1,11 +1,36 @@
 export const eventData = [
     {
+        id: `mvsr-acm-hactober-2020`,
+        poster: `https://firebasestorage.googleapis.com/v0/b/acm-boo-boo.appspot.com/o/eps%2Fh2.png?alt=media&token=bcd773a4-bafb-4ee9-bd95-318b018cc7ae`,
+        what: `MVSR ACM Hactober Fest`,
+        when: `1st - 31st October, 2020`,
+        where: `Online`,
+        upcoming: true,
+        aboutEvent: `Hacktoberfest — brought to you by DigitalOcean in partnership with Dev & Intel — is a month-long celebration of open source software. Maintainers are invited to guide would-be contributors towards issues that will help move the project forward, and contributors get the opportunity to give back to both projects they like and others they've just discovered. No contribution is too small — bug fixes and documentation updates are valid ways of participating.`,
+        coordinators: [
+            {
+                id: 1,
+                name: `N.S.S.Koushik`,
+                contact: `+91 94419 50643`
+            },
+            {
+                id: 2,
+                name: `Lalitha Snigdha`,
+                contact: `+91 98668 53612`
+            },
+            {
+                id: 3,
+                name: `Aditya Manikanth Rao`,
+                contact: `+91 77027 31415`
+            }],
+    },
+    {
         id: `reinvent-dev-cycle-google-cloud`,
         poster: `https://firebasestorage.googleapis.com/v0/b/acm-boo-boo.appspot.com/o/eps%2Fgcp.webp?alt=media&token=04f2f618-2542-4d50-8dcc-bd77a3a5d4d3`,
         what: `Reinvent Development cycle by adapting Google Cloud`,
         where: `Online`,
         when: `19th, 20th, 26th & 27th September, 2020 at 4.30 PM - 5.45 PM`,
-        upcoming: true,
+        upcoming: false,
         aboutEvent: `Wondering how to spend those weekend evenings? What can one hour of scrolling through Social Media give you? "Time used wisely is time invested, not spent". MVSR ACM Student Chapter brings to you a one-of-a-kind BootCamp to learn one of the most prized skills an engineer should have... Cloud Computing. Have you ever wondered where all the Social Media apps you've been scrolling through run? It's the venerable Google App Engine! In these sessions, let's find out together what's under the hood...Serverless Computing is a Cloud Computing Execution Model and very few online resources are currently available to learn this technology. Participants get to learn about this technology from Mr. Vasudev Maduri, who has been in the industry of Cloud Computing for more than 3 years. Join us in this bootcamp being conducted on: 19th, 20th, 26th, 27th of September from 4:30 to 5:45 PM on the specified dates. So invest your 1 hour of weekend time and gain exclusive knowledge about Google Cloud and Serverless Computing!`,
         chiefGuests: [{
             id: 1,
@@ -71,7 +96,7 @@ export const eventData = [
 
         }, {
             id: 2,
-            name:`V Rakesh Reddy`,
+            name: `V Rakesh Reddy`,
             contact: `+91 88977 62288`
         }, {
             id: 3,

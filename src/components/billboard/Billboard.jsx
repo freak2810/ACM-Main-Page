@@ -19,10 +19,10 @@ export default function Billboard() {
         />
       </a>
       <div className="links">
-        <a href="https://forms.gle/hMcshmosZwMRit956" title="ACM-MVSR Reinventing the Development Cycle by Adopting Google CLoud Registration Link" target="blank">
+        <a href="https://organize.mlh.io/participants/events/4573-mvsr-acm-hacktober-fest" title="MVSR ACM Hacktober Fest Registration Link" target="blank">
           Register
         </a>
-        <NavLink title="Reinvent the development cycle by adopting Google Cloud" to={`/events/reinvent-dev-cycle-google-cloud`}>
+        <NavLink title="MVSR ACM Hacktober Fest" to={`/events/mvsr-acm-hactober-2020`}>
           More Info
         </NavLink>
       </div>
