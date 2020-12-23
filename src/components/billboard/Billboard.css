@@ -30,24 +30,24 @@
 .billboard .links a {
   margin: 0 20px;
   padding: 10px 30px;
-  background-color: #9c4668;
+  background-color: #20718d;
   border-radius: 100px;
-  color: #fff;
+  color: #142e4b;
   text-decoration: none;
   border: 2px solid transparent;
 }
 
 .billboard .links a:hover {
   transition: all 0.6s linear;
-  color: #072540;
-  background-color:#93c2db;
-  border: 2px solid transparent;
+  color: #20718d;
+  background-color:#142e4b;
+  border: 2px solid #20718d;
 }
 
 @media screen and (max-width: 1024px) {
   .billboard {
     width: 70%;
-    border-right: 2px solid #f0858e;
+    border-right: 2px solid #20718d;
   }
 
   .billboard .posterLink {

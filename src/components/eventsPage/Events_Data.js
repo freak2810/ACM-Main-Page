@@ -1,11 +1,38 @@
 export const eventData = [
     {
+        id: `c-programming-basics`,
+        poster: `https://firebasestorage.googleapis.com/v0/b/acm-boo-boo.appspot.com/o/eps%2FclangWS.png?alt=media&token=e9148d2d-fb0e-41b5-ab82-9b9eccf0c5c3`,
+        what: `Hands-on Session on Basics of C Programming`,
+        when: `27th December`,
+        where: `Online`,
+        upcoming: true,
+        aboutEvent: `Are you wondering how to kickstart your programming journey? We have a cover for you.MVSR ACM Student Chapter is organising a free workshop and hands-on session on asics of Programming.`,
+        chiefGuests: [{
+            id: 1,
+            name: `Meghanadha Reddy`,
+            details: `Senior Manager at Cigniti Technologies`
+        }],
+        coordinators: [
+            {
+                id: 2,
+                name: `Malapati Sravani Lakshmi`,
+                contact: `+91 79952 57120`
+
+            },
+            {
+                id: 1,
+                name: `Vikram`,
+                contact: `+91 96528 12110`
+            },
+        ]
+    },
+    {
         id: `mvsr-acm-hactober-2020`,
         poster: `https://firebasestorage.googleapis.com/v0/b/acm-boo-boo.appspot.com/o/eps%2Fh2.png?alt=media&token=bcd773a4-bafb-4ee9-bd95-318b018cc7ae`,
         what: `MVSR ACM Hactober Fest`,
-        when: `1st - 31st October, 2020`,
+        when: `3rd - 31st October, 2020`,
         where: `Online`,
-        upcoming: true,
+        upcoming: false,
         aboutEvent: `Hacktoberfest — brought to you by DigitalOcean in partnership with Dev & Intel — is a month-long celebration of open source software. Maintainers are invited to guide would-be contributors towards issues that will help move the project forward, and contributors get the opportunity to give back to both projects they like and others they've just discovered. No contribution is too small — bug fixes and documentation updates are valid ways of participating.`,
         coordinators: [
             {
@@ -27,7 +54,7 @@ export const eventData = [
     {
         id: `reinvent-dev-cycle-google-cloud`,
         poster: `https://firebasestorage.googleapis.com/v0/b/acm-boo-boo.appspot.com/o/eps%2Fgcp.webp?alt=media&token=04f2f618-2542-4d50-8dcc-bd77a3a5d4d3`,
-        what: `Reinvent Development cycle by adapting Google Cloud`,
+        what: `Reinvent Development cycle by adopting Google Cloud`,
         where: `Online`,
         when: `19th, 20th, 26th & 27th September, 2020 at 4.30 PM - 5.45 PM`,
         upcoming: false,

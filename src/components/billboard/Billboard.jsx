@@ -7,22 +7,22 @@ export default function Billboard() {
   return (
     <div className="billboard">
       <a
-        href="https://organize.mlh.io/participants/events/4573-mvsr-acm-hacktober-fest"
+        href="https://forms.gle/Ws5gYcYZeh9mYwPg9"
         target="blank"
         className="posterLink"
-        title="MVSR ACM Hacktober Fest Registration Link"
+        title="Hands-on Session on Basics of C Programming Registration Link"
       >
         <img
           src={Poster}
           className="poster"
-          alt="MVSR ACM Hacktober Fest"
+          alt="Hands-on Session on Basics of C Programming"
         />
       </a>
       <div className="links">
-        <a href="https://organize.mlh.io/participants/events/4573-mvsr-acm-hacktober-fest" title="MVSR ACM Hacktober Fest Registration Link" target="blank">
+        <a href="https://forms.gle/Ws5gYcYZeh9mYwPg9" title="Hands-on Session on Basics of C Programming Registration Link" target="blank">
           Register
         </a>
-        <NavLink title="MVSR ACM Hacktober Fest" to={`/events/mvsr-acm-hactober-2020`}>
+        <NavLink title="Hands-on Session on Basics of C Programming" to={`/events/c-programming-basics`}>
           More Info
         </NavLink>
       </div>

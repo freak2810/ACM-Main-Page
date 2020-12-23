@@ -47,7 +47,7 @@
     transition: all 0.2s linear;
 }
 
-.address a:hover{
+.address a:hover h4{
     color: #ff6768;
 }
 
