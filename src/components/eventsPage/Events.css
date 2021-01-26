@@ -57,11 +57,13 @@
   margin: 10px 0;
 }
 
-.events .details .eventDetails .aboutEvent p {
+
+.events .details .eventDetails .aboutEvent p,
+.events .details .eventDetails .aboutEvent a
+{
   font-size: 1.2rem;
-  margin: 0;
-  /* text-justify: auto; */
-  text-align: justify;
+  margin: 10px 0;
+  color:#cccccc
 }
 
 .events .details .eventDetails .chiefGuests {

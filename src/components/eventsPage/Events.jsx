@@ -4,19 +4,38 @@ import "./Events.css";
 import {eventData} from "components/eventsPage/Events_Data";
 import Loading from "components/loading/Loading";
 import Header from "components/header/Header";
+import SanityClient from "../../Client";
+import BlockContent from "@sanity/block-content-to-react"
 
 export default function Events() {
 
     const {id} = useParams();
-    const [event, setEvent] = useState({});
-    const [loading, setLoading] = useState(true);
+    const [event, setEvent] = useState(null);
 
     useEffect(() => {
-        const postData = eventData.find(post => {
-            return id === post.id.toString();
-        })
-        setEvent(postData);
-        setLoading(false)
+
+        console.log(id);
+        SanityClient.fetch(`
+              *[id.current == "${id}"]
+              {
+                id,
+                what,
+                where,
+                when,
+                upcoming,
+                aboutEvent,
+                poster {
+                    asset -> {
+                        _id,
+                        url
+                    }
+                },
+                chiefGuests,
+                coordinators,
+              }
+  `)
+    .then(data=>setEvent(data[0]))
+    .catch(err=>console.log(err))
     }, [id])
 
     const RenderChiefGuestList = (chiefGuestList) =>
@@ -37,9 +56,9 @@ export default function Events() {
         ));
     }
 
-    return !loading ? <div className="events">
+    return event ? <div className="events">
         <Header name={`${event.what}`} description={`This Page contains all the details about ${event.what} comprising the information like when and where it happened, The Chief Guests and The Summary of the Event `}/>
-        <div className="poster" style={{backgroundImage: `url(${event.poster})`}}/>
+        <div className="poster" style={{backgroundImage: `url(${event.poster.asset.url})`}}/>
         <div className="details">
             <div className="aboutVenue">
                 <div className="eachDetail">
@@ -58,7 +77,13 @@ export default function Events() {
             <div className="eventDetails">
                 <div className="aboutEvent">
                     <h4>{event.upcoming ? `What is it about ??` : `Event Summary`}</h4>
-                    <p>{event.aboutEvent}</p>
+{/*                     <p>{event.aboutEvent}</p> */}
+                          <BlockContent
+                            blocks={event.aboutEvent}
+                            projectId="5q3312ct"
+                            dataset="production"
+                          />
+
                 </div>
                 <div className="chiefGuests">
                     <h4>{event.chiefGuests ? (event.chiefGuests.length === 1 ? `Chief Guest/Speaker` : `Chief Guests/ Speakers`) : null}</h4>

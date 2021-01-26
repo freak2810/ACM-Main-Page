@@ -2,7 +2,6 @@ import React from "react";
 import "./About.css";
 
 const AboutCard = (props) => {
-    console.log(props);
     return (
         <div
             className="about-card"

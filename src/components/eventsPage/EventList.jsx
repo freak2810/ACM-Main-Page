@@ -1,15 +1,33 @@
-import React from 'react';
+import React,{useState,useEffect} from 'react';
 import "components/eventsPage/EventList.css";
 import {Link} from "react-router-dom";
 import Header from "components/header/Header";
+import SanityClient from "../../Client";
+import Loading from "../loading/Loading";
 
 export default function EventList(props) {
 
-    const renderEventsList = (eventList) => eventList
+    const [eventList,setEventList] = useState(null);
+
+    useEffect(()=> {
+    SanityClient.fetch(`
+            *[_type=="event"] | order(_createdAt desc)
+            {
+                id,
+                what,
+                where,
+                when
+            }
+    `)
+    .then(data=>setEventList(data))
+    .catch(err=>console.error(err))
+    },[])
+
+    const renderEventsList = (events) => events
         .map((event, index) =>
             <div key={index} className="eachEvent">
                 <div className="border"/>
-                <Link  to={`/events/${event.id}`} >
+                <Link  to={`/events/${event.id.current}`} >
                     <h1> {event.what}</h1>
                     <h2>{event.where}</h2>
                     <h3>{event.when}</h3>
@@ -23,8 +41,8 @@ export default function EventList(props) {
         <div className="heading">
             <h1>Events</h1>
         </div>
-        <div className="list">
-            {renderEventsList(props.eventData)}
-        </div>
+        { eventList ? <div className="list">
+            { renderEventsList(eventList)}
+        </div> : <Loading/> }
     </div>
 }

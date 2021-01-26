@@ -11,6 +11,8 @@
     "@fortawesome/free-solid-svg-icons": "^5.14.0",
     "@fortawesome/react-fontawesome": "^0.1.11",
     "@n8tb1t/use-scroll-position": "^1.0.43",
+    "@sanity/block-content-to-react": "^2.0.7",
+    "@sanity/client": "^2.1.0",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",

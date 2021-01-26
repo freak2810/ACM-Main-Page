@@ -1,16 +1,8 @@
 import React, {Suspense} from 'react';
 import {Route,Redirect, Switch} from "react-router-dom";
-import {eventData} from "components/eventsPage/Events_Data";
 import Loading from "components/loading/Loading";
 import Footer from "components/footer/Footer";
 
-// import Home from "components/homePage/Home";
-// import About from "components/aboutPage/About";
-// import EventList from "components/eventsPage/EventList";
-// import Events from "components/eventsPage/Events";
-// import Gallery from "components/galleryPage/Gallery";
-// import Team from "components/teamPage/Team";
-// import Error404 from "components/Error404/Error404";
 
 const Home = React.lazy(() => import(`components/homePage/Home`));
 const About = React.lazy(() => import(`components/aboutPage/About`));
@@ -43,7 +35,7 @@ export default function Routes() {
         </Route>
         <Route exact path="/events">
             <Suspense fallback={<Loading/>}>
-                <EventList eventData={eventData}/>
+                <EventList/>
                 <Footer/>
             </Suspense>
         </Route>

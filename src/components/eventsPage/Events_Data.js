@@ -3,7 +3,7 @@ export const eventData = [
         id: `c-programming-basics`,
         poster: `https://firebasestorage.googleapis.com/v0/b/acm-boo-boo.appspot.com/o/eps%2FclangWS.png?alt=media&token=e9148d2d-fb0e-41b5-ab82-9b9eccf0c5c3`,
         what: `Hands-on Session on Basics of C Programming`,
-        when: `27th December`,
+        when: `25th Dec, 2020. 2PM-4PM`,
         where: `Online`,
         upcoming: true,
         aboutEvent: `Are you wondering how to kickstart your programming journey? We have a cover for you.MVSR ACM Student Chapter is organising a free workshop and hands-on session on asics of Programming.`,
