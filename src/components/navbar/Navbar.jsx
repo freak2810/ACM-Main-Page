@@ -52,7 +52,7 @@ const Navbar = () => {
                 </NavLink>
             </li>
             <li>
-                <HashLink to="/#email" title="Contact Us">
+                <HashLink to="/#contactUs" title="Contact Us">
                     Contact Us
                 </HashLink>
             </li>

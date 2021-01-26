@@ -1,5 +1,6 @@
 .contactUs{
-    min-height: 100vh;
+    min-height: 100%;
+    /*background: red;*/
     width: 100vw;
     display: flex;
     justify-content: space-around;
