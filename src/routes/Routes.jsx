@@ -11,6 +11,7 @@ const Team = React.lazy(() => import(`components/teamPage/Team`));
 const EventList = React.lazy(() => import(`components/eventsPage/EventList`))
 const Events = React.lazy(() => import(`components/eventsPage/Events`));
 const Error404 = React.lazy(() => import(`components/error404/Error404`));
+const Innovision = React.lazy(() => import ('components/innovision/Innovision'))
 
 
 export default function Routes() {
@@ -48,6 +49,12 @@ export default function Routes() {
         <Route exact path="/team">
             <Suspense fallback={<Loading/>}>
                 <Team/>
+                <Footer/>
+            </Suspense>
+        </Route>
+        <Route exact path="/innovision">
+            <Suspense fallback={<Loading/>}>
+                <Innovision/>
                 <Footer/>
             </Suspense>
         </Route>
