@@ -1,0 +1,30 @@
+.landing {
+    z-index: 100;
+    height: 100vh;
+    width: 100vw;
+    /*background: #000000 url("../../assets/Billboard/innovision.jpeg");*/
+    background:linear-gradient( rgba(0, 0, 0, .6) 100%, rgba(0, 0, 0, .6)100%),url("../../assets/Billboard/innovision.jpeg");
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+
+.landing .logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 60vw;
+}
+
+@media screen and (max-width: 1024px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 480px) {
+
+}
