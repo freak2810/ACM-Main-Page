@@ -59,7 +59,8 @@
 
 
 .events .details .eventDetails .aboutEvent p,
-.events .details .eventDetails .aboutEvent a
+.events .details .eventDetails .aboutEvent a,
+.events .details .eventDetails .aboutEvent li
 {
   font-size: 1.2rem;
   margin: 10px 0;

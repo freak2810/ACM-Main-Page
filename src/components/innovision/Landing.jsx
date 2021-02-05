@@ -1,11 +1,26 @@
 import React from 'react';
 import "components/innovision/Landing.css"
-import InnovisionLogo from "assets/Billboard/innovisionWhite.png"
+import InnovisionLogo from "assets/Billboard/innovisionWhite.svg"
 import Header from "../header/Header";
+import {NavLink} from "react-router-dom";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faHome} from "@fortawesome/free-solid-svg-icons";
+import MousePointer from "../landingPage/MousePointer";
 
 export default function Landing() {
     return <div className="landing">
         <Header/>
-        <img src={InnovisionLogo} className="logo"/>
+        <header className="header">
+            <h3>
+                ACM MVSR
+            </h3>
+            <NavLink exact to="/" title="ACM MVSR Student Chapter Home Page" classname="homeLink">
+                <FontAwesomeIcon size="lg" icon={faHome}/>
+            </NavLink>
+        </header>
+        <img src={InnovisionLogo} alt="Innovision 2021" className="logo"/>
+        <div className="scrollAnimation">
+            <MousePointer/>
+        </div>
     </div>
 }

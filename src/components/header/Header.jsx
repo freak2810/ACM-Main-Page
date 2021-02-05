@@ -71,7 +71,7 @@ export default function Header(props) {
             font-family: 'Roboto Slab', serif;
         }
 
-        p,label,input,textarea {
+        p,label,input,textarea,li {
             font-family: 'Raleway', sans-serif;
         }
         

@@ -1,7 +1,6 @@
 import React, {useEffect, useState} from "react";
 import {useParams} from "react-router-dom";
 import "./Events.css";
-import {eventData} from "components/eventsPage/Events_Data";
 import Loading from "components/loading/Loading";
 import Header from "components/header/Header";
 import SanityClient from "../../Client";
