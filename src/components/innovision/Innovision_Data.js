@@ -13,7 +13,7 @@ export const cards = [
         title: 'Tech Quiz 📝',
         description:
             'Do you actually maintain your time for competitive exams?. ACM MVSR provides you an opportunity in the form of  Innovision 2021. Come!! Test and unleash your knowledge by taking part in the Technical Quiz',
-        link: 'https://docs.google.com/forms/d/1ZU4sNP9Ww05Xvr_bZqk_q2gNluy9SSbjaoRIq2vvCXk/edit?usp=sharing_eil&ts=601c2652',
+
         imageRatio: 784 / 1016,
         image: 'https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/online_test_gba7.svg',
         link: 'https://forms.gle/S4EGkVvJigUkZXTX8',

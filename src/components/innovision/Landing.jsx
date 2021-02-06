@@ -19,6 +19,7 @@ export default function Landing() {
             </NavLink>
         </header>
         <img src={InnovisionLogo} alt="Innovision 2021" className="logo"/>
+        <a href="https://meet.google.com/isi-kdem-tpa" target="blank" className="link">Innovision Inaugural : 7th Feb @ 11 am</a>
         <div className="scrollAnimation">
             <MousePointer/>
         </div>

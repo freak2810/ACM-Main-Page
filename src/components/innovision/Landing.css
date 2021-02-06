@@ -15,6 +15,17 @@ html {
     position: relative;
 }
 
+.landing .link {
+    color: #fff;
+    position: absolute;
+    bottom: 25%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 1.5rem;
+    text-decoration: none;
+    text-align: center;
+}
+
 .landing .logo {
     position: absolute;
     top: 50%;
@@ -59,5 +70,10 @@ html {
 @media screen and (max-width: 480px) {
     .landing .logo {
         width: 100vw;
+    }
+
+    .landing .link {
+        bottom: 20%;
+        font-size: 1.2rem;
     }
 }

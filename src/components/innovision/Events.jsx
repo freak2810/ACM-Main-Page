@@ -20,7 +20,7 @@ const Events = () => {
                                 <h1 className="card-title">{card.title}</h1>
                                 <p className="card-body">{card.description}</p>
                                 <p className = "card-body"><b>When : {card.date}</b></p>
-                                <p className = "card-body"><b>Registration Fee : {card.reg}</b></p>
+                                { card.registrationFee ? <p className = "card-body"><b>Registration Fee : {card.registrationFee}</b></p> : null}
                                 {card.link ? <Button link={card.link}/> : null}
                             </Card>
                         </div>
