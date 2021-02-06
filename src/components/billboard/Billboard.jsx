@@ -15,11 +15,11 @@ export default function Billboard() {
                 <img
                     src={Poster}
                     className="poster"
-                    alt="Hands-on Session on Basics of C Programming"
+                    alt="Innovision 2021"
                 />
             </NavLink>
             <div className="links">
-                <a href="https://forms.gle/Ws5gYcYZeh9mYwPg9"
+                <a href="https://forms.gle/S4EGkVvJigUkZXTX8"
                    title="Innovision 2021" target="blank">
                     Register
                 </a>

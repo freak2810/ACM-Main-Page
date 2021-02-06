@@ -60,7 +60,7 @@
     background-image: linear-gradient(to top, #fabbbc 0%, #95788a 100%);
     box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.4);
     border-radius: 15px;
-    height: 50%;
+    height: 40%;
     overflow: hidden;
     transition: box-shadow 0.5s;
     transition: height 0.6s;
@@ -215,6 +215,10 @@
 @media screen and (max-width: 480px) {
     .events .row {
         grid-template-columns: auto;
+    }
+
+    .card .btn {
+        margin-left: 0;
     }
 
 
