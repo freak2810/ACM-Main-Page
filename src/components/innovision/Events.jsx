@@ -14,18 +14,24 @@ const Events = () => {
             <div className="container">
                 <div className="row">
                     {cards.map((card, i) => (
-                        <div className="column">
+                        <div key={i} className="column">
                             <Card>
                                 <Image ratio={card.imageRatio} src={card.image}/>
                                 <h1 className="card-title">{card.title}</h1>
                                 <p className="card-body">{card.description}</p>
-                                <Button/>
+                                {card.link ? <Button link={card.link}/> : null}
                             </Card>
                         </div>
                     ))}
                 </div>
             </div>
+            <div className="footer">
+                <h1> For Queries, Contact </h1>
+                <p>Shreyas - +91 77024 92817</p>
+                <p>Snigdha - +91 98668 53612</p>
+                <p>NSS Koushik - +91 94419 50643</p>
 
+            </div>
         </div>
     )
 }

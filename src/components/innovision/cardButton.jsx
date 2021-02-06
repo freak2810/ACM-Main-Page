@@ -1,12 +1,14 @@
 import React from 'react';
 
-const Button = () => {
+const Button = ({link}) => {
     return (
-    <div classname = 'button-container'>
-        <button class="btn">
-            <span classname = 'btn-span'>Learn More!</span>
-        </button>
-    </div>
+        <div className='button-container'>
+            <button className="btn">
+                <a href={link} target="blank" title="Registration Link">
+                    <span className='btn-span'>Register!</span>
+                </a>
+            </button>
+        </div>
     );
 }
 

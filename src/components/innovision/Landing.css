@@ -1,10 +1,16 @@
+html {
+    background-color: #000000;
+}
+
 .landing {
     z-index: 100;
     height: 100vh;
     width: 100vw;
+    /*background-color: #0d1536;*/
     /*background: #000000 url("../../assets/Billboard/innovision.jpeg");*/
-    background:linear-gradient( rgba(0, 0, 0, .6) 100%, rgba(0, 0, 0, .6)100%),url("../../assets/Billboard/innovision.jpeg");
+    /*background: linear-gradient(rgba(0, 0, 0, .6) 100%, rgba(0, 0, 0, .6) 100%), url("../../assets/Billboard/innovisionBG.png");*/
     background-attachment: fixed;
+    background-position: center;
     background-size: cover;
     position: relative;
 }
@@ -13,7 +19,7 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     width: 60vw;
 }
 
@@ -25,7 +31,7 @@
     padding: 0 5%;
 }
 
-.landing a {
+.landing .homeLink {
     color: #fff;
     transition: all 0.6s;
 }

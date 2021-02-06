@@ -9,8 +9,8 @@ const Landing = () => {
     return(
             <div className="grid-container">
                 <RightSection />
-                <LeftSection />
-                {/*<Billboard/>*/}
+                {/*<LeftSection />*/}
+                <Billboard/>
             </div>
     );
 }
