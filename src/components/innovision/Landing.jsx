@@ -14,7 +14,7 @@ export default function Landing() {
             <h3>
                 ACM MVSR
             </h3>
-            <NavLink exact to="/" title="ACM MVSR Student Chapter Home Page" className="homeLink">
+            <NavLink exact to="/home" title="ACM MVSR Student Chapter Home Page" className="homeLink">
                 <FontAwesomeIcon size="lg" icon={faHome}/>
             </NavLink>
         </header>

@@ -17,7 +17,10 @@ const Innovision = React.lazy(() => import (`components/innovision/Innovision`))
 
 export default function Routes() {
     return <Switch>
-        <Route path="/" exact>
+        <Route exact path="/">
+            <Redirect to="/innovision"/>
+        </Route>
+        <Route path="/home" exact>
             <Suspense fallback={<Loading/>}>
                 <Navbar/>
                 <Home/>

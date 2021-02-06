@@ -22,7 +22,7 @@ const Navbar = () => {
     const RenderMenuItems = () =>
         <ul>
             <li>
-                <NavLink exact to="/" title="Home"
+                <NavLink exact to="/home" title="Home"
                          activeStyle={{color: '#ff6768', transition: 'all 0.6s linear'}}>
                     Home
                 </NavLink>
