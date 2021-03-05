@@ -46,7 +46,10 @@ yarn run build
 * [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - Programming Language
 * [ReactJS](https://reactjs.org/) - Framework
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) - Styling
-* [React Router](https://reactrouter.com/) - Routing 
+
+## Packages Used
+
+* [React Router](https://reactrouter.com/) - Routing
 * [React Images](https://www.npmjs.com/package/react-images) - Responsive Gallery Component
 * [React Helmet](https://www.npmjs.com/package/react-helmet) - SEO
 * [Font Awesome](https://fontawesome.com/) - Icons
