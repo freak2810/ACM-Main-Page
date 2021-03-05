@@ -4,7 +4,7 @@ This is a website created for ACM MVSR Student Chapter.
 
 ## Starting the Project Locally
 
-Make sure that you have [Node](https://nodejs.org/en/) installed in your system before you start the application.
+Make sure that you have [Node](https://nodejs.org/en/) and [Yarn](https://yarnpkg.com/) installed in your system before you start the application.
 
 ### Installing Packages
 
