@@ -9,7 +9,9 @@ import MousePointer from "../landingPage/MousePointer";
 
 export default function Landing() {
     return <div className="landing">
-        <Header/>
+        <Header
+            name="Innovision 2021"
+            description="ACM MVSR is a subsidiary of Association for Computing Machinery (ACM), a worldwide learning society for computing. The chapter was founded on August 2, 2019."/>
         <header className="header">
             <h3>
                 ACM MVSR
@@ -19,7 +21,7 @@ export default function Landing() {
             </NavLink>
         </header>
         <img src={InnovisionLogo} alt="Innovision 2021" className="logo"/>
-        <a href="https://meet.google.com/isi-kdem-tpa" target="blank" className="link">Innovision Inaugural : 7th Feb @ 11 am</a>
+        <a href="https://forms.gle/S4EGkVvJigUkZXTX8" target="blank" className="link">Innovision: Code-a-thon @ 9th Feb (5 -6pm) </a>
         <div className="scrollAnimation">
             <MousePointer/>
         </div>

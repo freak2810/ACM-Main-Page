@@ -5,7 +5,7 @@ const Button = ({link}) => {
         <div className='button-container'>
             <button className="btn">
                 <a href={link} target="blank" title="Registration Link">
-                    <span className='btn-span'>Register!</span>
+                    <span className='btn-span'>Count me in!</span>
                 </a>
             </button>
         </div>

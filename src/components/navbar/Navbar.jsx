@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import {NavLink} from "react-router-dom";
 import {HashLink} from 'react-router-hash-link';
-import Logo from "assets/Billboard/innovisionWhite.svg";
+import Logo from "assets/mvsr-acm.png";
 import "components/navbar/Navbar.css";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faBars} from "@fortawesome/free-solid-svg-icons";
@@ -22,7 +22,7 @@ const Navbar = () => {
     const RenderMenuItems = () =>
         <ul>
             <li>
-                <NavLink exact to="/home" title="Home"
+                <NavLink exact to="/" title="Home"
                          activeStyle={{color: '#ff6768', transition: 'all 0.6s linear'}}>
                     Home
                 </NavLink>
@@ -73,8 +73,8 @@ const Navbar = () => {
 
     return (
         <header className="navbar">
-            <NavLink exact to="/innovision" title="Innovision 2021" className="logo-container">
-                <img src={Logo} alt="Innovsion 2021" className="logo"/>
+            <NavLink exact to="/" title="MVSR ACM" className="logo-container">
+                <img src={Logo} alt="MVSR ACM Student Chapter" className="logo"/>
             </NavLink>
             <h1 className="heading">MVSR ACM</h1>
             <nav className="navLinks">

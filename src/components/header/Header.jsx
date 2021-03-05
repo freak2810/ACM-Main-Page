@@ -4,7 +4,6 @@ import {Helmet} from "react-helmet";
 export default function Header(props) {
 
     const renderTitle = () =>{
-
         if(props.name === "Loading") return `${props.name}...`;
         return props.name ? `ACM MVSR : ${props.name}` : `ACM MVSR Student Chapter`;
     }
