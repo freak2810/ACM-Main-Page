@@ -35,17 +35,25 @@ yarn start
 
 ## Deployment
 
-To deploy it to the CPanel, First run the following command in the terminal
+1. To deploy it to the CPanel, First run the following command in the terminal
 
-```
-yarn run build
-```
+    ```
+    yarn run build
+    ```
+2. Open the folder directory and compress the contents of the ```build``` folder.   
+3. Open [CPanel](https://mvsr.hosting2.acm.org:2083/cpsess0732199936/frontend/paper_lantern/index.html) and enter the credentials.
+4. Open **File Manager** and Navigate to ```public_html```
+5. Click on the **upload** button on the top, Select the compressed file and Click **Upload**.
+6. When the file is uploaded, navigate back to the file manager.
+7. Right Click on the zip file and click **Extract**.
+8. When the contents are extracted, we are done.
 
 ## Built With
 
 * [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - Programming Language
 * [ReactJS](https://reactjs.org/) - Framework
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) - Styling
+* [Sanity.io](https://www.sanity.io/docs) - Headless CMS
 
 ## Packages Used
 
@@ -53,7 +61,6 @@ yarn run build
 * [React Images](https://www.npmjs.com/package/react-images) - Responsive Gallery Component
 * [React Helmet](https://www.npmjs.com/package/react-helmet) - SEO
 * [Font Awesome](https://fontawesome.com/) - Icons
-* [Sanity.io](https://www.sanity.io/docs) - Headless CMS
 * [EmailJS](https://www.emailjs.com/) - Email Service
 
 ## Authors
