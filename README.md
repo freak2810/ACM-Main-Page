@@ -2,6 +2,8 @@
 
 This is a website created for ACM MVSR Student Chapter.
 
+The CMS for this application could be found at [ACM Boo Boo](https://acm-boo-boo.sanity.studio/) (Restricted Access)
+
 ## Starting the Project Locally
 
 Make sure that you have [Node](https://nodejs.org/en/) and [Yarn](https://yarnpkg.com/) installed in your system before you start the application.
@@ -49,6 +51,7 @@ yarn un build
 * [React Helmet](https://www.npmjs.com/package/react-helmet) - SEO
 * [Font Awesome](https://fontawesome.com/) - Icons
 * [Sanity.io](https://www.sanity.io/docs) - Headless CMS
+* [EmailJS](https://www.emailjs.com/) - Email Service
 
 ## Authors
 
