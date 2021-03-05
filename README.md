@@ -38,7 +38,7 @@ yarn start
 To deploy it to the CPanel, First run the following command in the terminal
 
 ```
-yarn un build
+yarn run build
 ```
 
 ## Built With
